@@ -701,39 +701,31 @@
           description: 
         - title: 世界工会联合会
           url: https://www.wftucentral.org/constitution/
-
-
     - term: 亚洲组织
       links:
         - title: a
           url: https://a.com
           description: 
-
-
     - term: 欧洲组织
       links:
         - title: a
           url: https://a.com
           description: 
-      
     - term: 非洲组织
       links:
         - title: a
           url: https://a.com
           description: 
-
     - term: 南美洲组织
       links:
         - title: a
           url: https://a.com
           description:     
-
     - term: 北美洲组织
       links:
         - title: a
           url: https://a.com
           description: 
-       
     - term: 大洋洲组织
       links:
         - title: a
@@ -746,7 +738,7 @@
   list: 
     links:
     - title: a
-      url: https://a.com
+      url: https://ax.com
       description: 
 
 
@@ -755,7 +747,7 @@
   list: 
     links:
     - title: a
-      url: https://a.com
+      url: https://x.com
       description: 
 
 
@@ -764,7 +756,7 @@
   list: 
     links:
     - title: a
-      url: https://a.com
+      url: https://x.com
       description: 
 
 - taxonomy: 其他工具
@@ -772,7 +764,7 @@
   list: 
     links:
     - title: a
-      url: https://a.com
+      url: https://x.com
       description: 
 
 - taxonomy: 友情链接
