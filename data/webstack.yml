@@ -438,6 +438,7 @@
       - title: 信号火
       url: https://web.archive.org/web/20220225212635/http://www.signalfire.org/
       description: 已停更
+      
 
       
 
@@ -456,6 +457,9 @@
     - term: 软件
       links:
         - title: 果核剥壳
+          url: https://www.ghxi.com/
+          description: 互联网的净土。PC软件，手机软件，正版软件，破解软件
+          - title: 果核剥壳
           url: https://www.ghxi.com/
           description: 互联网的净土。PC软件，手机软件，正版软件，破解软件
     - term: 游戏
