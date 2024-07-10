@@ -4,7 +4,6 @@
   links: 
     - title: Red.
       url: https://thered.stream/
-      qrcode: https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://thered.stream/
       description: Red. 传播全球红色新闻
     - title: 红色先驱报
       url: https://redherald.org/
@@ -442,50 +441,737 @@
 
       
 
-- taxonomy: 云服务平台
-  icon: fa-cloud
+- taxonomy: 资料库
+  icon: fa-star
   links: 
-    - title: Github
-      url: https://github.com/
-    - title: 共产党和工人党倡议
-      url: https://www.initiative-cwpe.org/en/home/
-      description: 希腊共产党发起的国际组织
+    - title: 工人阶级历史
+      url: https://workingclasshistory.com/
+      description: 
+    - title: 赛德玛
+      url: https://cedema.org/
+      description: 南美革命文献
+    - title: 共产主义文献翻译集
+      url: https://github.com/world2win/Communist-Literature-Translation/tree/main
+      description: 中文网站
+    - title: 马列毛图书馆
+      url: https://maozhuyi.home.blog/
+      description: 中文网站
+    - title: 马列毛图书馆
+      url: http://maliemaotushuguan.one/
+      description: 
+    - title: Bannedthought
+      url: http://bannedthought.net/
+      description: 有大量革命毛主义组织文献的文库
+    - title: 群众路线文库
+      url: http://www.massline.info/
+      description: 
+    - title: 文库：从马克思到毛
+      url: http://www.marx2mao.com/
+      description: 
+    - title: 秘鲁人民运动
+      url: http://www.pagina-libre.org/
+      description: 秘鲁人民运动文献
+    - title: 人民日报
+      url: https://rmrb.online/index.php?m=bbs
+      description: 1946-2003的人民日报
+    - title: 和谐历史档案馆
+      url: https://banned-historical-archives.github.io/
+      description: 中文网站
+    - title: 左翼网络博物馆
+      url: https://zyom.top/
+      description: 中文网站
+    - title: 无产阶级革命文献
+      url: https://github.com/ProletRevDicta/Prolet
+      description: 中文网站
+    - title: 辩证唯物主义文库
+      url: https://materialisme-dialectique.com/
+      description: 旧网址 lesmaterialistes.com
+    - title: 毛主义遗产
+      url: https://maoistlegacy.de/
+      description: 德语/有中文
+    - title: 中文马克思主义文库
+      url: https://www.marxists.org/chinese/search/index.htm?
+      description: 丰富资料，主要管理人员是托派
+    - title: 马列毛主义图书馆
+      url: http://library.redspark.nu/Main_Page
+      description: redspark的文库站
+    - title: 共产主义图书馆
+      url: (https://maoismen.wordpress.com/?blogsub=confirming#subscribe-blog
+      description: 丹麦网站
+    - title: 毛主义万岁文库
+      url: https://vivelemaoisme.org/
+      description: 
+    - title: 秘鲁叛乱文件
+      url: https://cedoc.sisbib.unmsm.edu.pe/biblioteca-digital/coleccion-documental/
+      description: 戈里蒂收藏
+    - title: 革命图书馆
+      url: https://rev-lib.com/
+      description: 俄罗斯网站
+    - title: Sovnet
+      url: https://sovnet.su/
+      description: 
+    - title: 伊兹迪哈尔的苏联档案馆
+      url: https://ladyizdihar.com/
+      description: 
+    - title: 威尔逊数字中心档案馆
+      url: https://digitalarchive.wilsoncenter.org/
+      description: 
+    - title: 马列毛主义图书馆
+      url: http://pl.maoism.ru/
+      description: 俄语网站
+    - title: 共产主义之声Wiki
+      url: http://www.communistvoice.org/index.html
+      description: 
+    - title: 这是共产主义
+      url: http://thisiscommunism.org/
+      description: 
+    - title: 菲律宾争取正义和自由的人民档案馆
+      url: https://www.arkibongbayan.org/
+      description: 
+    - title: 印度革命百科
+      url: https://www.massline.info/India/Indian_Groups.htm
+      description: 
+    - title: 反抗-印度先锋档案馆
+      url: http://resistanceindia.wordpress.com/
+      description: 
+    - title: RedLibrary
+      url: https://redlibrary.info/
+      description: 红色图书馆
+    - title: 马列毛思想研讨会
+      url: https://dino-ibrahim.blogspot.com/?m=1
+      description: 
+    - title: 1969学生运动全记录
+      url: https://1969revolucaoressaca.blogspot.com/
+      description: 
+    - title: 革命民主档案
+      url: https://revolutionarydemocracy.org/
+      description: 
+    - title: 意大利斯大林文库
+      url: https://espressostalinist.com/
+      description: 
+    - title: 斯大林社会
+      url: http://stalinsociety.net/
+      description: 
+    - title: 日本共産党（左派）中央理论机关刊
+      url: http://ww5.tiki.ne.jp/~people-hs
+      description: 
+    - title: 日本学生运动资料
+      url: https://sites.google.com/site/nagato0326/
+      description: 
+    - title: 全共斗及新左政党资料
+      url: https://meidai1970.sakura.ne.jp/index.html
+      description: （1969-1972）
+    - title: 日本共产同战旗派档案室
+      url: http://0a2b3c.sakura.ne.jp/senki-b.html
+      description: 
+    - title: 德国红军旅文献
+      url: https://web.archive.org/web/20230525015237/http://germanguerilla.com/
+      description: 
+    - title: 比利时马列主义集团
+      url: http://www.blocml.be/
+      description: 文献库
+    - title: 阿拉伯共产党图书馆
+      url: https://arcommunistslib.site123.me/
+      description: MLM
+    - title: 马克思主义互联网档案馆
+      url: https://www.marxists.org/glossary/
+      description: 
+    - title: 马列百科（伟大苏联百科网）
+      url: https://greatsovietencyclopedia.fandom.com/wiki/The_Great_Soviet_Encyclopedia_Wiki
+      description: 
+    - title: 马克思主义文库
+      url: https://www.marxists.org/archive/
+      description: 
+    - title: 马列毛资料库
+      url: https://mlmzlk.github.io/
+      description: 
+    - title: 毛时期中国宣传海报
+      url: https://chineseposters.net/
+      description:
+    - title: 东德歌曲
+      url: https://lieder-aus-der-ddr.de/
+      description: 
+    - title: 中国共产党历次全国代表大会数据库
+      url: https://alturl.com/rict3
+      description: 
+    - title: 意识形态百科
+      url: https://polcompball.miraheze.org/wiki/List_of_Ideologies
+      description: （波兰球？？）
+    - title: 无产阶级图书馆
+      url: https://library.proletarian.me/My_library_table.php#
+      description: 
+    - title: 无政府主义图书馆
+      url: https://theanarchistlibrary.org/
+      description: 隔壁安友的文库
   
-- taxonomy: 网络资源
-  icon: fa-download
+- taxonomy: 革命组织
+  icon: fa-star
   list: 
-    - term: 软件
+    - term: 国际组织
       links:
-        - title: 果核剥壳
-          url: https://www.ghxi.com/
-          description: 互联网的净土。PC软件，手机软件，正版软件，破解软件
+        - title: 国际人民战斗联盟
+         url: http://ilps.info/en/
+         description: ILPS
+        - title: 国际革命协调组织
+         url: https://www.icor.info/
+         description: ICOR
+        - title: 马列毛共产国际
+         url: https://ci-ic.org/
+         description: ICL
+        - title: 共产国际
+         url: http://ciml.250x.com/index1.html
+         description: 霍查派的国际组织
+        - title: 反帝革命运动
+         url: http://anti-imperialism.org/
+         description: 
+        - title: 马克思列宁主义政党和组织国际会议
+         url: https://cipoml.net/
+         description: CIPOML
+        - title: 南亚革命会议
+         url: http://bannedthought.net/International/CCOMPOSA/index.htm
+         description: CCOMPOSA 
+        - title: 国际自由营 
+         url: https://artsandculture.google.com/entity/international-freedom-battalion/g11bwck808k?hl=en
+         description: 在罗贾瓦活动的团结组织
+        - title: 联合自由力量
+         url: https://ozgurlukgucleri.org/
+         description: 
+        - title: 库尔德斯坦联合革命
+         url: http://www.hbdh-online.org/
+         description: 
+        - title: 统一战线
+         url: http://www.united-front.info/
+         description: MLPD 近期拉拢的组织
+        - title: 马克思主义反帝国主义集体
+         url: https://mac417773233.wordpress.com/
+         description: 
+        - title: 共产党和工人党倡议
+         url: https://www.initiative-cwpe.org/en/home/
+         description: 希腊共产党发起的国际组织
+        - title: 共产党和工人党国际会议
+         url: http://www.solidnet.org/home/
+         description: SolidNet
+        - title: 国际红色援助
+         url: https://rhi-sri.org/
+         description: 
+        - title: 引导之光共产主义组织
+         url: https://llco.org/
+         description: LLCO
+        - title: 抵抗美国领导的战争运动
+         url: https://www.resistusledwarmovement.com/
+         description: 
+        - title: 第四国际
+         url: https://fourth.international/
+         description: 托洛茨基派组织
+        - title: 工人国际委员会
+         url: https://www.socialistworld.net/
+         description: 托洛茨基派组织
+        - title: 国际马克思主义趋势
+         url: https://www.marxist.com/
+         description: 托洛茨基派组织
+        - title: 第五国际
+         url: https://fifthinternational.org/
+         description: 
+        - title: 无产阶级女权主义研究小组
+         url: https://proletarianfeministresearchgroup.wordpress.com
+         description: 
+        - title: 反帝阵营
+         url: https://www.antiimperialista.org/en
+         description: 
+        - title: 国际土著人民自决与解放运动
+         url: http://www.ipmsdl.org/
+         description: 
+        - title: 南亚革命国际主义信息
+         url: https://southasiarev.wordpress.com/
+         description: 停更了
+        - title: 毛主义国际运动监狱组织
+         url: https://www.prisoncensorship.info/index
+         description: 
+        - title: 毛主义国际主义运动
+         url: https://web.archive.org/web/20071216055903/http://www.etext.org/Politics/MIM/
+         description: MIM 的档案，该组织已经解散
+        - title: 革命国际主义运动
+         url: https://revcom.us/s/corim.htm
+         description: 美革共存的 RIM 的档案，该组织已经解散
+        - title: 共产主义工人阵线
+         url: https://communistworkers.wordpress.com/
+         description: 
+        - title: 全体工人斗争阵线
+         url: https://pamehellas.gr/en
+         description: 
+        - title: 世界工会联合会
+         url: https://www.wftucentral.org/constitution/
 
-    - term: 游戏
+
+    - term: 亚洲组织
       links:
-        - title: 老男人游戏网
-          url: https://www.oldmantvg.net/
-          description: 仓储式主机资源站 精校 完整 极致 静待您的垂青
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+
+    - term: 欧洲组织
+      links:
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+
+    - term: 非洲组织
+      links:
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+
+    - term: 南美洲组织
+      links:
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+
+    - term: 北美洲组织
+      links:
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+
+    - term: 大洋洲组织
+      links:
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
+        - title: 
+         url: 
+         description: 
           
-- taxonomy: 影视影音
-  icon: fa-video-camera
+- taxonomy: 战争事件地图
+  icon: fa-star
   list: 
-    - term: 影视
-      links:
-        - title: 阿里小站
-          url: https://pan666.cn
-          description: 阿里云盘资源共享站。人人为我，我为人人的共享资源社区
-    - term: 字幕
-      links:
-        - title: 字幕库
-          url: https://zmk.pw/
-        - title: SubHD
-          url: https://subhd.tv/
-    - term: 音乐
-      links:
-        - title: 果核音乐搜搜
-          url: https://music.ghxi.com/
-        - title: 音乐磁场
-          url: https://www.hifini.com/
+    links:
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+
+- taxonomy: 其他中文网站
+  icon: fa-star
+  list: 
+    links:
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+
+- taxonomy: 其他网站
+  icon: fa-star
+  list: 
+    links:
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+
+- taxonomy: 其他工具
+  icon: fa-star
+  list: 
+    links:
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
+    - title: 
+      url: 
+      description: 
 
 - taxonomy: 友情链接
   icon: fa-link
