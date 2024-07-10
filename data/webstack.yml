@@ -741,8 +741,7 @@
           
 - taxonomy: 战争事件地图
   icon: fa-star
-  list: 
-    links:
+  links:
     - title: a
       url: https://ax.com
       description: 
@@ -750,8 +749,7 @@
 
 - taxonomy: 其他中文网站
   icon: fa-star
-  list: 
-    links:
+  links:
     - title: a
       url: https://x.com
       description: 
@@ -759,7 +757,6 @@
 
 - taxonomy: 其他网站
   icon: fa-star
-  list: 
     links:
     - title: a
       url: https://x.com
@@ -767,7 +764,6 @@
 
 - taxonomy: 其他工具
   icon: fa-star
-  list: 
     links:
     - title: a
       url: https://x.com
