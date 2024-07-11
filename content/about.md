@@ -14,6 +14,6 @@ Please observe local laws.
 
 欢迎提供信息、建议和反馈。
 
-请遵守当地法律。本网站由 WebStack 和 Hugo 提供支持。
+请遵守当地法律。
 
-This site is powered by WebStack and Hugo.
+###### This site is powered by WebStack and Hugo.
