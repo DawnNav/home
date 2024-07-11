@@ -1563,9 +1563,9 @@
         - title: 澳大利亚革命运动
           url: https://thewaterholeaus.wordpress.com/about/
           description: 
-        - title: 国际人民斗争联盟-澳大利亚
+        - title: ILPS-澳大利亚
           url: https://ilpsaustralia.org/
-          description: 
+          description: 国际人民斗争联盟澳大利亚分支
         - title: 自由西巴布亚运动
           url: http://www.freewestpapua.org
           description: 
@@ -1665,9 +1665,9 @@
     - title: 苏联主义网
       url: http://www.cccpism.com
       description: 
-    - title: 列宁格勒印刷三厂工人理论小组
+    - title: lenin3print
       url: https://lenin3print.github.io/
-      description: 
+      description: 列宁格勒印刷三厂工人理论小组
     - title: 毛泽东选集-在线版
       url: https://liyandi.gitbooks.io/maozedongxuanji/content/
       description: 
@@ -1910,10 +1910,7 @@
     - title: English Version
       url: en
       description: 对应content目录的en.md，可重命名、删除、复制。
-    - title: 黎明导航
-      url: https://dawn.noblogs.org/
-      description: 
-    - title: 黎明导航
+    - title: 黎明导航旧址-备用站
       url: https://mlmnavigation.wordpress.com/
       
 ---
