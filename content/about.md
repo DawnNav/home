@@ -14,6 +14,6 @@ Please observe local laws.
 
 欢迎提供信息、建议和反馈。
 
-请遵守当地法律！
+请遵守本地法律！
 
 ###### This site is powered by WebStack and Hugo.
