@@ -18,4 +18,4 @@ Please observe local laws.
 
 请遵守本地法律！
 
-###### This site is powered by WebStack and Hugo.
+
