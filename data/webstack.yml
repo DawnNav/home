@@ -1908,7 +1908,7 @@
   icon: fa-link
   friend:
     - title: English Version
-      url: sub1
+      url: EN
       description: 对应content目录的sub1.md，可重命名、删除、复制。
     - title: 黎明导航
       url: https://dawn.noblogs.org/
