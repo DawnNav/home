@@ -109,7 +109,7 @@
       description: 备用
     - title: 菲律宾人民之友 
       url: https://revolucionfilipina.com/
-      description: FFPS
+      description: 
     - title: 内格罗斯革命门户
       url: https://negrosrevportal.wordpress.com/
       description: 
@@ -177,7 +177,7 @@
       url: https://www.kurdistan-report.de/
       description: 德国网站
     - title: 库尔德斯坦的和平
-      url: (https://www.peaceinkurdistancampaign.com/
+      url: https://www.peaceinkurdistancampaign.com/
       description: 
     - title: 罗贾瓦抵抗网
       url: https://widerstandsvernetzung.org/
@@ -496,7 +496,7 @@
       url: http://library.redspark.nu/Main_Page
       description: redspark的文库站
     - title: 共产主义图书馆
-      url: (https://maoismen.wordpress.com/?blogsub=confirming#subscribe-blog
+      url: https://maoismen.wordpress.com/?blogsub=confirming#subscribe-blog
       description: 丹麦网站
     - title: 毛主义万岁文库
       url: https://vivelemaoisme.org/
@@ -704,38 +704,864 @@
 
     - term: 亚洲组织
       links:
-        - title: a
-          url: https://a.com
+        - title: 菲律宾共产党
+          url: https://philippinerevolution.nu/authors/communist-party-of-the-philippines/
+          description: CPPh
+        - title: 菲律宾民主民族解放阵线
+          url: https://ndfp.org/
+          description: NDFP
+        - title: 菲律宾民族民主阵线人权监察委员会
+          url: https://humanrights.ndfp.org/
+          description: 
+        - title: “解放”——菲律宾民主民族解放阵线
+          url: https://liberation.ndfp.org/
+          description: 
+        - title: NDFP-比科尔邦
+          url: https://marojabanua.wordpress.com/
+          description: 菲律宾民族民主阵线比科尔邦分支
+        - title: 菲律宾斗争人民之友
+          url: https://ffps.info/
+          description: FFPS
+        - title: 菲律宾学生联盟
+          url: https://medium.com/@LFSPhilippines
+          description: 
+        - title: 菲律宾农民运动
+          url: https://peasantmovementph.com
+          description: 
+        - title: 土耳其共产党-ML
+          url: https://www.tkpml.com/
+          description: TKP-ML
+        - title: 土耳其毛主义共产党
+          url: https://maoistkomunistparti.org/
+          description: MKP
+        - title: 土耳其共产党/ML
+          url: https://www.tkpml3.net/
+          description: TKP/ML
+        - title: 土耳其马列主义共产党
+          url: http://www.mlkp-info.org/
+          description: MLKP
+        - title: 土耳其共产主义运动党
+          url: https://tkh.org.tr/
+          description: TKH
+        - title: 土耳其工人共产党
+          url: http://www.tkip.org/
+          description: TKIP
+        - title: 土耳其劳动党
+          url: https://www.emep.org/
+          description: 
+        - title: 革命社会主义联合会
+          url: https://devrimcisosyalistfederasyon2.com/en/
+          description: 土耳其组织
+        - title: 党派倡议-马列毛青年
+          url: https://mlmyouth.com/
+          description: 土耳其组织
+        - title: 罗贾瓦公社革命
+          url: https://komungucu.com/
+          description: 
+        - title: 罗贾瓦AZAD
+          url: https://rojavaazadimadrid.org/
+          description: 
+        - title: 革命公社党
+          url: https://komunarlar.com
+          description: 
+        - title: 新民主党青年
+          url: https://yenidemokratgenclik.com/
+          description: 土耳其/库尔德斯坦
+        - title: 新民主党青年
+          url: https://twitter.com/ydg_medya
+          description: Twitter 上的账号
+        - title: 新民主党女性
+          url: https://www.yenidemokratkadin2.com/
+          description: 
+        - title: 青年的力量
+          url: https://gencligindevrimcigucleri.wordpress.com/
+          description: 土耳其组织
+        - title: 社会主义学生运动
+          url: https://www.sosyalistogrenci.org/
+          description: 土耳其组织
+        - title: 社会主义卢布尼亚运动
+          url: https://www.sosyalistlubunyalar.com/category/aciklamalar/
+          description: 
+        - title: 土耳其布尔什维克党
+          url: http://www.bolsevikparti.org/
+          description: 
+        - title: 欧洲民主人权联合会
+          url: http://adhk.de/adhk-tuzugu/
+          description: 
+        - title: 欧洲土耳其工会联盟
+          url: https://www.atik-online.net/
+          description: 
+        - title: 印共毛的声明和文件
+          url: http://bannedthought.net/India/CPI-Maoist-Docs/index.htm#2023
+          description: 
+        - title: 印度的团结
+          url: https://indiensoli.wordpress.com
+          description: 
+        - title: 支持印度人民战争委员会
+          url: https://icspwindia.wordpress.com
+          description: ICSPWI
+        - title: 支持印度人民战争委员会
+          url: https://guerrapopolare-india.blogspot.com/
+          description: 
+        - title: 印度毛派
+          url: http://indianmaoist.blogspot.com/
+          description: 已停更
+        - title: 纳萨尔革命
+          url: http://naxalrevolution.blogspot.com/?m=0
+          description: 已停更
+        - title: 革命学生阵线
+          url: https://eimuhurtersf.wordpress.com
+          description: 印度组织，主要在西孟加拉邦活动
+        - title: 印度革命作家协会
+          url: https://vasanthamegham.com/
+          description: 
+        - title: 印度革命作家协会
+          url: https://www.youtube.com/@Virasam/videos
+          description: 其 Youtube 账号
+        - title: 雀塔纳文工团
+          url: https://www.youtube.com/@Red_revolution540
+          description: CNM 的油管账号：印共毛的雀塔纳文工团
+        - title: 印度共产党（马列-新民主）
+          url: https://www.cpimlnd.org/
+          description: 
+        - title: 印度共产党（马列-新民主）
+          url: https://www.youtube.com/@ND.POWER.KHAMMAM
+          description: 其 Youtube 账号
+        - title: 印度共产党（马列-红星）
+          url: http://www.cpiml.in/cms/
+          description: 
+        - title: 印度共产党（马列-解放）
+          url: https://cpiml.net/
+          description: 
+        - title: 印度共产党（马列）（林彪派）
+          url: https://cpindiaml.wordpress.com/2020/05/25/combat-the-corona-pandemic-by-commemorating-historic-53rd-naxalbari-day-2020/
+          description: 
+        - title: 印度革命共产党
+          url: https://www.rcpi-communist.in/
+          description: 
+        - title: 曼尼普尔人民解放军
+          url: https://plamanipur.com/
+          description: （革命人民阵线）
+        - title: 曼尼普尔人民解放军
+          url: https://www.youtube.com/@yawol
+          description: 其 Youtube 账号
+        - title: 妇女保护组织-Anweshi
+          url: https://anweshi.org/
+          description: 
+        - title: 印度人民民主权利联盟
+          url: https://pudr.org/
+          description: 
+        - title: 尼赫鲁大学进步学生会
+          url: https://twitter.com/Psa_jnu
+          description: 
+        - title: 尼泊尔革命共产党
+          url: 未收录
+          description: 
+        - title: 共产主义新潮
+          url: http://thenewcommunistwave.blogspot.com/
+          description: 不丹组织
+        - title: 不丹共产党（毛主义）
+          url: http://lalshongbad.wordpress.com/tag/bhutan-communist-party-marxist-leninist-maoist
+          description: 
+        - title: 孟加拉国共产党（马列）
+          url: 未收录
+          description: 
+        - title: 东孟加拉无产阶级党
+          url: https://soborhararsongram.wordpress.com/
+          description: 
+        - title: 斯里兰卡共产党（毛主义）
+          url: 未收录
+          description: 
+        - title: 斯里兰卡毛派
+          url: https://slmarxist.wordpress.com/
+          description: 
+        - title: 斯里兰卡新民主马列主义党
+          url: http://ndmlp.net/
+          description: NDMLP
+        - title: 南亚革命
+          url: https://southasiarev.wordpress.com
+          description: 
+        - title: 巴基斯坦工农党
+          url: http://mkp.org.pk/
+          description: 
+        - title: 巴基斯坦工农运动
+          url: https://pkmt.noblogs.org/
+          description: 
+        - title: 阿富汗解放组织
+          url: http://rehayi.org/alo/
+          description: ALO
+        - title: 阿富汗共产党（毛）（红色火炬）
+          url: http://www.sholajawid.org/
+          description: 
+        - title: 阿富汗共产党（毛）
+          url: http://cmpa.io/
+          description: 
+        - title: 阿富汗妇女革命协会
+          url: http://pz.rawa.org/pz/
+          description: 
+        - title: 伊朗人民联邦游击队
+          url: https://siahkal.com/
+          description: 
+        - title: 伊朗人民联邦游击队
+          url: http://www.iranian-fedaii.de/
+          description: 
+        - title: 伊朗共产党（马列毛）
+          url: https://cpimlm.org/
+          description: 
+        - title: 伊朗共产党
+          url: https://cpiran.org/
+          description: 
+        - title: 伊朗 MLPD 支持者
+          url: https://mlpd-iran.blogspot.com/
+          description: 
+        - title: 解放巴勒斯坦人民阵线
+          url: http://pflp.ps/#mobile-menu
+          description: PFLP
+        - title: 解放巴勒斯坦人民阵线
+          url: http://pflp-lb.org/
+          description: PFLP
+        - title: PFLP 的文献
+          url: https://pflp-documents.org
+          description: 
+        - title: 阿布·阿里·穆斯塔法烈士旅
+          url: https://abuali.ps
+          description: 
+        - title: 解放巴勒斯坦民主阵线
+          url: https://www.alhourriah.org/
+          description: DFLP
+        - title: DFLP 另一个新闻网站
+          url: https://group194.net/
+          description: 
+        - title: 巴勒斯坦团结委员会
+          url: https://palestinavence.blogs.sapo.pt/
+          description: 
+        - title: 哈马斯运动
+          url: http://hamas.ps/
+          description: 巴勒斯坦伊斯兰抵抗运动
+        - title: 巴勒斯坦共产党
+          url: https://pallcp.ps/
+          description: 
+        - title: 阿拉伯毛主义者
+          url: https://arabmaoists.wordpress.com/
+          description: 
+        - title: 日本共产主义者同盟（统一委员会）
+          url: http://www.bund21.org/
+          description: 
+        - title: 劳动解放工人党
+          url: https://wpll-j.org/
+          description: 属于日本共产同
+        - title: 日本共产同-工人共产党
+          url: http://www.bekkoame.ne.jp/i/ga3129/
+          description: 属于日本共产同
+        - title: 越南共产党（毛主义）
+          url: http://conduongdo.wordpress.com/
+          description: 
+        - title: 越南左翼共产党
+          url: http://leftcomvietnam.blogspot.com/
           description: 
 
     - term: 欧洲组织
       links:
-        - title: a
-          url: https://a.com
+        - title: 俄罗斯毛主义集体
+          url: https://mlmkr.ru/
+          description: MKR
+        - title: 全联盟共产党布尔什维克
+          url: http://www.vkpb.ru/
           description: 
-
+        - title: 苏联共产党
+          url: http://cpsu.by/
+          description: 
+        - title: 俄罗斯毛主义共产党
+          url: https://rusmaoparty.org/
+          description: 
+        - title: 俄罗斯毛主义共产党
+          url: http://maoism.ru/
+          description: 似乎是 oneman 运营的旧网址
+        - title: 为人民服务-乌克兰
+          url: https://maoizmukr.wordpress.com/
+          description: 
+        - title: 乌克兰工农共产党
+          url: http://www.kprs-ua.narod.ru/
+          description: 
+        - title: 顿涅茨克共产党
+          url: http://wpered.su
+          description: 亲俄组织
+        - title: 拉脱维亚工人阵线
+          url: https://stradnieki.org
+          description: 
+        - title: 奥地利革命共产党
+          url: https://iarkp.wordpress.com
+          description: 
+        - title: 奥地利红色前线
+          url: https://rotfrontkollektiv.wordpress.com/
+          description: 
+        - title: 奥地利人民阵线
+          url: https://revaufbau.wordpress.com/
+          description: 
+        - title: 瑞士共产党
+          url: https://the-red-flag.org/
+          description: 
+        - title: 瑞士红星
+          url: https://srsersrss.wordpress.com/
+          description: 
+        - title: 瑞士共青团
+          url: https://kjvs.red/
+          description: 
+        - title: 苏黎世革命青年
+          url: https://www.rjz.ch/
+          description: 
+        - title: 温特图尔革命青年联盟
+          url: https://rjb-winti.org
+          description: 
+        - title: 瑞士革命建设
+          url: https://www.aufbau.org/uber-uns/
+          description: 
+        - title: Renverse（翻转）
+          url: https://renverse.co/
+          description: 在瑞士法语区的组织
+        - title: 移民团结网络
+          url: https://migrant-solidarity-network.ch/
+          description: 瑞士组织
+        - title: 无产阶级之路（法国）
+          url: http://ocml-vp.org/
+          description: 
+        - title: 法国共产党（毛主义）
+          url: http://www.pcmaoiste.org/
+          description: 
+        - title: 法国共产党（毛主义）
+          url: http://revolutionaryforce.wordpress.com/tag/maoist-communist-party-of-france
+          description: 旧网址
+        - title: 人民阵线
+          url: https://frontepopolare.net/
+          description: 法国组织
+        - title: 法国青年革命者
+          url: https://www.jeunesrevolutionnaires.org/
+          description: 网站已经失效，其 twitter 账号仍在运营
+        - title: 法国青年共产主义运动
+          url: https://www.jeunes-communistes.fr/
+          description: 
+        - title: 共产主义复兴青年团
+          url: http://jrcf.over-blog.org/
+          description: 法国组织
+        - title: 普罗旺斯反法西斯阵线
+          url: https://fraprovence.wordpress.com
+          description: 
+        - title: 新共产主义法国
+          url: https://nouveaucommunismefrance.wordpress.com/
+          description: 法革共的网站，推崇鲍勃·阿瓦基安
+        - title: 共产主义：新的开始
+          url: https://revkombrd.wordpress.com/
+          description: 法革共的网站
+        - title: 法国全国总工会-cgt
+          url: https://www.cgt-culture.fr/
+          description: 
+        - title: 共产主义建设
+          url: https://komaufbau.org/
+          description: 德国组织
+        - title: 德国红色联盟
+          url: https://roterbund.de
+          description: 
+        - title: 阶级教育
+          url: https://www.klassenbildung.net
+          description: 德国组织
+        - title: 红色建设
+          url: https://roter-aufbau.de/
+          description: 德国组织
+        - title: 马克思主义夜校
+          url: https://marxistische-abendschule.de/
+          description: 德国组织
+        - title: 红色帮助
+          url: https://rote-hilfe.de
+          description: 德国组织
+        - title: 红色医疗网络
+          url: http://xn--sanittsnetzwerk-4kb.de/
+          description: 德国组织
+        - title: 心理援助组织“Out of Action”
+          url: https://outofaction.blackblogs.org/
+          description: 德国组织
+        - title: 马格德堡社会革命性进攻
+          url: http://sromd.noblogs.org/
+          description: 德国组织
+        - title: 斯图加特革命行动
+          url: https://revolutionaere-aktion.org/
+          description: 在德国斯图加特活动
+        - title: 社会主义觉醒
+          url: https://rosaorga.blackblogs.org/
+          description: 在德国杜塞尔多夫活动
+        - title: 滨海安提法
+          url: https://www.waterkant-antifa.de/
+          description: 在德国汉堡活动
+        - title: 德国马列党
+          url: https://www.mlpd.de/
+          description: MLPD
+        - title: 造反青年
+          url: http://rebell.info/
+          description: MLPD 青年组织
+        - title: 德国进步与革命力量国际主义联盟
+          url: https://www.inter-liste.de/
+          description: 
+        - title: 红色联邦
+          url: https://roterbund.de/
+          description: 德国组织
+        - title: 无产阶级左派
+          url: https://proletarischelinke.wordpress.com/
+          description: 德国组织
+        - title: 共产主义视角
+          url: https://perspektive-kommunismus.org/
+          description: 德国组织
+        - title: 红色女权青年
+          url: https://rfjberlin.noblogs.org/
+          description: 德国组织
+        - title: 柏林红色青年
+          url: https://rotejugend.blogspot.com/
+          description: 德国组织，站点已停更
+        - title: 红色妇女委员会
+          url: https://rotesfrauenkomitee.wordpress.com/
+          description: 德国组织
+        - title: 并肩作战
+          url: http://zusammenkaempfen.bplaced.net/
+          description: 德国组织
+        - title: 革命五一
+          url: http://revomai.de/
+          description: 德国组织
+        - title: 社会斗争集体
+          url: https://www.unten-gegen-oben.de/
+          description: 德国组织
+        - title: 反对法西斯主义和战争的新和平运动
+          url: ttp://neuefriedensbewegung.de/
+          description: 德国组织
+        - title: 社会革命行动
+          url: https://sozialrevolutionaere-aktion.com
+          description: 德国组织
+        - title: 红色青年-Rot Jugend
+          url: 
+          description: 德国毛主义组织，未收录网址
+        - title: 共产主义组织
+          url: https://kommunistische.org/
+          description: KO：德国组织
+        - title: 西班牙共产主义征途
+          url: https://granmarchahaciaelcomunismo.wordpress.com/
+          description: 
+        - title: 西班牙马列主义工人党
+          url: https://pmltrabajadores.org/
+          description: 
+        - title: 西班牙毛主义共产党
+          url: https://pcmaoista.com/
+          description: 
+        - title: 西班牙人民共产党
+          url: http://www.pcpe.es/
+          description: 
+        - title: 红色加西利亚
+          url: https://galizavermelha.wordpress.com/
+          description: 
+        - title: 丹麦社会主义革命
+          url: https://socialistiskrevolution.wordpress.com/
+          description: 
+        - title: 瑞典共产党
+          url: https://skp.se/
+          description: 
+        - title: 瑞典毛派-造反有理
+          url: https://prariebrand.wordpress.com/
+          description: 
+        - title: 瑞典共产党协会
+          url: http://kommunisten.nu
+          description: 
+        - title: 芬兰红色集体
+          url: https://punalippu.noblogs.org
+          description: 
+        - title: 为人民服务-挪威
+          url: https://maoist.home.blog/
+          description: 
+        - title: 葡萄牙革命会
+          url: https://paginavermelha.org/
+          description: 
+        - title: 波兰人民之声
+          url: https://xn--gosludu-njb.net/
+          description: 
+        - title: 红旗（罗马尼亚）
+          url: https://steagulrosuromania.wordpress.com
+          description: 
+        - title: 红色思想（荷兰）
+          url: https://derodegedachte.wordpress.com/
+          description: 
+        - title: 荷兰共产主义者委员会
+          url: https://communistischcomitenederland.wordpress.com/
+          description: 
+        - title: 荷兰新共产党
+          url: https://ncpn.nl/
+          description: 
+        - title: 红色倡议
+          url: https://crvena.org/
+          description: 克罗地亚和塞尔维亚的组织
+        - title: 比利时阶级斗争
+          url: http://www.classecontreclasse.be
+          description: 
+        - title: 比利时阶级斗争
+          url: https://classecontreclasse.org/
+          description: 另一个网站
+        - title: 新意大利共产党
+          url: http://www.nuovopci.it/
+          description: 
+        - title: 意大利共产党联合会
+          url: https://www.carc.it/
+          description: 内含分会链接
+        - title: 意大利无产阶级共产主义者
+          url: http://proletaricomunisti.blogspot.com/
+          description: 
+        - title: “新霸权”-意大利组织
+          url: https://nuovaegemonia.com/
+          description: 
+        - title: 意大利共产党（毛主义）
+          url: 
+          description: 未收录
+        - title: 意大利共产党（马列）
+          url: http://www.pmli.it/
+          description: 
+        - title: 马耳他红页协会
+          url: https://pagnihomor.wordpress.com/blog/
+          description: RedPage
+        - title: 挪威革命共产党
+          url: https://www.maoisme.no/
+          description: 
+        - title: 挪威共产党（马列）
+          url: https://www.kpml.no/nb/
+          description: 
+        - title: 英国共产党（马列）
+          url: http://thecommunists.org/
+          description: 
+        - title: 英国共产党（马列）
+          url: https://www.cpbml.org.uk/
+          description: 另一个网站
+        - title: 英国革命共产党
+          url: http://www.rcpbml.org.uk/
+          description: 霍查派
+        - title: 英国毛主义中心
+          url: https://maoistcentre.wordpress.com/
+          description: 
+        - title: 爱尔兰共产党
+          url: https://communistparty.ie/en/
+          description: 
+        - title: 爱尔兰共产主义者委员会
+          url: https://irishcommunistcommittee.wordpress.com
+          description: 
+        - title: 康诺利青年运动
+          url: https://cym.ie/
+          description: 
+        - title: 爱尔兰反帝运动
+          url: https://anti-imperialist-action-ireland.com/
+          description: AIA
+        - title: 爱尔兰社会主义共和党
+          url: https://irsp.ie/
+          description: IRSP
+        - title: 大动荡（威尔士）
+          url: https://greatunrest2012.blogspot.com/
+          description: 
+        - title: 威尔士民主与阶级斗争
+          url: https://democracyandclasstruggle.blogspot.com
+          description: 
+        - title: 红色青年
+          url: http://redyouth.org/
+          description: 英国组织
+        - title: 南斯拉夫劳动党
+          url: http://www.partijarada.org/
+          description: 
+        - title: 斯洛文尼亚马克思主义派
+          url: https://marksist.net
+          description: 
+        - title: 阿尔巴尼亚共产主义之声
+          url: https://zerikomunist.home.blog/
+          description: 
+        - title: 希腊共产党
+          url: https://www.kke.gr/
+          description: KKE
+        - title: 激进马克思主义计划
+          url: https://theradicalmarxismproject.wordpress.com/
+          description: 希腊组织
+        - title: 希腊共产党（马列）
+          url: http://www.kkeml.gr/
+          description: KKE-ML
+        - title: 希腊共产组织
+          url: https://koel.gr/
+          description: KOE
+        - title: 希腊马列主义共产党
+          url: https://www.m-lkke.gr/
+          description: ML KKE
+        - title: 重建希腊共产党组织
+          url: https://www.oakke.gr/index.htm
+          description: OAKKE
+        - title: 越线
+          url: https://www.ektosgrammis.gr/
+          description: 希腊组织
+        - title: 左翼重组社
+          url: https://anasynthesi.gr/
+          description: 希腊组织
+        - title: 激进左翼联盟-进步联盟
+          url: https://www.syriza.gr/
+          description: PIZA，是希腊的一个左翼联合组织
+        - title: 反资本主义左翼阵线
+          url: http://antarsya.gr/
+          description: 是希腊的一个左翼联合组织
+        - title: 反资与革命反资左翼阵线倡议
+          url: https://antarsyaira.blogspot.com/
+          description: 反资本主义左翼阵线成员组织
+        - title: 新左翼潮流
+          url: https://narnet.gr/
+          description: 反资本主义左翼阵线成员组织
+        - title: 左翼聚集社
+          url: https://www.aristerisispeirosi.gr/
+          description: 从反资本主义左翼阵线退出了
+        - title: 希腊革命共产主义运动
+          url: http://www.ekke.net.gr/
+          description: 反资本主义左翼阵线成员组织
+        - title: 国际共产主义组织-斯巴达克斯
+          url: https://okde.org/index.php/
+          description: 反资本主义左翼阵线成员组织
+        - title: 国际共产主义组织
+          url: https://www.okde.gr/
+          description: 同组织另一个网站
+        - title: 人民团结党
+          url: https://laiki-enotita.gr/
+          description: ΛΑΕ：总体上右倾的一个联合组织
+        - title: 左翼反资本主义组织
+          url: https://aras.gr/
+          description: 人民团结党成员组织
+        - title: 反资本主义政治组织
+          url: https://antipol.wordpress.com/
+          description: 人民团结党成员组织
+        - title: 共产主义复兴社
+          url: http://komman.awardspace.info/
+          description: 人民团结党成员组织
+        - title: 左翼潮流
+          url: https://www.aristerorevma.gr/
+          description: 人民团结党成员组织
+        - title: 欧洲现实不服从阵线
+          url: https://mera25.gr/
+          description: 希腊组织
+        - title: 对抗-共产主义组织
+          url: https://anametrisi.gr/
+          description: 希腊组织
+        - title: 青年共产主义解放
+          url: https://nka.gr/
+          description: 希腊组织
+        - title: 共产主义运动-工人斗争
+          url: https://ergatikosagwnas.gr
+          description: 希腊托派组织
+        - title: 现代共产主义设计
+          url: https://www.kommon.gr/
+          description: 希腊组织
+        - title: 政治和社会权利网站
+          url: https://diktio.org
+          description: 希腊组织
+        - title: 工人革命党
+          url: https://www.efsyn.gr/
+          description: 希腊托派组织
+        - title: 第四国际
+          url: https://tpt4.org/
+          description: 希腊托派组织
+        - title: 激进左翼阵线
+          url: https://www.oocities.org/mera_lamia/main.html
+          description: MEGA（已解散）
+ 
     - term: 非洲组织
       links:
-        - title: a
-          url: https://a.com
+        - title: 突尼斯抵抗
+          url: https://tunisieresistant.wordpress.com/
           description: 
+        - title: 突尼斯毛主义共产主义运动
+          url: http://redstar-tu.blogspot.com/
+          description: 
+ 
 
     - term: 南美洲组织
       links:
-        - title: a
-          url: https://a.com
+        - title: 秘鲁共产党（MOVADEF）
+          url: https://pcp71028.wordpress.com/
+          description: 
+        - title: 秘鲁红旗
+          url: http://banderaroja.org
+          description: 网站所有者在欧洲
+        - title: 新民主协会
+          url: https://vnd-peru.blogspot.com/
+          description: 秘鲁革命网站，但网站所有者在德国
+        - title: 阿根廷革命共产党
+          url: https://pcr.org.ar
+          description: 
+        - title: 巴西人民抵抗运动
+          url: https://resistenciacamponesa.com/
+          description: 
+        - title: 巴西人民妇女运动
+          url: https://brasilmfp.blogspot.com
+          description: 
+        - title: 巴西人民团结中心
+          url: https://cebraspo.blogspot.com/
+          description: 
+        - title: 巴西民主之声
+          url: https://jornalavozdemocratica.wordpress.com/2022/01/21/sobre-a-linha-da-associacao-democratica-brasileira/
+          description: 
+        - title: 红十月
+          url: https://aubavermelha.wordpress.com/page/2/
+          description: 巴西组织
+        - title: 红色小组
+          url: https://uvljr.wordpress.com/
+          description: 巴西组织
+        - title: 南美毛主义学联
+          url: https://ferp-larebelionsejustifica.blogspot.com/
+          description: 
+        - title: 巴西工人联盟
+          url: http://www.ligaoperaria.org.br/1/
+          description: 
+        - title: 巴西贫农联盟
+          url: http://www.resistenciacamponesa.com/
+          description: 
+        - title: 巴西独立人民阵线
+          url: https://frenteindependentepopular.wordpress.com/
+          description: 
+        - title: 厄瓜多尔共产党重建
+          url: https://edicionesvanguardiaproletaria.blogspot.com/
+          description: 
+        - title: 厄瓜多尔共产党（红太阳）
+          url: https://pukainti.blogspot.com/
+          description: 
+        - title: 厄瓜多尔人民保卫阵线
+          url: https://fdlp-ec.blogspot.com
+          description: 
+        - title: 哥伦比亚共产党（毛）
+          url: http://www.revolucionobrera.com/
+          description: 
+        - title: 哥伦比亚共产党中央
+          url: https://semanariovoz.com/
+          description: 
+        - title: 哥伦比亚革命集团
+          url: http://acgcr.org/
+          description: 
+        - title: 毛派重建哥伦比亚
+          url: https://organizacionmaoista.blogspot.com/
+          description: 
+        - title: 委内瑞拉共产党
+          url: https://prensapcv.wordpress.com/
+          description: 
+        - title: 巴拿马共产党
+          url: https://vientodeleste.webnode.es/
+          description: 
+        - title: 乌拉圭革命共产党
+          url: http://pcr.org.uy/
+          description: 
+        - title: 玻利维亚革命共产党
+          url: https://frpbolivia.wordpress.com/
+          description: 
+        - title: 玻利维亚共产党（马列毛主义）
+          url: https://maoistasbolivianos.blogspot.com/
+          description: 
+        - title: 智利马列毛主义者联合会
+          url: https://maoistasarica.blogspot.com/
+          description: 
+        - title: 玻利维亚观察者
+          url: https://analisisopinion.wordpress.com
           description: 
 
     - term: 北美洲组织
       links:
-        - title: a
-          url: https://a.com
+        - title: 萨帕塔民族解放运动
+          url: https://enlacezapatista.ezln.org.mx/
+          description: 
+        - title: 萨帕塔民族解放运动
+          url: https://www.struggle.ws/mexico/ezlnco.html
+          description: 另一个网站
+        - title: 马列毛革命研究小组
+          url: https://www.mlmrsg.com
+          description: 
+        - title: 加拿大共产党（马列）
+          url: https://cpcml.ca
+          description: 
+        - title: 加拿大革命共产党（中央委员会）
+          url: https://pcrrcp.wordpress.com/
+          description: 
+        - title: 加拿大共产主义工人阵线
+          url: https://communistworkers.wordpress.com/
+          description: 
+        - title: 加拿大革命倡议
+          url: https://revolutionary-initiative.com/
+          description: 
+        - title: 国际人民战斗联盟-加拿大
+          url: https://ilps-canada.ca/
+          description: 
+        - title: 北美斯大林社会
+          url: https://www.stalinsociety.com/news
+          description: 
+        - title: 加拿大革命学生运动
+          url: http://mer-rsm.ca
+          description: 
+        - title: 自由之路社会主义组织
+          url: https://frso.org/
+          description: 美国组织
+        - title: 美国人民妇女运动
+          url: https://pwm-mfp.org/
+          description: 
+        - title: 美国革命共产党
+          url: https://revcom.us/index.html
+          description: 
+        - title: 鲍勃·阿瓦基安
+          url: http://www.bobavakian.net/
+          description: 美革共领导人
+        - title: 新共产主义
+          url: http://yenikomunizm.com/
+          description: 美革共网站
+        - title: 美国劳工党
+          url: https://www.americanpartyoflabor.com/
+          description: 
+        - title: 里士满共产主义者同盟
+          url: http://www.richmondcommunists.org
+          description: 
+        - title: 美国新共产党
+          url: https://ncplc.wordpress.com
+          description: 
+        - title: 美国共产主义毛主义集团
+          url: https://maoistcommunistgroup.com/
+          description: 
+        - title: 美国共产党重建委员会
+          url: https://maoistcultexposed.wordpress.com
+          description: 
+        - title: 革命学生联盟
+          url: https://revolutionarystudentsunion.wordpress.com/
+          description: 美国组织
+        - title: 奥斯汀红卫兵
+          url: https://redguardsaustin.wordpress.com/
+          description: 
+        - title: 夏洛特红卫兵
+          url: https://redguardscharlotte.wordpress.com
+          description: 
+        - title: 堪萨斯城红卫兵
+          url: https://kcmlm.wordpress.com
+          description: 
+        - title: 坦帕毛主义团体
+          url: https://tampamaoistcollective.wordpress.com
+          description: 
+        - title: Tempest
+          url: https://www.tempestmag.org
+          description: 
+        - title: 革命斗争前线
+          url: https://revolutionaryfrontlines.wordpress.com
+          description: 
+        - title: 墨西哥革命人民运动
+          url: https://mpr-mexico.blogspot.com
           description: 
 
     - term: 大洋洲组织
       links:
-        - title: a
-          url: https://a.com
+        - title: 澳大利亚共产党（马列）
+          url: https://cpaml.org
+          description: 
+        - title: 澳大利亚共产党
+          url: https://www.auscp.org.au/)
+          description: 
+        - title: 澳大利亚革命运动
+          url: https://thewaterholeaus.wordpress.com/about/
+          description: 
+        - title: 国际人民斗争联盟-澳大利亚
+          url: https://ilpsaustralia.org/
+          description: 
+        - title: 自由西巴布亚运动
+          url: http://www.freewestpapua.org
           description: 
         
           
