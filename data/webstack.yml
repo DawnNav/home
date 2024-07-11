@@ -728,6 +728,9 @@
         - title: 菲律宾农民运动
           url: https://peasantmovementph.com
           description: 
+        - title: 菲律宾“爱国青年”组织发言人
+          url: https://marialayaguerrero.wordpress.com/
+          description: 
         - title: 土耳其共产党-ML
           url: https://www.tkpml.com/
           description: TKP-ML
@@ -1139,6 +1142,9 @@
         - title: 共产主义组织
           url: https://kommunistische.org/
           description: KO：德国组织
+        - title: 欧洲共产主义会议空间
+          url: https://encuentrocomunista.org/
+          description: 西班牙网站
         - title: 西班牙共产主义征途
           url: https://granmarchahaciaelcomunismo.wordpress.com/
           description: 
@@ -1568,43 +1574,346 @@
 - taxonomy: 战争事件地图
   icon: fa-star
   links:
-    - title: a
-      url: https://ax.com
+    - title: 菲律宾叛乱地图2023
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1Q6NqzxcHdTv6JILIBNprd2ogRQcYirg
+      description: 收录了红白双方的报道
+    - title: 菲律宾叛乱地图2024
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1hCrHGKrCX3llqAdow_iIbyDZhp002cM
+      description: 收录了红白双方的报道
+    - title: 库尔德斯坦革命行动地图
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1s0x8djf7i1XhQ5IBa2zsU0RCbEe5psQ
       description: 
-
+    - title: 阿克萨洪水
+      url: https://www.google.com/maps/d/u/0/viewer?hl=es&mid=1SrPdIEnbc9pLZIL_nD02rfOGiUuAboc
+      description: 
+    - title: 抵抗运动（巴勒斯坦）
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1-crFsqlB5tG8RdLSvXV8wrZL1O_j2B8&hl=en
+      description: 
+    - title: 也门
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1k_5mC2oHM9Lj4I5irFA0pkXbqKQ
+      description: 
+    - title: 叙利亚
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1liqnO9iSvshTLwgPB3q9sJTgfUI
+      description: 
+    - title: 乌克兰
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1V8NzjQkzMOhpuLhkktbiKgodOQ27X6IV
+      description: 
+    - title: 利比亚
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1IQES33xfW4-aFLXRlpQHQggX81CS6qcC
+      description: 
+    - title: 伊拉克
+      url: https://www.google.com/maps/d/u/0/viewer?mid=1EXnjz0SpWMkoWtYnE_8h3BGmAiITbuLy
+      description: 
+    - title: 高加索
+      url: https://www.google.com/maps/d/u/0/viewer?hl=es&mid=19gp0qYIkynvVfj_cmKMJUuUVDtm7m5k
+      description: 亚美尼亚-阿塞拜疆冲突
+    - title: 马里
+      url: https://www.google.com/maps/d/u/0/viewer?mid=19IxdgUFhNYyUIXEkYmQgmaYHz6OTMEk
+      description: 
 
 - taxonomy: 其他中文网站
   icon: fa-star
   links:
-    - title: a
-      url: https://x.com
+    - title: 批判与再造
+      url: https://critiqueandtransformation.wordpress.com/
+      description: 杂志
+    - title: 新国际
+      url: https://www.newinternationalism.net/
+      description: 
+    - title: 中国劳工通讯
+      url: https://clb.org.hk/zh-hans
+      description: 
+    - title: 文革与当代史研究网
+      url: https://difangwenge.org/
+      description: 
+    - title: 達德文社
+      url: https://dadesociety.blogspot.com/
+      description: 
+    - title: 激流网
+      url: https://jiliuwang.net/
+      description: 
+    - title: 国际红色通讯
+      url: https://irn.red/
+      description: 
+    - title: 《新红旗》杂志
+      url: https://newhongqi.org
+      description: 
+    - title: 《热浪》月刊
+      url: https://relangyuekan.art.blog/
+      description: 
+    - title: 马列毛群众
+      url: http://mlmmlm.icu/
+      description: 
+    - title: 布党论坛
+      url: https://bu2021.xyz/
+      description: 
+    - title: 惊雷
+      url: https://www.jinglei1917.net
+      description: 托派网站
+    - title: 青年先锋网
+      url: https://communism1917.wordpress.com/
+      description: 
+    - title: 捍卫马克思主义
+      url: https://www.marxist.com/
+      description: 托派组织：国际马克思主义趋势（有中文页面）
+    - title: 火花-国际马克思主义趋势
+      url: https://marxist.tw/
+      description: 国际马克思主义趋势-中国台湾分支
+    - title: 国际共产主义思潮
+      url: https://zh.internationalism.org/
+      description: 托派网站
+    - title: 苏联主义网
+      url: http://www.cccpism.com
+      description: 
+    - title: 列宁格勒印刷三厂工人理论小组
+      url: https://lenin3print.github.io/
+      description: 
+    - title: 毛泽东选集-在线版
+      url: https://liyandi.gitbooks.io/maozedongxuanji/content/
+      description: 
+    - title: 赤辉
+      url: http://chihuimlm.wordpress.com/
+      description: 
+    - title: 共产之声
+      url: https://gongchanzhishen.wordpress.com/
+      description: 
+    - title: 共产国际论坛
+      url: https://maoism.freeflarum.com/
+      description: 
+    - title: 泛左联盟
+      url: https://www.fanzuoism.com/
+      description: 
+    - title: 泛托洛茨基主义网
+      url: https://pantrotskyism.wordpress.com/
+      description: 
+    - title: 中文无政府主义图书馆
+      url: https://zh.anarchistlibraries.net/
+      description: 
+    - title: 中国研究小组
+      url: https://chinastudygroup.net
+      description: 
+    - title: 怀旧金曲
+      url: http://oldies.lidicity.com/gb/index.html
+      description: 有些红歌...
+    - title: 毛泽东博览
+      url: http://www.mzdbl.cn/
       description: 
 
 
 - taxonomy: 其他网站
   icon: fa-star
   links:
-    - title: a
-      url: https://x.com
+    - title: 阿吉特
+      url: http://ajithspage.in/
+      description: 一位出狱的印共毛领导人
+    - title: 阿吉特的博客
+      url: https://ajithspage.medium.com/
+      description: 
+    - title: 战线
+      url: https://www.militantwire.com/
+      description: militantwire，研究当代战争的网站
+    - title: 解密战争
+      url: https://www.descifrandolaguerra.es/
+      description: 研究当代战争的网站
+    - title: 革命研究网
+      url: https://revolutionarystudy.network
+      description: 
+    - title: 左翼图书（出版社/书店）
+      url: https://leftwingbooks.net
+      description: 
+    - title: 外文出版社
+      url: https://foreignlanguages.press/
+      description: 马列毛主义出版社
+    - title: 新劳工出版社
+      url: https://newlaborpress.wordpress.com
+      description: 
+    - title: 十一月八日出版社
+      url: https://november8ph.ca/
+      description: 
+    - title: 萌芽图书
+      url: https://germinalbooks.wordpress.com
+      description: 
+    - title: 鸦雀出版社
+      url: https://rookerypress.wordpress.com/
+      description: 
+    - title: 红星出版社
+      url: https://redstarpublishers.org/
+      description: 
+    - title: 进度出版商
+      url: https://fortschrittsverlag.de/
+      description: 
+    - title: 土耳其“Partizan”出版社
+      url: https://partizanarsiv5.net/
+      description: 
+    - title: 土耳其革命烈士
+      url: https://www.partizansehit.net/
+      description: 
+    - title: 易卜拉欣·凯帕卡亚
+      url: https://ibrahimkaypakkaya.org/
+      description: 
+    - title: 何塞·玛丽亚·西松
+      url: https://josemariasison.org/
+      description: 
+    - title: 西松的生活和工作
+      url: https://linktr.ee/kajomalives
+      description: 
+    - title: 西松在线书籍发布
+      url: https://linktr.ee/peoples.events
+      description: 
+    - title: 蒙帕拉蒂诺（菲律宾左翼活动家）
+      url: http://mongpalatino.com/
+      description: 
+    - title: 凯文·“拉希德”·约翰逊
+      url: https://rashidmod.com/
+      description: 新非洲黑豹党
+    - title: 武装“笔杆子”
+      url: https://armedwithapen.com
+      description: 
+    - title: 红色政治犯
+      url: http://political-prisoners.net
+      description: 
+    - title: 向库尔德战士捐医疗用品
+      url: https://shengal.xyz/
+      description: 
+    - title: 公平的根源
+      url: https://rootsforequity.org
+      description: 巴基斯坦农民运动相关网站
+    - title: 火星-孟加拉语博客
+      url: https://iskrathespark.blogspot.com/?fbclid=IwAR0O-ZVyP-DCJhdEsKldG2uPUZMxUbUIvJhLJyotGoTFdVHheh2L4WO4hPA
+      description: 
+    - title: 被剥削者论坛
+      url: https://forum.chefduzen.de/
+      description: 德国网站
+    - title: 柏林批判理论研究所
+      url: https://www.inkrit.de/
+      description: InkriT
+    - title: 转变！欧洲
+      url: https://transform-network.net
+      description: 
+    - title: 朝鲜日本人村
+      url: http://www.yodogo-nihonjinmura.com
+      description: 
+    - title: 反战越南老兵
+      url: https://vvawai.org/
+      description: 
+    - title: 小读书书社
+      url: http://littlereadbooks.org
+      description: 公益线下书摊
+    - title: 小读书书社
+      url: https://bookshop.org/shop/littlereadbooks/
+      description: bookshop
+    - title: 打倒对贡萨罗主席的“审判”闹剧
+      url: https://abajolafarsadejuicio.blogspot.com/
+      description: 
+    - title: 革命左派电台
+      url: https://revolutionaryleftradio.libsyn.com/
+      description: 
+    - title: 托拉犹太教
+      url: https://twitter.com/TorahJudaism
+      description: 
+    - title: 约瑟夫鲍尔谈共产主义
+      url: https://josephballcommunist.wordpress.com/
+      description: 
+    - title: 菲律宾镰刀书社
+      url: https://kamayaribooks.shopboxo.io/kamayaribooks
+      description: 
+    - title: 菲律宾KODAO左翼文化&文学论坛
+      url: https://kodao.org
+      description: 
+    - title: 白求恩之家-书店
+      url: http://maisonnormanbethune.ca/
+      description: 加拿大组织
+    - title: 左翼书店
+      url: https://www.leftwingbooks.net/
+      description: 
+    - title: 为人民服务博客
+      url: http://servirlepeuple.over-blog.com/
+      description: 法国网站
+    - title: 一个现代左翼作家的作品集
+      url: http://www.demystification.fr/les-livres-de-tom-thomas-2/
+      description: 
+    - title: 红色路障
+      url: http://redbarricade.blogspot.com
+      description: 停更了
+    - title: 汉堡调查委员会
+      url: https://eahh.noblogs.org
+      description: 
+    - title: 康斯坦丁·维克托罗维奇
+      url: https://agitblog.ru/
+      description: 俄国“大咖”
+    - title: 法多姆鸭
+      url: https://fadomduck2.blogspot.com/
+      description: 一名同志的博客
+    - title: 国际革命的博客
+      url: https://medium.com/@redalert13121959
+      description: 
+    - title: 加拿大战士出版物
+      url: https://warriorpublications.wordpress.com/
+      description: 
+    - title: 红卫兵营
+      url: http://redguardcamp.blogspot.com/?m=1
+      description: 已停更
+    - title: 迈向新的黎明
+      url: http://toanewdawn.blogspot.com/
+      description: 印度革命
+    - title: Saketh Rajan 同志的纪念博客
+      url: https://sites.google.com/site/sakethrajan/
+      description: 
+    - title: 毛主义论坛
+      url: https://maoistisktforum.org/
+      description: 
+    - title: telekommunisten
+      url: http://telekommunisten.net/
       description: 
 
-- taxonomy: 其他工具
+
+- taxonomy: 工具
   icon: fa-star
   links:
-    - title: a
-      url: https://x.com
+    - title: Sci-Hub
+      url: https://sci-hub.se
+      description: 论文库
+    - title: 安娜的档案
+      url: https://zh.annas-archive.org/
+      description: 找电子书，最全
+    - title: Zlibrary
+      url: https://singlelogin.re/
+      description: 
+    - title: 创世纪图书馆
+      url: https://libgen.is
+      description: 
+    - title: 短网址服务
+      url: https://maglit.me/
+      description: 
+    - title: 安全分享文件
+      url: https://gofile.io/uploadFiles
+      description: 
+    - title: 阅后即焚
+      url: https://privatebin.net/
+      description: 
+    - title: Telegraph
+      url: https://telegra.ph/
+      description: 
+    - title: 安全邮箱
+      url: https://www.autistici.org/
+      description: 
+    - title: 意识形态测试
+      url: https://cnvalues.github.io/index.html
+      description: 
+    - title: 我的IP地址
+      url: https://ipdata.co/
       description: 
 
 - taxonomy: 友情链接
   icon: fa-link
   friend:
-    - title: 子页面一
+    - title: English Version
       url: sub1
-      description: 本站子页面一，对应content目录的sub1.md，可重命名、删除、复制。
-    - title: 一为导航
-      url: https://nav.iowen.cn/
-      description: onenav主题演示站
-    - title: 趣导航
-      url: https://qssily.com/
+      description: 对应content目录的sub1.md，可重命名、删除、复制。
+    - title: 黎明导航
+      url: https://dawn.noblogs.org/
+      description: 
+    - title: 黎明导航
+      url: https://mlmnavigation.wordpress.com/
       
 ---
