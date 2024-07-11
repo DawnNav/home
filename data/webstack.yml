@@ -525,9 +525,9 @@
     - title: 这是共产主义
       url: http://thisiscommunism.org/
       description: 
-    - title: 菲律宾争取正义和自由的人民档案馆
+    - title: 争取正义和自由的人民档案
       url: https://www.arkibongbayan.org/
-      description: 
+      description: 菲律宾争取正义和自由的人民档案馆
     - title: 印度革命百科
       url: https://www.massline.info/India/Indian_Groups.htm
       description: 
@@ -576,9 +576,9 @@
     - title: 马克思主义互联网档案馆
       url: https://www.marxists.org/glossary/
       description: 
-    - title: 马列百科（伟大苏联百科网）
+    - title: 马列百科
       url: https://greatsovietencyclopedia.fandom.com/wiki/The_Great_Soviet_Encyclopedia_Wiki
-      description: 
+      description: 伟大苏联百科网
     - title: 马克思主义文库
       url: https://www.marxists.org/archive/
       description: 
@@ -591,9 +591,9 @@
     - title: 东德歌曲
       url: https://lieder-aus-der-ddr.de/
       description: 
-    - title: 中国共产党历次全国代表大会数据库
+    - title: 中共历次全国代表大会数据库
       url: https://alturl.com/rict3
-      description: 
+      description: 中国共产党历次全国代表大会数据库
     - title: 意识形态百科
       url: https://polcompball.miraheze.org/wiki/List_of_Ideologies
       description: （波兰球？？）
@@ -642,7 +642,7 @@
         - title: 统一战线
           url: http://www.united-front.info/
           description: MLPD 近期拉拢的组织
-        - title: 马克思主义反帝国主义集体
+        - title: 马克思主义反帝集体
           url: https://mac417773233.wordpress.com/
           description: 
         - title: 共产党和工人党倡议
@@ -678,9 +678,9 @@
         - title: 反帝阵营
           url: https://www.antiimperialista.org/en
           description: 
-        - title: 国际土著人民自决与解放运动
+        - title: 土著人民自决与解放运动
           url: http://www.ipmsdl.org/
-          description: 
+          description: 国际土著人民自决与解放运动
         - title: 南亚革命国际主义信息
           url: https://southasiarev.wordpress.com/
           description: 停更了
@@ -713,9 +713,9 @@
         - title: 菲律宾民族民主阵线人权监察委员会
           url: https://humanrights.ndfp.org/
           description: 
-        - title: “解放”——菲律宾民主民族解放阵线
+        - title: “解放”
           url: https://liberation.ndfp.org/
-          description: 
+          description: 菲律宾民主民族解放阵线刊物
         - title: NDFP-比科尔邦
           url: https://marojabanua.wordpress.com/
           description: 菲律宾民族民主阵线比科尔邦分支
@@ -728,9 +728,9 @@
         - title: 菲律宾农民运动
           url: https://peasantmovementph.com
           description: 
-        - title: 菲律宾“爱国青年”组织发言人
+        - title: “爱国青年”组织发言人
           url: https://marialayaguerrero.wordpress.com/
-          description: 
+          description: 菲律宾 KM 组织发言人
         - title: 土耳其共产党-ML
           url: https://www.tkpml.com/
           description: TKP-ML
@@ -824,10 +824,10 @@
         - title: 雀塔纳文工团
           url: https://www.youtube.com/@Red_revolution540
           description: CNM 的油管账号：印共毛的雀塔纳文工团
-        - title: 印度共产党（马列-新民主）
+        - title: 印共（马列-新民主）
           url: https://www.cpimlnd.org/
           description: 
-        - title: 印度共产党（马列-新民主）
+        - title: 印共（马列-新民主）
           url: https://www.youtube.com/@ND.POWER.KHAMMAM
           description: 其 Youtube 账号
         - title: 印度共产党（马列-红星）
@@ -836,9 +836,9 @@
         - title: 印度共产党（马列-解放）
           url: https://cpiml.net/
           description: 
-        - title: 印度共产党（马列）（林彪派）
+        - title: 印度共产党（马列）
           url: https://cpindiaml.wordpress.com/2020/05/25/combat-the-corona-pandemic-by-commemorating-historic-53rd-naxalbari-day-2020/
-          description: 
+          description: 林彪派
         - title: 印度革命共产党
           url: https://www.rcpi-communist.in/
           description: 
@@ -947,9 +947,9 @@
         - title: 阿拉伯毛主义者
           url: https://arabmaoists.wordpress.com/
           description: 
-        - title: 日本共产主义者同盟（统一委员会）
+        - title: 共产同（统一委员会）
           url: http://www.bund21.org/
-          description: 
+          description: 日本共产主义者同盟（统一委员会）
         - title: 劳动解放工人党
           url: https://wpll-j.org/
           description: 属于日本共产同
@@ -1211,12 +1211,12 @@
         - title: 意大利共产党联合会
           url: https://www.carc.it/
           description: 内含分会链接
-        - title: 意大利无产阶级共产主义者
+        - title: 无产阶级共产主义者
           url: http://proletaricomunisti.blogspot.com/
-          description: 
-        - title: “新霸权”-意大利组织
+          description: 意大利组织
+        - title: “新霸权”
           url: https://nuovaegemonia.com/
-          description: 
+          description: 意大利组织
         - title: 意大利共产党（毛主义）
           url: 
           description: 未收录
@@ -1307,7 +1307,7 @@
         - title: 反资本主义左翼阵线
           url: http://antarsya.gr/
           description: 是希腊的一个左翼联合组织
-        - title: 反资与革命反资左翼阵线倡议
+        - title: 反资与革命左翼阵线倡议
           url: https://antarsyaira.blogspot.com/
           description: 反资本主义左翼阵线成员组织
         - title: 新左翼潮流
@@ -1319,9 +1319,9 @@
         - title: 希腊革命共产主义运动
           url: http://www.ekke.net.gr/
           description: 反资本主义左翼阵线成员组织
-        - title: 国际共产主义组织-斯巴达克斯
+        - title: 国际共产主义组织
           url: https://okde.org/index.php/
-          description: 反资本主义左翼阵线成员组织
+          description: 斯巴达克斯：反资本主义左翼阵线成员组织
         - title: 国际共产主义组织
           url: https://www.okde.gr/
           description: 同组织另一个网站
@@ -1479,9 +1479,9 @@
         - title: 加拿大共产党（马列）
           url: https://cpcml.ca
           description: 
-        - title: 加拿大革命共产党（中央委员会）
+        - title: 加革共（中央委员会）
           url: https://pcrrcp.wordpress.com/
-          description: 
+          description: 加拿大革命共产党（中央委员会）
         - title: 加拿大共产主义工人阵线
           url: https://communistworkers.wordpress.com/
           description: 
@@ -1760,9 +1760,9 @@
     - title: 西松在线书籍发布
       url: https://linktr.ee/peoples.events
       description: 
-    - title: 蒙帕拉蒂诺（菲律宾左翼活动家）
+    - title: 蒙帕拉蒂诺
       url: http://mongpalatino.com/
-      description: 
+      description: 菲律宾左翼活动家
     - title: 凯文·“拉希德”·约翰逊
       url: https://rashidmod.com/
       description: 新非洲黑豹党
@@ -1829,9 +1829,9 @@
     - title: 为人民服务博客
       url: http://servirlepeuple.over-blog.com/
       description: 法国网站
-    - title: 一个现代左翼作家的作品集
+    - title: Demystification
       url: http://www.demystification.fr/les-livres-de-tom-thomas-2/
-      description: 
+      description: 一个现代左翼作家的作品集
     - title: 红色路障
       url: http://redbarricade.blogspot.com
       description: 停更了
