@@ -525,7 +525,7 @@
     - title: 这是共产主义
       url: http://thisiscommunism.org/
       description: 
-    - title: 争取正义和自由的人民档案
+    - title: 人民档案
       url: https://www.arkibongbayan.org/
       description: 菲律宾争取正义和自由的人民档案馆
     - title: 印度革命百科
@@ -806,6 +806,9 @@
         - title: 支持印度人民战争委员会
           url: https://guerrapopolare-india.blogspot.com/
           description: 
+        - title: 逆流
+          url: https://countercurrents.org/
+          description: 南亚“非主流”网
         - title: 印度毛派
           url: http://indianmaoist.blogspot.com/
           description: 已停更
@@ -1857,8 +1860,8 @@
       url: http://toanewdawn.blogspot.com/
       description: 印度革命
     - title: Saketh Rajan
-      url: https://sites.google.com/site/sakethrajan/
-      description: Saketh Rajan 同志的纪念博客
+      url: https://web.archive.org/web/20210224150809/https://sites.google.com/site/sakethrajan/
+      description: Saketh Rajan 同志的纪念博客（存档）
     - title: 毛主义论坛
       url: https://maoistisktforum.org/
       description: 
