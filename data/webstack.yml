@@ -41,6 +41,9 @@
     - title: 新民主报
       url: http://anovademocracia.com.br/
       description: 巴西
+    - title: 文明对话
+      url: https://ahewar.org/
+      description: 一个中东马克思主义者的辩论平台
     - title: 共产主义新闻
       url: https://www.communistnews.net/
       description: 
@@ -574,7 +577,7 @@
       url: http://www.blocml.be/
       description: 文献库
     - title: 阿拉伯共产党图书馆
-      url: https://arcommunistslib.site123.me/
+      url: https://arcommunistslib.cdhost.com/
       description: MLM
     - title: 马克思主义互联网档案馆
       url: https://www.marxists.org/glossary/
@@ -1388,6 +1391,15 @@
         - title: 突尼斯毛主义共产主义运动
           url: http://redstar-tu.blogspot.com/
           description: 
+        - title: 八月三十日网站
+          url: http://redstar-tu.blogspot.com/
+          description: 摩洛哥的马列毛主义者
+        - title: 摩洛哥工人民主道路党
+          url: https://annahjaddimocrati.org/
+          description: 
+        - title: 共产主义青年联盟
+          url: https://chabiba.org/
+          description: 摩洛哥工人民主道路党的青年组织
  
 
     - term: 南美洲组织
