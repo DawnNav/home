@@ -18,7 +18,7 @@ copyright = "DawnNav"
 [params.search]
   enable = false
 
-#设置默认模式，true暗色模式，false亮色模式
+#设置默认模式，true暗色模式，false亮色模式 
 [params.darkmode]
   enable = false
 
