@@ -474,6 +474,9 @@
     - title: 人民日报
       url: https://rmrb.online/index.php?m=bbs
       description: 1946-2003的人民日报
+    - title: JOJO 看报
+      url: https://reader.jojokanbao.cn
+      description: 红旗杂志、参考消息、人民日报、人民画报
     - title: 和谐历史档案馆
       url: https://banned-historical-archives.github.io/
       description: 中文网站
@@ -597,9 +600,9 @@
     - title: 意识形态百科
       url: https://polcompball.miraheze.org/wiki/List_of_Ideologies
       description: （波兰球？？）
-    - title: 无产阶级图书馆
+    - title: 無產階級圖書館
       url: https://library.proletarian.me/My_library_table.php#
-      description: 
+      description: 中文网站
     - title: 无政府主义图书馆
       url: https://theanarchistlibrary.org/
       description: 隔壁安友的文库
@@ -1641,6 +1644,12 @@
     - title: 激流网
       url: https://jiliuwang.net/
       description: 
+    - title: 林彪 军队 文革
+      url: https://www.linbiao.org/forum/index.php
+      description: 论坛
+    - title: 中国革命历史文献资料
+      url: http://geming.20m.com/
+      description: 原 geming.org
     - title: 国际红色通讯
       url: https://irn.red/
       description: 
