@@ -1,13 +1,13 @@
 ---
-type: nav #固定值nav(生成导航页)
-title: DawnNav #留空则使用网站标题
-search: #搜索栏
-  enable: false #true显示，false不显示
-edit: #在线编辑
-  enable: false #true显示，false:不显示
+type: nav # Fixed value "nav" for generating navigation page
+title: DawnNav # If left blank, the site title will be used
+search: # Search bar
+  enable: false # Set to true to show, false to hide
+edit: # Online editing
+  enable: false # Set to true to show, false to hide
   url: https://github.com/DawnNav/home/blob/main/content/EN.md
 
-data: #以下为导航链接内容
+data: # Navigation links below
 
 - taxonomy: News Sites
   icon: fa-star
@@ -15,5 +15,5 @@ data: #以下为导航链接内容
     - title: Redspark
       url: https://redspark.nu
       description: 
-      
+
 ---
