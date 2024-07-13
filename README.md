@@ -2,7 +2,7 @@
 
 **基于 Hugo-Webstack 网址导航网站**
 
-
+项目基于 github.com/oulh/nav/
 
 可以自己 fork 部署以及 pull request
 
