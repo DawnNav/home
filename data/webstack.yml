@@ -74,9 +74,6 @@
     - title: 《学生军》
       url: https://chhatrafauj.wordpress.com/
       description: 印度革命学生阵线的刊物
-    - title: 菲律宾的“剿共”新闻
-      url: https://www.pna.gov.ph/articles/search?q=NPA
-      description: 菲国家通讯社关于新人民军的报道
     - title: 欧洲新闻中心
       url: https://www.avrupahaber10.org/
       description: 
@@ -122,9 +119,9 @@
     - title: 索索贡革命运动官方电台
       url: https://radyobulusan.wordpress.com/
       description: 
-    - title: 红鱼左翼传媒
-      url: https://redfish.media/
-      description: 曾经拍摄了很多不错的纪录片
+    - title: 菲律宾的“剿共”新闻
+      url: https://www.pna.gov.ph/articles/search?q=NPA
+      description: 菲国家通讯社关于新人民军的报道
     - title: 鼓动新闻
       url: https://web.archive.org/web/20210518044307/https://incendiarynews.com/
       description: 似乎已经停更
@@ -468,6 +465,9 @@
     - title: 群众路线文库
       url: http://www.massline.info/
       description: 
+    - title: 红鱼左翼传媒
+      url: https://redfish.media/
+      description: 曾经拍摄了很多不错的纪录片
     - title: “从马克思到毛”文库
       url: http://www.marx2mao.com/
       description: 
