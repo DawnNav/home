@@ -148,10 +148,14 @@
       description: 印度网站
     - title: 红色新闻
       url: https://eratokhabar.com/
-      description: 尼泊尔新闻，与尼革共相关
+      description: 尼泊尔新闻
     - title: 主路
       url: https://moolbato.com/
-      description: 尼泊尔新闻，与尼革共相关
+      description: 尼泊尔新闻
+    - title: 汉克日报
+      url: https://hanktoday.com/
+      description: 尼泊尔新闻
+
     - title: 革命民主
       url: http://devrimcidemokrasi.org/
       description: 
@@ -539,6 +543,9 @@
       description: 
     - title: 反抗-印度先锋档案馆
       url: http://resistanceindia.wordpress.com/
+      description: 
+    - title: 巴勒斯坦问题互动百科
+      url: https://www.palquest.org/
       description: 
     - title: RedLibrary
       url: https://redlibrary.info/
