@@ -8,7 +8,7 @@ fork from https://github.com/oulh/nav/
 
 这里介绍 Github Pages 的方法：
 
-1. 导入或 Fork 本项目
+1. 导入或 Fork 本项目 
 
 2. Github Pages 设置
 
