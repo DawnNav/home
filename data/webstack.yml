@@ -21,9 +21,6 @@
       url: https://woodsmokeblog.wordpress.com/
       description: 
     - title: 新纪元
-      url: https://newepochmedia.wordpress.com/
-      description: 似乎已经停止更新
-    - title: 新纪元
       url: https://www.nouvelleepoque.fr/
       description: 法国组织
     - title: 革命民主新闻
@@ -426,6 +423,9 @@
     - title: 菲律宾叛乱新闻
       url: https://retiredanalyst.blogspot.com/
       description: 
+    - title: 新纪元
+      url: https://newepochmedia.wordpress.com/
+      description: 似乎已经停止更新
     - title: 《赢得一个世界》
       url: https://web.archive.org/web/20070406015137/http://www.awtw.org/
       description: 已停刊
@@ -1155,9 +1155,9 @@
         - title: 社会斗争集体
           url: https://www.unten-gegen-oben.de/
           description: 德国组织
-        - title: 反法西斯和战争新和平运动
-          url: ttp://neuefriedensbewegung.de/
-          description: 德国组织：反法西斯主义和战争新和平运动
+        - title: 新和平运动
+          url: https://neuefriedensbewegung.de/
+          description: 德国组织：反法西斯主义和战争
         - title: 社会革命行动
           url: https://sozialrevolutionaere-aktion.com
           description: 德国组织
