@@ -20,9 +20,6 @@
     - title: 毛主义道路
       url: https://maoistroad.blogspot.com/
       description: 
-    - title: 新闻简报
-      url: https://woodsmokeblog.wordpress.com/
-      description: 
     - title: 新纪元
       url: https://www.nouvelleepoque.fr/
       description: 法国组织
@@ -46,6 +43,9 @@
       description: 主要是希腊共产党维护的新闻网站
     - title: 共产主义新闻
       url: https://www.communistnews.net/
+      description: 
+    - title: 新闻简报
+      url: https://woodsmokeblog.wordpress.com/
       description: 
     - title: 红旗新闻 
       url: https://www.rf-news.de/
@@ -95,6 +95,9 @@
     - title: Özgür 未来报
       url: https://ozgurgelecek50.net/
       description: 
+    - title: 为人民服务
+      url: http://www.demvolkedienen.org/
+      description: 德国“红旗委员会”的新闻网站
     - title: 先锋党-革命民主
       url: https://oncupartizan6.com/
       description: MKP 的新闻网站
@@ -155,7 +158,33 @@
     - title: 汉克日报
       url: https://hanktoday.com/
       description: 尼泊尔新闻
-
+    - title: ANF新闻
+      url: https://anfturkce.com/
+      description: 主要是库尔德斯坦的新闻
+    - title: Riseup4Rojava
+      url: https://riseup4rojava.org/
+      description: 
+    - title: 青年新闻
+      url: https://www.nuceciwan121.xyz/
+      description: 库尔德斯坦新闻
+    - title: 库尔德斯坦报告
+      url: https://www.kurdistan-report.de/
+      description: 德国网站
+    - title: 库尔德斯坦的和平
+      url: https://www.peaceinkurdistancampaign.com/
+      description: 
+    - title: 罗贾瓦抵抗网
+      url: https://widerstandsvernetzung.org/
+      description: 瑞士网站
+    - title: 库尔德斯坦革命标志
+      url: https://www.revcurdistao.com.br/
+      description: 
+    - title: 革命新闻
+      url: http://devrimcidemokrasi.com/
+      description: 中东的革命新闻
+    - title: 人民新闻
+      url: https://info.jimmin.com/
+      description: 日本人民新闻网站，有期刊
     - title: 革命民主
       url: http://devrimcidemokrasi.org/
       description: 
@@ -174,33 +203,6 @@
     - title: 工人世界
       url: https://www.workers.org/
       description: 
-    - title: Riseup4Rojava
-      url: https://riseup4rojava.org/
-      description: 
-    - title: 青年新闻
-      url: https://www.nuceciwan121.xyz/
-      description: 库尔德斯坦新闻
-    - title: 库尔德斯坦报告
-      url: https://www.kurdistan-report.de/
-      description: 德国网站
-    - title: 库尔德斯坦的和平
-      url: https://www.peaceinkurdistancampaign.com/
-      description: 
-    - title: 罗贾瓦抵抗网
-      url: https://widerstandsvernetzung.org/
-      description: 瑞士网站
-    - title: ANF新闻
-      url: https://anfturkce.com/
-      description: 主要是库尔德斯坦的新闻
-    - title: 库尔德斯坦革命标志
-      url: https://www.revcurdistao.com.br/
-      description: 
-    - title: 革命新闻
-      url: http://devrimcidemokrasi.com/
-      description: 中东的革命新闻
-    - title: 人民新闻
-      url: https://info.jimmin.com/
-      description: 日本人民新闻网站，有期刊
     - title: 红凤凰新闻
       url: https://theredphoenixapl.org/
       description: 美国劳工党的新闻网站
@@ -213,9 +215,6 @@
     - title: 工会替代方案
       url: https://www.sindicatoast.org/
       description: 
-    - title: 为人民服务
-      url: http://www.demvolkedienen.org/
-      description: 德国“红旗委员会”的新闻网站
     - title: 红色新闻
       url: https://rotepresse.noblogs.org/
       description: 德国网站
