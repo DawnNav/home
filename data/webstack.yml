@@ -425,6 +425,9 @@
     - title: 印度《团结》报
       url: http://sanhati.com/
       description: 
+    - title: 反帝国主义网络
+      url: https://anti-imperialist.net/
+      description: 
     - title: 菲律宾叛乱新闻
       url: https://retiredanalyst.blogspot.com/
       description: 
@@ -642,9 +645,6 @@
         - title: 共产国际
           url: http://ciml.250x.com/index1.html
           description: 霍查派的国际组织
-        - title: 反帝革命运动
-          url: http://anti-imperialism.org/
-          description: 
         - title: 马克思列宁主义政党和组织国际会议
           url: https://cipoml.net/
           description: CIPOML
@@ -658,7 +658,7 @@
           url: https://ozgurlukgucleri.org/
           description: 
         - title: 库尔德斯坦联合革命
-          url: http://www.hbdh-online.org/
+          url: https://hbdh-online.com/
           description: 
         - title: 统一战线
           url: http://www.united-front.info/
@@ -678,9 +678,12 @@
         - title: 引导之光共产主义组织
           url: https://llco.org/
           description: LLCO
+        - title: 反帝革命运动
+          url: https://web.archive.org/web/20220629082739/http://anti-imperialism.org/
+          description: 网站已失效，这是存档
         - title: 抵抗美国领导的战争运动
           url: https://www.resistusledwarmovement.com/
-          description: 
+          description:           
         - title: 第四国际
           url: https://fourth.international/
           description: 托洛茨基派组织
@@ -983,7 +986,10 @@
         - title: 日本共产同-工人共产党
           url: http://www.bekkoame.ne.jp/i/ga3129/
           description: 属于日本共产同
-        - title: 越南共产党（毛主义）
+        - title: 为人民服务-越南
+          url: https://vidanphucvu.wordpress.com/
+          description: 
+        - title: 红色道路-越南
           url: http://conduongdo.wordpress.com/
           description: 
         - title: 越南左翼共产党
