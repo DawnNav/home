@@ -64,7 +64,7 @@
       description: 记者 jamahiriya 的采访
     - title: 贝尔布抵抗报告
       url: https://beirbua.medium.com/
-      description: jamahiriya 的 medium
+      description: jamahiriya 的 medium  
     - title: 人民论坛
       url: https://tribuneofthepeople.news/
       description: 已停更
@@ -401,9 +401,6 @@
     - title: Periódico Mural 杂志社
       url: https://muralperiodico.wordpress.com/
       description: 来自墨西哥
-    - title: 政治司令部
-      url: https://www.politicsincommand.info/
-      description: 
     - title: 无神论
       url: https://antigeitonies3.blogspot.com/
       description: 希腊网站
@@ -839,9 +836,18 @@
         - title: 纳萨尔革命
           url: http://naxalrevolution.blogspot.com/?m=0
           description: 已停更
-        - title: 革命学生阵线
+        - title: 革命学生阵线-RSF
           url: https://eimuhurtersf.wordpress.com
           description: 印度组织，主要在西孟加拉邦活动
+        - title: 民主学生协会-DSA
+          url: https://www.facebook.com/padantharam/
+          description: 印度组织，Democratic Students' Association
+        - title: 民主学生联盟-DSU
+          url: https://dsuatjnu.wordpress.com/about/
+          description: 已被禁止；尼赫鲁大学和德里大学的一个独立学生组织；全印革命学生联合会（AIRSF）的组成部分；Democratic Students' Union
+        - title: 民主学生联盟-DSF
+          url: https://www.facebook.com/dsfjnu/
+          description: 尼赫鲁大学独立左翼学生组织
         - title: 印度革命作家协会
           url: https://vasanthamegham.com/
           description: 
