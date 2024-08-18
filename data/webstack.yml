@@ -1479,6 +1479,9 @@
           description: 
         - title: 巴西人民团结中心
           url: https://cebraspo.blogspot.com/
+          description:
+        - title: 巴西革命人民学生运动
+          url: https://meprbrasil.com.br/
           description: 
         - title: 巴西民主之声
           url: https://jornalavozdemocratica.wordpress.com/2022/01/21/sobre-a-linha-da-associacao-democratica-brasileira/
@@ -1496,7 +1499,7 @@
           url: http://www.ligaoperaria.org.br/1/
           description: 
         - title: 巴西贫农联盟
-          url: http://www.resistenciacamponesa.com/
+          url: https://www.resistenciacamponesa.com/
           description: 
         - title: 巴西独立人民阵线
           url: https://frenteindependentepopular.wordpress.com/
@@ -1511,7 +1514,7 @@
           url: https://fdlp-ec.blogspot.com
           description: 
         - title: 哥伦比亚共产党（毛）
-          url: http://www.revolucionobrera.com/
+          url: https://www.revolucionobrera.com/
           description: 
         - title: 哥伦比亚共产党中央
           url: https://semanariovoz.com/
@@ -1529,7 +1532,7 @@
           url: https://vientodeleste.webnode.es/
           description: 
         - title: 乌拉圭革命共产党
-          url: http://pcr.org.uy/
+          url: https://pcr.org.uy/
           description: 
         - title: 玻利维亚革命共产党
           url: https://frpbolivia.wordpress.com/
@@ -1574,7 +1577,7 @@
           url: https://www.stalinsociety.com/news
           description: 
         - title: 加拿大革命学生运动
-          url: http://mer-rsm.ca
+          url: https://mer-rsm.ca
           description: 
         - title: 美国民主社会主义党
           url: https://www.dsausa.org/
@@ -1589,16 +1592,16 @@
           url: https://revcom.us/index.html
           description: 
         - title: 鲍勃·阿瓦基安
-          url: http://www.bobavakian.net/
+          url: https://www.bobavakian.net/
           description: 美革共领导人
         - title: 新共产主义
-          url: http://yenikomunizm.com/
+          url: https://yenikomunizm.com/
           description: 美革共网站
         - title: 美国劳工党
           url: https://www.americanpartyoflabor.com/
           description: 
         - title: 里士满共产主义者同盟
-          url: http://www.richmondcommunists.org
+          url: https://www.richmondcommunists.org
           description: 
         - title: 美国新共产党
           url: https://ncplc.wordpress.com
@@ -1649,7 +1652,7 @@
           url: https://ilpsaustralia.org/
           description: 国际人民斗争联盟澳大利亚分支
         - title: 自由西巴布亚运动
-          url: http://www.freewestpapua.org
+          url: https://www.freewestpapua.org
           description: 
         
           
@@ -1792,7 +1795,7 @@
   icon: fa-star
   links:
     - title: 阿吉特
-      url: http://ajithspage.in/
+      url: https://ajithspage.in/
       description: 一位出狱的印共毛领导人
     - title: 阿吉特的博客
       url: https://ajithspage.medium.com/
@@ -1853,7 +1856,7 @@
       url: https://linktr.ee/peoples.events
       description: 
     - title: 蒙帕拉蒂诺
-      url: http://mongpalatino.com/
+      url: https://mongpalatino.com/
       description: 菲律宾左翼活动家
     - title: 凯文·“拉希德”·约翰逊
       url: https://rashidmod.com/
@@ -1883,13 +1886,13 @@
       url: https://transform-network.net
       description: 
     - title: 朝鲜日本人村
-      url: http://www.yodogo-nihonjinmura.com
+      url: https://www.yodogo-nihonjinmura.com
       description: 
     - title: 反战越南老兵
       url: https://vvawai.org/
       description: 
     - title: 小读书书社
-      url: http://littlereadbooks.org
+      url: https://littlereadbooks.org
       description: 公益线下书摊
     - title: 小读书书社
       url: https://bookshop.org/shop/littlereadbooks/
@@ -1943,10 +1946,10 @@
       url: https://warriorpublications.wordpress.com/
       description: 
     - title: 红卫兵营
-      url: http://redguardcamp.blogspot.com/?m=1
+      url: https://redguardcamp.blogspot.com/?m=1
       description: 已停更
     - title: 迈向新的黎明
-      url: http://toanewdawn.blogspot.com/
+      url: https://toanewdawn.blogspot.com/
       description: 印度革命
     - title: Saketh Rajan
       url: https://web.archive.org/web/20210224150809/https://sites.google.com/site/sakethrajan/
@@ -1995,6 +1998,10 @@
     - title: 我的IP地址
       url: https://ipdata.co/
       description: 
+    - title: 图床
+      url: https://imgbb.com/
+      description: 
+      
 
 - taxonomy: 其他链接
   icon: fa-link
