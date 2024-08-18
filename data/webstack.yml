@@ -59,18 +59,6 @@
     - title: Indybay
       url: https://www.indybay.org/
       description: 
-    - title: 贝尔布抵抗报告
-      url: https://jamahiriya.substack.com/
-      description: 记者 jamahiriya 的采访
-    - title: 贝尔布抵抗报告
-      url: https://beirbua.medium.com/
-      description: jamahiriya 的 medium  
-    - title: 人民论坛
-      url: https://tribuneofthepeople.news/
-      description: 已停更
-    - title: 革命阵线
-      url: http://therevolutionaryfront.com/
-      description: 
     - title: 《学生军》
       url: https://chhatrafauj.wordpress.com/
       description: 印度革命学生阵线的刊物
@@ -125,6 +113,18 @@
     - title: 菲律宾的“剿共”新闻
       url: https://www.pna.gov.ph/articles/search?q=NPA
       description: 菲国家通讯社关于新人民军的报道
+    - title: 贝尔布抵抗报告
+      url: https://jamahiriya.substack.com/
+      description: 记者 jamahiriya 的采访
+    - title: 贝尔布抵抗报告
+      url: https://beirbua.medium.com/
+      description: jamahiriya 的 medium  
+    - title: 人民论坛
+      url: https://tribuneofthepeople.news/
+      description: 已停更
+    - title: 革命阵线
+      url: http://therevolutionaryfront.com/
+      description: 
     - title: 鼓动新闻
       url: https://web.archive.org/web/20210518044307/https://incendiarynews.com/
       description: 似乎已经停更
@@ -305,6 +305,12 @@
     - title: 巴基斯坦《阶级斗争》报
       url: https://www.struggle.pk/
       description: 
+    - title: 运动中的声音
+      url: https://voicesinmovement.org/
+      description: 一个旨在帮助培养对国家、资本、边界和其他有害机构所产生的秩序的抵抗空间
+    - title: 编制革命
+      url: https://tejiendorevolucion.org/
+      description: 为尊严生活，与资本抗争
     - title: 马列毛起义
       url: http://moufawad-paul.blogspot.com/?m=1
       description: 
@@ -747,7 +753,7 @@
         - title: NDFP-比科尔邦
           url: https://marojabanua.wordpress.com/
           description: 菲律宾民族民主阵线比科尔邦分支
-        - title: 菲律宾斗争人民之友
+        - title: 菲律宾斗争中的人民之友
           url: https://ffps.info/
           description: FFPS
         - title: 菲律宾学生联盟
