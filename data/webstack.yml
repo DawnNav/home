@@ -86,6 +86,12 @@
     - title: Özgür 未来报
       url: https://ozgurgelecek50.net/
       description: 
+    - title: 左翼日报1
+      url: https://IzquierdaDiario.es/
+      description: 左翼日报是西班牙一家反资本主义和革命左翼的数字日报。我们是国际网络的一部分，该网络由以 7 种语言出版的 15 家日报组成
+    - title: 左翼日报2
+      url: https://www.esquerradiari.cat/
+      description: 左翼日报是西班牙一家反资本主义和革命左翼的数字日报。我们是国际网络的一部分，该网络由以 7 种语言出版的 15 家日报组成 
     - title: 为人民服务
       url: http://www.demvolkedienen.org/
       description: 德国“红旗委员会”的新闻网站
@@ -209,6 +215,9 @@
     - title: 大众阵线
       url: https://www.popularfront.co/
       description: 
+    - title: 《逆流而上》
+      url: https://goingagainstthetide.org/
+      description: 一本描绘美国共产主义革命道路的期刊
     - title: 工人世界
       url: https://www.workers.org/
       description: 
@@ -429,7 +438,7 @@
       url: https://newworker.us/
       description: 
     - title: 十字军新闻
-      url: (https://thecrusader.news/
+      url: https://thecrusader.news/
       description: 
     - title: 加拿大《火星报》
       url: https://www.iskra-pcr-rcp.ca/en/home-2/
@@ -608,6 +617,9 @@
     - title: 日本共产同战旗派档案室
       url: http://0a2b3c.sakura.ne.jp/senki-b.html
       description: 
+    - title: 分析反对派的材料 (MAO) 
+      url: https://www.mao-projekt.de/
+      description: 它主要包含所谓的毛主义团体以及联邦德国和西柏林其他激进左翼组织的文本以及有关这些组织的信息
     - title: 德国红军旅文献
       url: https://web.archive.org/web/20230525015237/http://germanguerilla.com/
       description: 
@@ -1141,6 +1153,12 @@
         - title: 德国红色联盟
           url: https://roterbund.de
           description: 
+        - title: 左翼中心-斯图加特
+          url: https://www.linkeszentrumstuttgart.org/
+          description: 德国组织
+        - title: 反对战争和军事化的公开会议
+          url: https://otkm-stuttgart.org/
+          description: 德国斯图加特
         - title: 阶级教育
           url: https://www.klassenbildung.net
           description: 德国组织
@@ -1222,6 +1240,9 @@
         - title: 欧洲共产主义会议空间
           url: https://encuentrocomunista.org/
           description: 西班牙网站
+       - title: 工人革命党
+          url: https://somosrevolucion.es/ 
+          description: 工人革命党是西班牙的一个马列毛主义政党，《革命》报是工人革命党的机关报
         - title: 西班牙共产主义征途
           url: https://granmarchahaciaelcomunismo.wordpress.com/
           description: 
@@ -1568,6 +1589,9 @@
         - title: 马列毛革命研究小组
           url: https://www.mlmrsg.com
           description: 
+        - title: 新加拿大共产党
+          url: https://ncpc-npcc.ca/
+          description: 
         - title: 加拿大共产党（马列）
           url: https://cpcml.ca
           description: 
@@ -1589,6 +1613,9 @@
         - title: 加拿大革命学生运动
           url: https://mer-rsm.ca
           description: 
+        - title: 共产主义革命组织（美国）
+          url: https://ocrev.org/
+          description: OCR-Organization of Communist Revolutionaries 
         - title: 美国民主社会主义党
           url: https://www.dsausa.org/
           description: 
@@ -1825,6 +1852,13 @@
     - title: 革命研究网
       url: https://revolutionarystudy.network
       description: 
+    - title: 约瑟夫·斯卡利斯
+      url: https://www.josephscalice.com/
+      description: Josephs Calice 是历史学家、香港浸会大学助理教授，研究兴趣包括他加禄语文学、中苏分裂对东南亚的影响、全球毛主义，以及重新发掘菲律宾工人阶级和农民被遗忘的斗争
+    - title: 丹·伯杰
+      url: https://danberger.info/
+      description: Dan Berger 是一位作家和历史学家，研究领域包括行动主义、黑人运动和监狱活动。华盛顿大学博塞尔分校跨学科艺术与科学学院的比较民族研究教授兼教师发展与学术副院长，并在该校共同领导 UWB 劳工研究研讨会。他策划了华盛顿监狱历史项目，也是美国监狱报纸项目的顾问委员会成员。
+
     - title: 左翼图书（出版社/书店）
       url: https://leftwingbooks.net
       description: 
@@ -1848,6 +1882,9 @@
       description: 
     - title: 进度出版商
       url: https://fortschrittsverlag.de/
+      description: 
+    - title: 焚书书店
+      url: https://burningbooks.com/
       description: 
     - title: 土耳其“Partizan”出版社
       url: https://partizanarsiv5.net/
