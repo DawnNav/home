@@ -1,4 +1,4 @@
-baseURL = "https://dawnnav.github.io/home/"
+baseURL = "https://dawnnav.pages.dev"
 languageCode = "zh-CN"
 title = "黎明导航"
 theme = "hugo-webstack" 
@@ -11,7 +11,7 @@ copyright = "DawnNav"
 
 #网站信息，不显示，仅供搜索引擎参考
 [params]
-  keywords = "黎明导航,左翼,maoism,毛主义,斯大林,列宁,毛泽东,印共毛,马列毛主义,共产主义,社会主义,工人阶级,无产阶级,毛派,communism"
+  keywords = "黎明导航,左翼,maoism,毛主义,斯大林,列宁,马克思主义,毛泽东,印共毛,马列毛主义,共产主义,社会主义,工人阶级,无产阶级,毛派,communism"
   description = "黎明导航"
 
 #是否开启搜索栏，true开启，false关闭
