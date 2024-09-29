@@ -27,8 +27,11 @@
       url: http://devrimcidemokrasi.com/
       description: 
     - title: Redspark
-      url: http://www.redspark.nu/
+      url: https://www.redspark.nu/
       description: 
+    - title: 抵抗网络
+      url: https://t.me/PalestineResist
+      description: 巴勒斯坦抵抗新闻网络
     - title: 新民主报
       url: https://nuevademocracia.com.co/
       description: 哥伦比亚
@@ -337,7 +340,7 @@
       description: 
     - title: 观点 – 团结与抵抗报
       url: https://perspektive-online.net/
-      description: 德国网站
+      description: 德国网站 右倾
     - title: 青年世界
       url: https://www.jungewelt.de/
       description: 德国网站
@@ -667,9 +670,6 @@
         - title: 国际人民战斗联盟
           url: https://peoplesstruggle.org/en/
           description: ILPS
-        - title: 国际革命协调组织
-          url: https://www.icor.info/
-          description: ICOR
         - title: 马列毛共产国际
           url: https://ci-ic.org/
           description: ICL
@@ -679,6 +679,12 @@
         - title: 马克思列宁主义政党和组织国际会议
           url: https://cipoml.net/
           description: CIPOML
+        - title: 国际革命协调组织
+          url: https://www.icor.info/
+          description: ICOR
+        - title: 欧洲被压迫移民联合会
+          url: https://avegkon.com/
+          description: European Confederation of Oppressed Immigrants
         - title: 南亚革命会议
           url: http://bannedthought.net/International/CCOMPOSA/index.htm
           description: CCOMPOSA 
