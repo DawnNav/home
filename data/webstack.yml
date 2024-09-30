@@ -29,9 +29,12 @@
     - title: Redspark
       url: https://www.redspark.nu/
       description: 
+    - title: 抵抗战壕
+      url: https://t.me/ResistanceTrench
+      description: 巴勒斯坦相关抵抗新闻
     - title: 抵抗网络
       url: https://t.me/PalestineResist
-      description: 巴勒斯坦抵抗新闻网络
+      description: 巴勒斯坦相关抵抗新闻
     - title: 新民主报
       url: https://nuevademocracia.com.co/
       description: 哥伦比亚
@@ -1216,6 +1219,10 @@
         - title: 红色女权青年
           url: https://rfjberlin.noblogs.org/
           description: 德国组织
+        - title: 阶级斗争组织联合会
+          url: https://fkoonline.org/
+          description: 德国组织
+
         - title: 柏林红色青年
           url: https://rotejugend.blogspot.com/
           description: 德国组织，站点已停更
