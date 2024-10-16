@@ -486,6 +486,9 @@
 - taxonomy: 资料库
   icon: fa-star
   links: 
+    - title: 和谐历史档案馆
+      url: https://banned-historical-archives.github.io/
+      description: 中文网站
     - title: 工人阶级历史
       url: https://workingclasshistory.com/
       description: 
@@ -513,7 +516,6 @@
     - title: 秘鲁人民运动
       url: http://www.pagina-libre.org/
       description: 秘鲁人民运动文献
-      
     - title: 起义电子报
       url: https://electronicintifada.net/people/electronic-intifada
       description: 巴勒斯坦
@@ -526,9 +528,6 @@
     - title: JOJO 看报
       url: https://reader.jojokanbao.cn
       description: 红旗杂志、参考消息、人民日报、人民画报
-    - title: 和谐历史档案馆
-      url: https://banned-historical-archives.github.io/
-      description: 中文网站
     - title: 左翼网络博物馆
       url: https://zyom.site/
       description: 中文网站
