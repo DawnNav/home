@@ -1,5 +1,5 @@
 ---
-- taxonomy: 新闻
+- taxonomy: 新闻和媒体
   icon: fa-star
   links: 
     - title: Red.
@@ -128,6 +128,10 @@
     - title: 菲律宾的“剿共”新闻
       url: https://www.pna.gov.ph/articles/search?q=NPA
       description: 菲国家通讯社关于新人民军的报道
+    - title: 今日马克思主义频道
+      url: https://www.youtube.com/@Marxism_Today/videos
+      description: 现代马克思主义视角下的左翼政治内容（油管）
+      
     - title: 贝尔布抵抗报告
       url: https://jamahiriya.substack.com/
       description: 记者 jamahiriya 的采访
