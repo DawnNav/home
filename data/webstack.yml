@@ -832,6 +832,15 @@
         - title: 党派倡议-马列毛青年
           url: https://mlmyouth.com/
           description: 土耳其组织
+        - title: 先锋工人党-机关报《真理报》
+          url: https://gercekgazetesi1.net/
+          description: 土耳其托派政党：DIP-Devrimci İşçi Partisi
+        - title: 先锋工人党-革命马克思主义
+          url: http://www.devrimcimarksizm.net/tr
+          description: DIP的新闻网站1
+        - title: 红色地中海
+          url: http://redmed.org/
+          description: DIP的新闻网站2
         - title: 罗贾瓦公社革命
           url: https://komungucu.com/
           description: 
@@ -1890,7 +1899,12 @@
     - title: 丹·伯杰
       url: https://danberger.info/
       description: Dan Berger 是一位作家和历史学家，研究领域包括行动主义、黑人运动和监狱活动。华盛顿大学博塞尔分校跨学科艺术与科学学院的比较民族研究教授兼教师发展与学术副院长，并在该校共同领导 UWB 劳工研究研讨会。他策划了华盛顿监狱历史项目，也是美国监狱报纸项目的顾问委员会成员。
-
+    - title: 反帝国主义和犹太复国主义的巴勒斯坦之友
+      url: https://friendsofpalestine.info/
+      description: 英语
+    - title: 反帝国主义和犹太复国主义的巴勒斯坦之友
+      url: https://filistindostlari.org/
+      description: 土耳其语
     - title: 左翼图书（出版社/书店）
       url: https://leftwingbooks.net
       description: 
