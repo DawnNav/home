@@ -80,9 +80,6 @@
     - title: 新火花
       url: https://newspark.news
       description: 美国网站
-    - title: 左翼-希腊
-      url: https://left.gr/
-      description: 激进左翼联盟的新闻门户
     - title: “Patizan”媒体
       url: https://www.partizanmlm31.net/
       description: TKP/ML 的媒体
@@ -131,7 +128,12 @@
     - title: 今日马克思主义频道
       url: https://www.youtube.com/@Marxism_Today/videos
       description: 现代马克思主义视角下的左翼政治内容（油管）
-      
+    - title: 社区抵抗
+      url: https://antigeitonies3.blogspot.com/
+      description: 希腊网站，与希共-马列有关
+    - title: 左翼-希腊
+      url: https://left.gr/
+      description: 激进左翼联盟的新闻门户
     - title: 贝尔布抵抗报告
       url: https://jamahiriya.substack.com/
       description: 记者 jamahiriya 的采访
@@ -435,9 +437,6 @@
     - title: Periódico Mural 杂志社
       url: https://muralperiodico.wordpress.com/
       description: 来自墨西哥
-    - title: 社区抵抗
-      url: https://antigeitonies3.blogspot.com/
-      description: 希腊网站，与希共-马列有关
     - title: 拒绝法西斯宣言
       url: https://refusefascism.org/
       description: 
