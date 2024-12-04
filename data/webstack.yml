@@ -297,7 +297,7 @@
       url: https://passapalavra.info/
       description: 拉美时评
     - title: 南美人民报
-      url: http://elpueblo.cl/
+      url: https://periodicoelpueblo.cl/
       description: 
     - title: 粉碎法西斯传单
       url: https://afainfoblatt.com/
@@ -387,7 +387,7 @@
       url: https://cosmonautmag.com/
       description: 
     - title: 《划清界限》杂志
-      url: http://www.demarcations-journal.org/
+      url: https://www.demarcations-journal.org/
       description: 
     - title: 《更新》杂志
       url: https://updatesphilippines.info/index.php/en
@@ -396,7 +396,7 @@
       url: https://challenge-magazine.org/
       description: 
     - title: 外强中干/空心巨人
-      url: http://hollowcolossus.com/
+      url: http://www.hollowcolossus.com/
       description: 
     - title: 道路左侧
       url: https://michaelharrison.org.uk/
@@ -420,7 +420,7 @@
       url: https://maoismforthemasses.wordpress.com/
       description: 
     - title: 《O Comuneiro》 杂志
-      url: http://ocomuneiro.com/ii_index.htm
+      url: https://ocomuneiro.com/ii_index.htm
       description: 
     - title: 全心全意为人民服务
       url: https://serviraopovo.wordpress.com/
@@ -1204,8 +1204,8 @@
           url: https://rote-hilfe.de
           description: 德国组织
         - title: 红色医疗网络
-          url: http://xn--sanittsnetzwerk-4kb.de/
-          description: 德国组织
+          url: https://xn--sanittsnetzwerk-4kb.de/
+          description: 德国组织 Sanitätsnetzwerk
         - title: Out of Action
           url: https://outofaction.blackblogs.org/
           description: 德国心理援助组织
@@ -1214,7 +1214,7 @@
           description: 德国组织
           
         - title: 马格德堡社会革命性进攻
-          url: http://sromd.noblogs.org/
+          url: https://sromd.noblogs.org/
           description: 德国组织
         - title: 斯图加特革命行动
           url: https://revolutionaere-aktion.org/
@@ -1229,7 +1229,7 @@
           url: https://www.mlpd.de/
           description: MLPD
         - title: 造反青年
-          url: http://rebell.info/
+          url: https://rebell.info/
           description: MLPD 青年组织
         - title: 德国进步与革命力量国际主义联盟
           url: https://www.inter-liste.de/
@@ -1259,10 +1259,10 @@
           url: https://rotesfrauenkomitee.wordpress.com/
           description: 德国组织
         - title: 并肩作战
-          url: http://zusammenkaempfen.bplaced.net/
+          url: https://zusammenkaempfen.bplaced.net/
           description: 德国组织
         - title: 革命五一
-          url: http://revomai.de/
+          url: https://revomai.de/
           description: 德国组织
         - title: 社会斗争集体
           url: https://www.unten-gegen-oben.de/
@@ -1310,7 +1310,7 @@
           url: https://prariebrand.wordpress.com/
           description: 
         - title: 瑞典共产党协会
-          url: http://kommunisten.nu
+          url: https://kommunisten.nu
           description: 
         - title: 芬兰红色集体
           url: https://punalippu.org/
@@ -1342,20 +1342,20 @@
         - title: 红色倡议
           url: https://crvena.org/
           description: 克罗地亚和塞尔维亚的组织
-        - title: 比利时阶级斗争
-          url: http://www.classecontreclasse.be
-          description: 
+        - title: 阶级对阶级
+          url: https://stuut.info/
+          description: “阶级对阶级”是一个布鲁塞尔革命政治组织。其最终目标是共产主义，一个没有阶级、没有国家，人类和生物圈最终摆脱一切剥削、掠夺和统治关系的社会。这一最终目标不仅要求推翻资产阶级国家，而且要求出现能够建立新社会的组织形式和社会意识。
         - title: 比利时阶级斗争
           url: https://classecontreclasse.org/
-          description: 另一个网站
+          description: “阶级对阶级”组织的网站
         - title: 新意大利共产党
-          url: http://www.nuovopci.it/
+          url: https://www.nuovopci.it/
           description: 
         - title: 意大利共产党联合会
           url: https://www.carc.it/
           description: 内含分会链接
         - title: 无产阶级共产主义者
-          url: http://proletaricomunisti.blogspot.com/
+          url: https://proletaricomunisti.blogspot.com/
           description: 意大利组织
         - title: “新霸权”
           url: https://nuovaegemonia.com/
