@@ -271,10 +271,9 @@
         <!-- 黑暗和明亮模式 END -->
         <!-- 图标加载优化 -->
         $(document).ready(function() {
-            // 创建加载队列
+            // 创建图标加载队列
             const iconQueue = [];
-            const BATCH_SIZE = 5; // 每批加载数量
-            let isLoading = false;
+            const MAX_RETRIES = 3; // 最大重试次数
 
             // 收集所有需要加载的图标
             $(".geticon").each(function(index) {
@@ -288,7 +287,7 @@
                     element: $this,
                     domain: domain,
                     apiUrl: apiUrl,
-                    priority: index // 使用索引作为优先级
+                    retries: 0 // 重试计数器
                 });
 
                 // 初始化为加载状态
@@ -311,7 +310,6 @@
                         }
                     }
 
-                    // 加载图标
                     const img = new Image();
                     const startTime = Date.now();
 
@@ -329,38 +327,35 @@
                     };
 
                     img.onerror = () => {
-                        // 尝试直接从网站获取favicon
-                        const fallbackUrl = `https://${iconInfo.domain}/favicon.ico`;
-                        iconInfo.element.find('img').attr('data-src', fallbackUrl);
-                        resolve();
+                        // 如果未达到最大重试次数，则重试
+                        if (iconInfo.retries < MAX_RETRIES) {
+                            iconInfo.retries++;
+                            console.log(`Retrying ${iconInfo.domain}, attempt ${iconInfo.retries}`);
+                            setTimeout(() => {
+                                loadSingleIcon(iconInfo).then(resolve).catch(reject);
+                            }, 1000); // 延迟1秒后重试
+                        } else {
+                            // 超过重试次数，使用备用图标
+                            const fallbackUrl = `https://${iconInfo.domain}/favicon.ico`;
+                            iconInfo.element.find('img').attr('data-src', fallbackUrl);
+                            resolve();
+                        }
                     };
 
                     img.src = iconInfo.apiUrl;
                 });
             }
 
-            // 批量加载图标
-            async function loadIconBatch() {
-                if (isLoading || iconQueue.length === 0) return;
-                
-                isLoading = true;
-                const batch = iconQueue.splice(0, BATCH_SIZE);
-                
-                try {
-                    await Promise.all(batch.map(loadSingleIcon));
+            // 立即开始加载所有图标
+            Promise.all(iconQueue.map(loadSingleIcon))
+                .then(() => {
+                    console.log('All icons loaded successfully');
                     // 触发懒加载更新
                     $("img.lazy").lazyload();
-                } catch (error) {
-                    console.error('Error loading icon batch:', error);
-                }
-                
-                isLoading = false;
-                
-                // 如果队列中还有图标，继续加载下一批
-                if (iconQueue.length > 0) {
-                    setTimeout(loadIconBatch, 100); // 添加小延迟避免过度请求
-                }
-            }
+                })
+                .catch(error => {
+                    console.error('Error loading icons:', error);
+                });
 
             // 优化懒加载配置
             $("img.lazy").lazyload({
@@ -373,7 +368,7 @@
                 }
             });
 
-            // 使用 Intersection Observer 优化可见性检测
+            // 使用 Intersection Observer 优化显示
             if ('IntersectionObserver' in window) {
                 const imageObserver = new IntersectionObserver((entries, observer) => {
                     entries.forEach(entry => {
@@ -394,20 +389,6 @@
                     imageObserver.observe(img);
                 });
             }
-
-            // 开始加载第一批图标
-            loadIconBatch();
-
-            // 监听滚动事件，提前加载即将显示的图标
-            let scrollTimeout;
-            $(window).on('scroll', function() {
-                clearTimeout(scrollTimeout);
-                scrollTimeout = setTimeout(() => {
-                    if (!isLoading) {
-                        loadIconBatch();
-                    }
-                }, 150);
-            });
         });
 
         $(document).on('click', '.has-sub', function(){
