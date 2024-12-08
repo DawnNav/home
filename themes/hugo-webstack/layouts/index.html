@@ -296,7 +296,7 @@
                     .addClass('lazy');
             });
 
-            // 加载单个图标
+            // 修改 loadSingleIcon 函数，添加自动更新机制
             function loadSingleIcon(iconInfo) {
                 return new Promise((resolve, reject) => {
                     // 检查缓存
@@ -305,6 +305,8 @@
                         const {url, timestamp} = JSON.parse(cached);
                         if (Date.now() - timestamp < 7 * 24 * 60 * 60 * 1000) {
                             iconInfo.element.find('img').attr('data-src', url);
+                            // 立即更新显示
+                            updateImageDisplay(iconInfo.element.find('img')[0]);
                             resolve();
                             return;
                         }
@@ -314,30 +316,31 @@
                     const startTime = Date.now();
 
                     img.onload = () => {
-                        // 缓存成功加载的图标
                         localStorage.setItem('favicon_' + iconInfo.domain, JSON.stringify({
                             url: iconInfo.apiUrl,
                             timestamp: Date.now()
                         }));
                         
                         iconInfo.element.find('img').attr('data-src', iconInfo.apiUrl);
+                        // 立即更新显示
+                        updateImageDisplay(iconInfo.element.find('img')[0]);
                         const loadTime = Date.now() - startTime;
                         console.log(`Icon loaded for ${iconInfo.domain}: ${loadTime}ms`);
                         resolve();
                     };
 
                     img.onerror = () => {
-                        // 如果未达到最大重试次数，则重试
                         if (iconInfo.retries < MAX_RETRIES) {
                             iconInfo.retries++;
                             console.log(`Retrying ${iconInfo.domain}, attempt ${iconInfo.retries}`);
                             setTimeout(() => {
                                 loadSingleIcon(iconInfo).then(resolve).catch(reject);
-                            }, 1000); // 延迟1秒后重试
+                            }, 1000);
                         } else {
-                            // 超过重试次数，使用备用图标
                             const fallbackUrl = `https://${iconInfo.domain}/favicon.ico`;
                             iconInfo.element.find('img').attr('data-src', fallbackUrl);
+                            // 立即更新显示
+                            updateImageDisplay(iconInfo.element.find('img')[0]);
                             resolve();
                         }
                     };
@@ -345,6 +348,47 @@
                     img.src = iconInfo.apiUrl;
                 });
             }
+
+            // 添加图片显示更新函数
+            function updateImageDisplay(img) {
+                if (img.dataset.src) {
+                    const newImg = new Image();
+                    newImg.onload = function() {
+                        img.src = img.dataset.src;
+                    };
+                    newImg.src = img.dataset.src;
+                }
+            }
+
+            // 修改 Intersection Observer 配置
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            updateImageDisplay(img);
+                        }
+                    });
+                }, {
+                    rootMargin: '50px 0px',
+                    threshold: 0.01
+                });
+
+                document.querySelectorAll('img.lazy').forEach(img => {
+                    imageObserver.observe(img);
+                });
+            }
+
+            // 添加定期检查更新机制
+            function checkVisibleImages() {
+                const visibleImages = document.querySelectorAll('img.lazy:not([loading])');
+                visibleImages.forEach(img => {
+                    updateImageDisplay(img);
+                });
+            }
+
+            // 每隔一段时间检查可见图片的更新
+            setInterval(checkVisibleImages, 1000);
 
             // 立即开始加载所有图标
             Promise.all(iconQueue.map(loadSingleIcon))
@@ -367,28 +411,6 @@
                     $(this).attr('src', '/images/default-icon.png');
                 }
             });
-
-            // 使用 Intersection Observer 优化显示
-            if ('IntersectionObserver' in window) {
-                const imageObserver = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            const img = entry.target;
-                            if (img.dataset.src) {
-                                img.src = img.dataset.src;
-                                observer.unobserve(img);
-                            }
-                        }
-                    });
-                }, {
-                    rootMargin: '50px 0px',
-                    threshold: 0.01
-                });
-
-                document.querySelectorAll('img.lazy').forEach(img => {
-                    imageObserver.observe(img);
-                });
-            }
         });
 
         $(document).on('click', '.has-sub', function(){
