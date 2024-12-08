@@ -270,12 +270,30 @@
         });
         <!-- 黑暗和明亮模式 END -->
         <!-- 利用FaviconKit API 获取网址icon START --> 
+        function getFavicon(domain) {
+            // 检查localStorage缓存
+            const cached = localStorage.getItem('favicon_' + domain);
+            if (cached) {
+                return cached;
+            }
+            
+            const apiUrl = "https://api.faviconkit.com/" + domain + "/64";
+            
+            // 缓存图标URL
+            fetch(apiUrl).then(() => {
+                localStorage.setItem('favicon_' + domain, apiUrl);
+            });
+            
+            return apiUrl;
+        }
+
         $(".geticon").each(function(){
             var url = $(this).find('a').attr('href');
             var domain = url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
-            var apiUrl = "https://api.faviconkit.com/" + domain + "/128"; // 使用 FaviconKit API
+            var iconUrl = getFavicon(domain);
+            
             if ($(this).find('img').attr('data-src').length === 0) {
-                $(this).find('img').attr('data-src', apiUrl);
+                $(this).find('img').attr('data-src', iconUrl);
             }
         })
         <!-- END 利用FaviconKit API 获取网址icon START-->
@@ -387,5 +405,16 @@
 {{ if .Site.Params.pinyin.enable }}<script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.19.0/dist/index.js"></script>{{ end }}
 <script type='text/javascript' src='./js/local-search.js'></script>
     <!-- Cloudflare Web Analytics --> <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "80765c10e2494d798b4d53d00b739c3e"}'></script> <!-- End Cloudflare Web Analytics -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-lazyload@1.9.7/jquery.lazyload.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("img.lazy").lazyload({
+                threshold : 200,  // 提前200px加载
+                effect : "fadeIn", // 淡入效果
+                failure_limit : 10 // 同时加载的数量
+            });
+        });
+    </script>
 </body>
 </html>
