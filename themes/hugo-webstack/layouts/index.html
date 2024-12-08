@@ -269,87 +269,146 @@
             }        
         });
         <!-- 黑暗和明亮模式 END -->
-        <!-- 利用FaviconKit API 获取网址icon START --> 
-        function getFavicon(domain) {
-            // 检查localStorage缓存
-            const cached = localStorage.getItem('favicon_' + domain);
-            if (cached) {
-                return cached;
-            }
-            
-            const apiUrl = "https://api.faviconkit.com/" + domain + "/64";
-            
-            // 缓存图标URL
-            fetch(apiUrl).then(() => {
-                localStorage.setItem('favicon_' + domain, apiUrl);
-            });
-            
-            return apiUrl;
-        }
+        <!-- 图标加载优化 -->
+        $(document).ready(function() {
+            // 创建加载队列
+            const iconQueue = [];
+            const BATCH_SIZE = 5; // 每批加载数量
+            let isLoading = false;
 
-        $(".geticon").each(function(){
-            var $this = $(this);
-            var url = $this.find('a').attr('href');
-            var domain = url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
-            var apiUrl = "https://api.faviconkit.com/" + domain + "/64";
-            
-            // 使用Promise处理图标加载
-            function loadIcon() {
-                return new Promise((resolve, reject) => {
-                    var img = new Image();
-                    img.onload = () => resolve(apiUrl);
-                    img.onerror = () => {
-                        // 如果FaviconKit失败，尝试直接从网站获取favicon
-                        var fallbackUrl = `https://${domain}/favicon.ico`;
-                        resolve(fallbackUrl);
-                    };
-                    img.src = apiUrl;
+            // 收集所有需要加载的图标
+            $(".geticon").each(function(index) {
+                const $this = $(this);
+                const url = $this.find('a').attr('href');
+                const domain = url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+                const apiUrl = "https://api.faviconkit.com/" + domain + "/64";
+                
+                // 将图标信息添加到队列
+                iconQueue.push({
+                    element: $this,
+                    domain: domain,
+                    apiUrl: apiUrl,
+                    priority: index // 使用索引作为优先级
                 });
-            }
-            
-            // 处理图标加载
-            if ($this.find('img').attr('data-src').length === 0) {
+
+                // 初始化为加载状态
                 $this.find('img')
                     .attr('src', '/images/loading.gif')
                     .addClass('lazy');
-                    
-                loadIcon().then(iconUrl => {
-                    $this.find('img').attr('data-src', iconUrl);
-                });
-            }
-        });
+            });
 
-        // 优化懒加载配置
-        $("img.lazy").lazyload({
-            threshold: 200,
-            effect: "fadeIn",
-            failure_limit: 10,
-            skip_invisible: false,
-            // 添加加载失败处理
-            onerror: function() {
-                $(this).attr('src', '/images/default-icon.png');
-            }
-        });
-
-        // 使用Intersection Observer优化懒加载
-        if ('IntersectionObserver' in window) {
-            const imageObserver = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const img = entry.target;
-                        img.src = img.dataset.src;
-                        observer.unobserve(img);
+            // 加载单个图标
+            function loadSingleIcon(iconInfo) {
+                return new Promise((resolve, reject) => {
+                    // 检查缓存
+                    const cached = localStorage.getItem('favicon_' + iconInfo.domain);
+                    if (cached) {
+                        const {url, timestamp} = JSON.parse(cached);
+                        if (Date.now() - timestamp < 7 * 24 * 60 * 60 * 1000) {
+                            iconInfo.element.find('img').attr('data-src', url);
+                            resolve();
+                            return;
+                        }
                     }
+
+                    // 加载图标
+                    const img = new Image();
+                    const startTime = Date.now();
+
+                    img.onload = () => {
+                        // 缓存成功加载的图标
+                        localStorage.setItem('favicon_' + iconInfo.domain, JSON.stringify({
+                            url: iconInfo.apiUrl,
+                            timestamp: Date.now()
+                        }));
+                        
+                        iconInfo.element.find('img').attr('data-src', iconInfo.apiUrl);
+                        const loadTime = Date.now() - startTime;
+                        console.log(`Icon loaded for ${iconInfo.domain}: ${loadTime}ms`);
+                        resolve();
+                    };
+
+                    img.onerror = () => {
+                        // 尝试直接从网站获取favicon
+                        const fallbackUrl = `https://${iconInfo.domain}/favicon.ico`;
+                        iconInfo.element.find('img').attr('data-src', fallbackUrl);
+                        resolve();
+                    };
+
+                    img.src = iconInfo.apiUrl;
                 });
-            }, {
-                rootMargin: '50px 0px',
-                threshold: 0.01
+            }
+
+            // 批量加载图标
+            async function loadIconBatch() {
+                if (isLoading || iconQueue.length === 0) return;
+                
+                isLoading = true;
+                const batch = iconQueue.splice(0, BATCH_SIZE);
+                
+                try {
+                    await Promise.all(batch.map(loadSingleIcon));
+                    // 触发懒加载更新
+                    $("img.lazy").lazyload();
+                } catch (error) {
+                    console.error('Error loading icon batch:', error);
+                }
+                
+                isLoading = false;
+                
+                // 如果队列中还有图标，继续加载下一批
+                if (iconQueue.length > 0) {
+                    setTimeout(loadIconBatch, 100); // 添加小延迟避免过度请求
+                }
+            }
+
+            // 优化懒加载配置
+            $("img.lazy").lazyload({
+                threshold: 200,
+                effect: "fadeIn",
+                failure_limit: 10,
+                skip_invisible: false,
+                onerror: function() {
+                    $(this).attr('src', '/images/default-icon.png');
+                }
             });
 
-            document.querySelectorAll('img.lazy').forEach(img => {
-                imageObserver.observe(img);
+            // 使用 Intersection Observer 优化可见性检测
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            if (img.dataset.src) {
+                                img.src = img.dataset.src;
+                                observer.unobserve(img);
+                            }
+                        }
+                    });
+                }, {
+                    rootMargin: '50px 0px',
+                    threshold: 0.01
+                });
+
+                document.querySelectorAll('img.lazy').forEach(img => {
+                    imageObserver.observe(img);
+                });
+            }
+
+            // 开始加载第一批图标
+            loadIconBatch();
+
+            // 监听滚动事件，提前加载即将显示的图标
+            let scrollTimeout;
+            $(window).on('scroll', function() {
+                clearTimeout(scrollTimeout);
+                scrollTimeout = setTimeout(() => {
+                    if (!isLoading) {
+                        loadIconBatch();
+                    }
+                }, 150);
             });
-        }
+        });
 
         $(document).on('click', '.has-sub', function(){
             var _this = $(this)
