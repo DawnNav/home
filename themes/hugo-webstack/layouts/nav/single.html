@@ -275,9 +275,16 @@
         $(".geticon").each(function(){
             var url = $(this).find('a').attr('href');
             var domain = url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
-            var apiUrl = "https://api.faviconkit.com/" + domain + "/128"; // 使用 FaviconKit API
+            var apiUrl = "https://api.faviconkit.com/" + domain + "/64";
+            
+            // 预加载图标
+            var img = new Image();
+            img.src = apiUrl;
+            
             if ($(this).find('img').attr('data-src').length === 0) {
-                $(this).find('img').attr('data-src', apiUrl);
+                $(this).find('img')
+                    .attr('data-src', apiUrl)
+                    .attr('src', '/images/loading.gif');
             }
         })
         <!-- END 利用FaviconKit API 获取网址icon START-->
