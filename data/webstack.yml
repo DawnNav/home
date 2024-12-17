@@ -27,7 +27,7 @@
       url: https://www.nouvelleepoque.fr/
       description: 法国组织
     - title: 革命民主新闻
-      url: https://devrimcidemokrasi.com/
+      url: https://www.devrimcidemokrasi3.org/
       description: 
     - title: Redspark
       url: https://www.redspark.nu/
@@ -53,7 +53,7 @@
     - title: 共产主义新闻
       url: https://www.communistnews.net/
       description: 
-    - title: 新闻简报
+    - title: 木烟博客-新闻简报
       url: https://woodsmokeblog.wordpress.com/
       description: 
     - title: 红旗新闻 
@@ -67,34 +67,31 @@
       description: 德国团体，研究文革理论
     - title: Indybay
       url: https://www.indybay.org/
-      description: 
+      description: 旧金山湾区独立媒体中心
     - title: 《学生军》
       url: https://chhatrafauj.wordpress.com/
       description: 印度革命学生阵线的刊物
     - title: 《歌剧》杂志
       url: https://revistaopera.operamundi.uol.com.br/
-      description:   
+      description: 
     - title: Material杂志
       url: https://materialjournal.net/
       description: 
     - title: 欧洲新闻中心
-      url: https://www.avrupahaber10.org/
+      url: https://www.avrupahaber11.org/
       description: 
-    - title: BOIYEMPO
+    - title: BOIYEMPO 博客
       url: https://blogdaboitempo.com.br/
-      description: 巴西网站
-    - title: 新火花
-      url: https://newspark.news
-      description: 美国网站
-    - title: “Patizan”媒体
+      description: 巴西网站 - 拉美最大批判思想出版社
+    - title: “Patizan”
       url: https://www.partizanmlm31.net/
       description: TKP/ML 的媒体
     - title: “Patizan”媒体
       url: https://www.partizanmedya13.net/
-      description: TKP/ML 的媒体（另一个网站）
+      description: TKP/ML 的媒体
     - title: Özgür 未来报
       url: https://ozgurgelecek50.net/
-      description: 
+      description: 土耳其语
     - title: 左翼日报1
       url: https://IzquierdaDiario.es/
       description: 左翼日报是西班牙一家反资本主义和革命左翼的数字日报。我们是国际网络的一部分，该网络由以 7 种语言出版的 15 家日报组成
@@ -108,8 +105,8 @@
       url: https://oncupartizan6.com/
       description: MKP 的新闻网站
     - title: 工农解放
-      url: https://ikk-online16.net/
-      description: 土耳其网站
+      url: https://ikk-online17.net/
+      description: TKP/ML 的网站
     - title: 菲律宾网上革命中心
       url: https://philippinerevolution.nu/
       description: 菲共门户
@@ -561,6 +558,9 @@
     - title: Qing的Alist
       url: http://82.157.127.159:5244/
       description: 100G+的中文资料
+    - title: Alist 马列毛文献
+      url: https://bookstore.cmlmuf.top/
+      description: 
     - title: 马列毛主义图书馆
       url: http://library.redspark.nu/Main_Page
       description: redspark的文库站
@@ -843,6 +843,9 @@
         - title: 党派倡议-马列毛青年
           url: https://mlmyouth.com/
           description: 土耳其组织
+        - title: 民主权利平台（DHP）
+          url: https://demokratikhaklarplatformu.org/
+          description: 土耳其组织，致力于发展新的民主文化和斗争前沿，引领人类走向最终解放
         - title: 先锋工人党-机关报《真理报》
           url: https://gercekgazetesi1.net/
           description: 土耳其托派政党：DIP-Devrimci İşçi Partisi
@@ -1781,6 +1784,9 @@
         - title: 美国共产主义毛主义集团
           url: https://maoistcommunistgroup.com/
           description: 
+        - title: 新火花
+          url: https://newspark.news
+          description: 美国布尔什维克委员会（ACB）临时中央委员会（PCC）的中央机关
         - title: 美国共产党重建委员会
           url: https://maoistcultexposed.wordpress.com
           description: 
