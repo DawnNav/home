@@ -20,7 +20,7 @@ data: # Navigation links below
       description: International Maoist news and reports on people's struggles.
     - title: Brazil's "New Democracy"
       url: https://anovademocracia.com.br/
-      description: Analyzing society and advocating for new democracy: new economy, new politics, and new culture.
+      description: Analyzing society and advocating for new democracy - new economy, new politics, and new culture.
     - title: Red Aid
       url: https://secoursrouge.org/
       description: A Swiss website sharing revolutionary news and solidarity campaigns.
@@ -558,7 +558,7 @@ data: # Navigation links below
       description: Chinese website
     - title: Dialectical Materialism Library
       url: https://materialisme-dialectique.com/
-      description: Former site: lesmaterialistes.com
+      description: Former site is lesmaterialistes.com
     - title: Maoist Legacy
       url: https://maoistlegacy.de/
       description: German/Includes Chinese
@@ -858,7 +858,7 @@ data: # Navigation links below
           description: Turkish organization committed to fostering a new democratic culture and frontline struggle for humanity's ultimate liberation.
         - title: Vanguard Workers Party - Official Newspaper "Truth"
           url: https://gercekgazetesi1.net/
-          description: Turkish Trotskyist party: DIP - Devrimci İşçi Partisi.
+          description: Turkish Trotskyist party DIP - Devrimci İşçi Partisi.
         - title: Vanguard Workers Party - Revolutionary Marxism
           url: http://www.devrimcimarksizm.net/tr
           description: News website of DIP.
@@ -1041,7 +1041,7 @@ data: # Navigation links below
           description: 
         - title: Workers in Palestine
           url: https://www.workersinpalestine.org/
-          description: Palestinian labor solidarity organization: "We are a group of Palestinian unions and activists committed to exposing the longstanding exploitation of Palestinian workers by Israel."
+          description: Palestinian labor solidarity organization "We are a group of Palestinian unions and activists committed to exposing the longstanding exploitation of Palestinian workers by Israel."
         - title: Popular Front for the Liberation of Palestine
           url: http://pflp.ps/#mobile-menu
           description: PFLP.
@@ -1308,7 +1308,7 @@ data: # Navigation links below
           description: German organization.
         - title: New Peace Movement
           url: https://neuefriedensbewegung.de/
-          description: German organization: anti-fascism and war.
+          description: German organization - anti-fascism and war.
         - title: Social Revolutionary Action
           url: https://sozialrevolutionaere-aktion.com
           description: German organization.
@@ -1317,7 +1317,7 @@ data: # Navigation links below
           description: German Maoist youth organization.
         - title: Communist Organization
           url: https://kommunistische.org/
-          description: KO: German organization.
+          description: KO - German organization.
         - title: European Communist Encounter Space
           url: https://encuentrocomunista.org/
           description: Spanish site.
@@ -1353,7 +1353,7 @@ data: # Navigation links below
           description: 
         - title: Finnish Red Collective
           url: https://punalippu.org/
-          description: Old site: punalippu.noblogs.org
+          description: Old site is punalippu.noblogs.org
         - title: Serve the People - Norway
           url: https://maoist.home.blog/
           description: 
@@ -1383,7 +1383,7 @@ data: # Navigation links below
           description: Organization in Croatia and Serbia.
         - title: Class Against Class
           url: https://stuut.info/
-          description: "Class Against Class" is a revolutionary political organization based in Brussels. Its ultimate goal is communism: a society without classes or states, free of exploitation, domination, and plundering relationships. This goal requires the overthrow of the bourgeois state and new forms of organization and consciousness.
+          description: "Class Against Class" is a revolutionary political organization based in Brussels. Its ultimate goal is communism - a society without classes or states, free of exploitation, domination, and plundering relationships. This goal requires the overthrow of the bourgeois state and new forms of organization and consciousness.
         - title: Class Struggle Belgium
           url: https://classecontreclasse.org/
           description: Website of "Class Against Class" organization.
@@ -1569,13 +1569,13 @@ data: # Navigation links below
           description: A member organization of ANTARSYA.
         - title: International Communist Organization
           url: https://okde.org/index.php/
-          description: Spartakos: A member organization of ANTARSYA.
+          description: Spartakos -A member organization of ANTARSYA.
         - title: International Communist Organization
           url: https://www.okde.gr/
           description: Another website of the same organization.
         - title: Popular Unity Party
           url: https://laiki-enotita.gr/
-          description: LAE: A broadly right-leaning coalition organization.
+          description: LAE -A broadly right-leaning coalition organization.
         - title: Anticapitalist Leftist Organization
           url: https://aras.gr/
           description: A member organization of Popular Unity.
@@ -1653,7 +1653,7 @@ data: # Navigation links below
           description: 
         - title: Brazilian Popular Women's Movement
           url: https://movimentofemininopopular.com.br/
-          description: Former website: https://brasilmfp.blogspot.com
+          description: Former website is https://brasilmfp.blogspot.com
         - title: Brazilian Center for Popular Solidarity
           url: https://cebraspo.blogspot.com/
           description: 
@@ -1932,7 +1932,7 @@ data: # Navigation links below
       description: 
     - title: Defend Marxism
       url: https://www.marxist.com/
-      description: Trotskyist organization: International Marxist Tendency (with Chinese page)
+      description: Trotskyist organization International Marxist Tendency (with Chinese page)
     - title: Spark - International Marxist Tendency
       url: https://marxist.tw/
       description: International Marxist Tendency - Taiwan branch
