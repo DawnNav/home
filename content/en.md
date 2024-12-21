@@ -1,507 +1,510 @@
 ---
-type: nav
-title: DawnNav
-search:
-  enable: false
-edit:
-  enable: false
+type: nav # Fixed value "nav" for generating navigation page
+title: DawnNav # If left blank, the site title will be used
+search: # Search bar
+  enable: false # Set to true to show, false to hide
+edit: # Online editing
+  enable: false # Set to true to show, false to hide
   url: https://github.com/DawnNav/home/blob/main/content/EN.md
 
-data:
-  - taxonomy: News & Media
-    icon: fa-star
-    links:
-      - title: Red.
-        url: https://thered.stream/
-        description: Sharing revolutionary and educational digital content.
-      - title: Red Herald
-        url: https://redherald.org/
-        description: International Maoist news and reports on people's struggles.
-      - title: Brazil's "New Democracy"
-        url: https://anovademocracia.com.br/
-        description: Analyzing society and advocating for new democracy - new economy, new politics, and new culture.
-      - title: Red Aid
-        url: https://secoursrouge.org/
-        description: A Swiss website sharing revolutionary news and solidarity campaigns.
-      - title: Red Dazibao
-        url: https://dazibaorojo08.blogspot.com/
-        description: A blog focusing on Maoist-inspired revolutionary content.
-      - title: Maoist Road
-        url: https://maoistroad.blogspot.com/
-        description: A platform promoting global Maoist ideology and revolutionary movements.
-      - title: PeaceYang Talk
-        url: https://peaceyang.online/
-        description: PeaceYang Talk – a space for discussing revolutionary ideas.
-      - title: New Epoch
-        url: https://www.nouvelleepoque.fr/
-        description: A French organization promoting revolutionary change.
-      - title: Revolutionary Democracy News
-        url: https://www.devrimcidemokrasi3.org/
-        description: A news site sharing updates on revolutionary movements in the Middle East and beyond.
-      - title: Redspark
-        url: https://redspark.nu/
-        description: A website dedicated to revolutionary news and global Maoist updates.
-      - title: Resistance Trench
-        url: https://t.me/ResistanceTrench
-        description: News related to Palestinian resistance efforts.
-      - title: Palestine Resist
-        url: https://t.me/PalestineResist
-        description: A channel sharing updates on Palestinian resistance movements.
-      - title: Colombia's "New Democracy"
-        url: https://nuevademocracia.com.co/
-        description: News on revolutionary activities and struggles in Colombia.
-      - title: Turkey's "New Democracy"
-        url: https://www.yenidemokrasi34.net
-        description: News and updates from Turkey's revolutionary movements.
-      - title: Dialogue of Civilizations
-        url: https://ahewar.org/
-        description: A platform for debate hosted by Marxists in the Middle East.
-      - title: Defend Communism
-        url: https://www.idcommunism.com/
-        description: A Greek website defending and promoting communist ideals.
-      - title: Communist News
-        url: https://www.communistnews.net/
-        description: A website sharing news and insights on global communist struggles.
-      - title: Woodsmoke Blog
-        url: https://woodsmokeblog.wordpress.com/
-        description: A blog sharing brief revolutionary news updates.
-      - title: RF News
-        url: https://www.rf-news.de/
-        description: News portal of the MLPD in Germany.
-      - title: RF News Austria
-        url: https://www.rotefahne.at/
-        description: An Austrian website allied with Germany's "Red Flag" committee.
-      - title: Infrared Media
-        url: https://infrarot49.wordpress.com/
-        description: A German group analyzing the Cultural Revolution's theories.
-      - title: Indybay
-        url: https://www.indybay.org/
-        description: Independent media center for the San Francisco Bay Area.
-      - title: Chhatra Fauj
-        url: https://chhatrafauj.wordpress.com/
-        description: Publication of India's Revolutionary Student Front.
-      - title: Revista Opera
-        url: https://revistaopera.operamundi.uol.com.br/
-        description: A Brazilian magazine offering revolutionary perspectives.
-      - title: Material Journal
-        url: https://materialjournal.net/
-        description: A publication focusing on revolutionary themes.
-      - title: European News Center
-        url: https://www.avrupahaber11.org/
-        description: A news website sharing insights on European revolutionary movements.
-      - title: Boiyempo Blog
-        url: https://blogdaboitempo.com.br/
-        description: A Brazilian platform from Latin America's largest critical thought publisher.
-      - title: Partizan
-        url: https://www.partizanmlm31.net/
-        description: Media for TKP/ML's revolutionary activities.
-      - title: Partizan Media
-        url: https://www.partizanmedya13.net/
-        description: Another media outlet associated with TKP/ML.
-      - title: Özgür Gelecek
-        url: https://ozgurgelecek50.net/
-        description: A Turkish-language revolutionary news platform.
-      - title: Left Voice 1
-        url: https://IzquierdaDiario.es/
-        description: A Spanish anti-capitalist and revolutionary left-wing daily.
-      - title: Left Voice 2
-        url: https://www.esquerradiari.cat/
-        description: A Catalan anti-capitalist and revolutionary left-wing daily.
-      - title: Serve the People
-        url: https://www.demvolkedienen.org/
-        description: A news site from Germany's "Red Flag Committee."
-      - title: Vanguard Party - Revolutionary Democracy
-        url: https://oncupartizan6.com/
-        description: News site for the MKP revolutionary movement.
-      - title: Workers and Peasants Liberation
-        url: https://ikk-online17.net/
-        description: A website for TKP/ML's revolutionary agenda.
-      - title: Philippine Revolution Web Central
-        url: https://philippinerevolution.nu/
-        description: Official portal of the Communist Party of the Philippines.
-      - title: Philippine Revolution Web Central Backup
-        url: https://prwcinfonewsroom.wordpress.com/
-        description: A backup site for the CPP's official portal.
-      - title: Friends of the Filipino People
-        url: https://revolucionfilipina.com/
-        description: A site focusing on revolutionary updates from the Philippines.
-      - title: Negros Revolutionary Portal
-        url: https://negrosrevportal.wordpress.com/
-        description: Updates on revolutionary activities in the Negros region of the Philippines.
-      - title: Negros Revolutionary Portal (Tumblr)
-        url: https://www.tumblr.com/strevportal
-        description: Social media account for revolutionary updates in Negros.
-      - title: Bulusan Radio
-        url: https://radyobulusan.wordpress.com/
-        description: Official radio of the Sorsogon Revolutionary Movement.
-      - title: Anti-NPA News
-        url: https://www.pna.gov.ph/articles/search?q=NPA
-        description: Reports from the Philippine News Agency on the New People's Army.
-      - title: Marxism Today
-        url: https://www.youtube.com/@Marxism_Today/videos
-        description: YouTube channel with leftist political content from a modern Marxist perspective.
-      - title: Invisible World
-        url: https://atheatoskosmosps.blogspot.com/
-        description: A column by Greek Marxists exploring untold stories and political commentary.
-      - title: Community Resistance
-        url: https://antigeitonies3.blogspot.com/
-        description: A Greek site associated with leftist resistance movements.
-      - title: Left Greece
-        url: https://left.gr/
-        description: News portal of the Greek radical left.
-      - title: Beir Bua Resistance Report
-        url: https://jamahiriya.substack.com/
-        description: Reports and interviews by journalist Jamahiriya on resistance movements.
-      - title: Beir Bua Resistance Report (Medium)
-        url: https://beirbua.medium.com/
-        description: Resistance-focused articles by journalist Jamahiriya on Medium.
-      - title: Tribune of the People
-        url: https://tribuneofthepeople.news/
-        description: A now-inactive platform for revolutionary news and updates.
-      - title: Revolutionary Front
-        url: https://therevolutionaryfront.com/
-        description: A site promoting revolutionary activism and ideology.
-      - title: Incendiary News
-        url: https://web.archive.org/web/20210518044307/https://incendiarynews.com/
-        description: An archived website of revolutionary content.
-      - title: Politsturm
-        url: https://us.politsturm.com/
-        description: A Marxist-Leninist platform offering revolutionary news and analysis.
-      - title: Struggle-La Lucha
-        url: https://www.struggle-la-lucha.org/
-        description: A news site covering revolutionary and anti-capitalist movements.
-      - title: Red Flag Brazil
-        url: https://bandeiravermelhabr.wordpress.com/
-        description: A blog focusing on revolutionary struggles in Brazil.
-      - title: The World Can't Wait
-        url: https://www.worldcantwait.net/
-        description: A platform advocating for urgent action against imperialism and exploitation.
-      - title: To A New Dawn
-        url: https://toanewdawn.in/magazine/
-        description: An Indian revolutionary magazine advocating for systemic change.
-      - title: Nazariya Magazine
-        url: https://nazariyamagazine.in/
-        description: An Indian publication focused on revolutionary thought and action.
-      - title: Mazdoor Bigul
-        url: https://www.mazdoorbigul.net/
-        description: A platform sharing revolutionary content related to India's labor movement.
-      - title: The Anvil
-        url: https://anvilmag.in/
-        description: An Indian Maoist magazine offering counter-mainstream Maoist perspectives.
-      - title: Era Toka Khabar
-        url: https://eratokhabar.com/
-        description: A Nepalese news outlet focused on revolutionary issues.
-      - title: Mool Bato
-        url: https://moolbato.com/
-        description: A Nepalese news site covering socialist and Maoist struggles.
-      - title: Hank Today
-        url: https://hanktoday.com/
-        description: A Nepalese news portal featuring political and social updates.
-      - title: ANF News
-        url: https://anfturkce.com/
-        description: News platform focusing on developments in Kurdistan and the Middle East.
-      - title: Riseup4Rojava
-        url: https://riseup4rojava.org/
-        description: A solidarity platform supporting the Rojava revolution.
-      - title: Nuce Ciwan
-        url: https://www.nuceciwan121.xyz/
-        description: Kurdish news platform sharing updates on youth resistance.
-      - title: Kurdistan Report
-        url: https://www.kurdistan-report.de/
-        description: A German website analyzing developments in the Kurdish liberation struggle.
-      - title: Red Star Over Kurdistan
-        url: https://redstaroverkurdistan.blogspot.com/
-        description: A blog supporting the Kurdish liberation struggle from a revolutionary perspective.
-      - title: Peace in Kurdistan Campaign
-        url: https://www.peaceinkurdistancampaign.com/
-        description: A campaign advocating for peace and justice in Kurdistan.
-      - title: Widerstand Vernetzung
-        url: https://widerstandsvernetzung.org/
-        description: A Swiss site supporting Kurdish resistance.
-      - title: Revolutionary Kurdistan
-        url: https://www.revcurdistao.com.br/
-        description: A Brazilian website supporting the Kurdish revolutionary cause.
-      - title: Revolutionary Democracy
-        url: https://devrimcidemokrasi.com/
-        description: A Middle Eastern platform sharing revolutionary news and analysis.
-      - title: Communist News Japan
-        url: https://info.jimmin.com/
-        description: A Japanese platform sharing communist news and periodic publications.
-      - title: Revolutionary Democracy
-        url: https://devrimcidemokrasi.org/
-        description: A platform for sharing revolutionary news and analysis in the Middle East.
-      - title: Peruvian Political Prisoners
-        url: https://presospoliticosdelperu.blogspot.com/
-        description: A blog focusing on the situation of political prisoners in Peru.
-      - title: Red Mail
-        url: https://correovermello.wordpress.com/
-        description: A Galician website sharing revolutionary news and analysis.
-      - title: Red Flag News
-        url: https://flagrednews.wordpress.com/
-        description: A UK-based website focusing on revolutionary news and ideas.
-      - title: Terra Sem Amos
-        url: https://terrasemamos.wordpress.com/
-        description: A blog spreading critical thoughts against capitalism and bourgeois states.
-      - title: Popular Front
-        url: https://www.popularfront.co/
-        description: A platform promoting revolutionary perspectives and movements.
-      - title: Going Against the Tide
-        url: https://goingagainstthetide.org/
-        description: A publication exploring the communist revolutionary road in the US.
-      - title: Workers World
-        url: https://www.workers.org/
-        description: A website sharing news and analysis from a revolutionary socialist perspective.
-      - title: Red Phoenix News
-        url: https://theredphoenixapl.org/
-        description: The news site of the American Party of Labor focusing on communist updates.
-      - title: Communist Workers League
-        url: https://www.revolucionobrera.com/
-        description: A platform sharing communist news and revolutionary content.
-      - title: Friend of the People
-        url: https://amigodopovo.com/
-        description: A site dedicated to advocating for the rights and struggles of the people.
-      - title: Sindicato AST
-        url: https://www.sindicatoast.org/
-        description: A website supporting revolutionary trade unionism and workers' struggles.
-      - title: Red News Germany
-        url: https://rotepresse.noblogs.org/
-        description: A German website sharing revolutionary news and updates.
-      - title: Cause du Peuple
-        url: https://www.causedupeuple.net/
-        description: A French site focused on revolutionary news and class struggles.
-      - title: Serve the People Spain
-        url: https://serviralpuebloperiodico.wordpress.com/
-        description: A Spanish website sharing news on revolutionary movements and struggles.
-      - title: For the People of Brazil
-        url: https://aopovobrasileiro.medium.com/
-        description: A Medium page advocating for revolutionary changes in Brazil.
-      - title: Research Unit for Political Economy
-        url: https://rupeindia.wordpress.com/
-        description: An Indian site sharing Marxist research on political and economic issues.
-      - title: Socialist Republican Media
-        url: https://socialistrepublicanmedia.home.blog/
-        description: A news platform of the Irish Socialist Republican Party.
-      - title: The Left Chapter
-        url: https://www.theleftchapter.com/
-        description: A site sharing articles and resources from a leftist perspective.
-      - title: Bright Future
-        url: https://nuevademocraciapanama.blogspot.com/
-        description: A Panamanian blog advocating for revolutionary socialism.
-      - title: Defend the People's War
-        url: https://fdlp-ec.blogspot.com
-        description: A blog supporting revolutionary movements in Ecuador.
-      - title: 180 Post
-        url: https://180post.com/
-        description: An Arabic platform analyzing political and economic developments.
-      - title: Broken Sword
-        url: https://frecciaspezzata.noblogs.org/
-        description: A Swiss news website focusing on revolutionary activism.
-      - title: Emergency Brake
-        url: https://frenodeemergencia.org/
-        description: A Spanish platform advocating revolutionary perspectives and action.
-      - title: People's Voice
-        url: https://peoples-voice.org/
-        description: A site sharing updates on revolutionary movements and class struggles.
-      - title: Change Life
-        url: https://www.jornalmudardevida.net/
-        description: A Latin American platform offering revolutionary commentary.
-      - title: Passa Palavra
-        url: https://passapalavra.info/
-        description: A blog analyzing political and social issues from a leftist perspective.
-      - title: El Pueblo
-        url: https://periodicoelpueblo.cl/
-        description: A Chilean newspaper advocating for revolutionary socialism.
-      - title: Smash Fascism Leaflet
-        url: https://afainfoblatt.com/
-        description: A German website sharing anti-fascist and revolutionary updates.
-      - title: Red Sun Mexico
-        url: https://solrojista.blogspot.com/
-        description: A Mexican blog sharing news on revolutionary movements and struggles.
-      - title: Colombia People's Media
-        url: https://elcomuneroprensa.wordpress.com/
-        description: A now-inactive blog covering revolutionary struggles in Colombia.
-      - title: Mexico's Class Struggle
-        url: https://cronicas-carmesi.blogspot.com/
-        description: A blog focusing on the class struggle and revolutionary activities in Mexico.
-      - title: Serve the People Media Norway
-        url: https://tjen-folket.no/
-        description: A Norwegian website promoting Maoist revolutionary thought and news.
-      - title: Communist Blogs Network
-        url: https://reddeblogscomunistas.blogspot.com/
-        description: A network of blogs sharing communist and revolutionary content.
-      - title: 38th Women's Channel
-        url: http://8mars.com/
-        description: A platform advocating for women's rights and revolutionary feminism.
-      - title: Socialist Voice
-        url: https://socialistvoice.ie/
-        description: A news outlet from Ireland sharing updates on socialist struggles.
-      - title: Princip Info
-        url: https://princip.info/
-        description: A leftist platform for sharing revolutionary news and perspectives.
-      - title: Red Path
-        url: https://www.red-path.net/
-        description: A website promoting revolutionary ideas and socialist struggles.
-      - title: Chiripilko
-        url: https://prensachiripilko.blogspot.com/
-        description: A blog sharing updates on Latin American revolutionary movements.
-      - title: The Students' Herald
-        url: https://thestudentsherald.com/
-        description: A platform sharing revolutionary content and news by students in Pakistan.
-      - title: Pakistan's Class Struggle
-        url: https://www.struggle.pk/
-        description: A site advocating for class struggle and revolutionary socialism in Pakistan.
-      - title: Voices in Movement
-        url: https://voicesinmovement.org/
-        description: A space fostering resistance against capitalism, borders, and harmful institutions.
-      - title: Weaving Revolution
-        url: https://tejiendorevolucion.org/
-        description: A Latin American platform advocating dignity and resistance against capital.
-      - title: Maoist Uprising
-        url: http://moufawad-paul.blogspot.com/?m=1
-        description: A blog discussing global revolutionary Marxism-Leninism-Maoism.
-      - title: Politics in Command
-        url: https://www.politicsincommand.info/
-        description: A site promoting revolutionary political thought and actions.
-      - title: Anti-Fascist Action
-        url: https://afainfoblatt.wordpress.com/
-        description: A blog sharing news and updates on anti-fascist struggles.
-      - title: Perspective - Solidarity and Resistance Journal
-        url: https://perspektive-online.net/
-        description: A German platform sharing news on leftist and revolutionary resistance.
-      - title: Junge Welt (Young World)
-        url: https://www.jungewelt.de/
-        description: A German news site advocating for leftist and revolutionary perspectives.
-      - title: Lower Class Magazine
-        url: https://lowerclassmag.com/
-        description: A German platform focusing on revolutionary news and class struggle.
-      - title: Left Forum
-        url: https://www.linkes-forum.de/
-        description: A German website promoting revolutionary activism and solidarity.
-      - title: Revolt Magazine
-        url: https://revoltmag.org/
-        description: A German publication focusing on anti-capitalist and revolutionary themes.
-      - title: Kites Journal
-        url: https://kites-journal.org/
-        description: A journal exploring revolutionary strategies and Marxist-Leninist perspectives.
-      - title: Red Sun Journal
-        url: http://www.redsun.org/
-        description: A publication focusing on revolutionary Maoist ideology and practice.
-      - title: Kaypakkaya Party Newspaper
-        url: https://www.kaypakkayahaber.com/
-        description: A Turkish website dedicated to revolutionary updates from TKP/ML.
-      - title: Struggle and Critique Journal
-        url: https://kampfundkritik.wordpress.com/
-        description: A blog sharing news and discussions on revolutionary struggles.
-      - title: Struggle Sessions Journal
-        url: https://struggle-sessions.com/
-        description: A publication analyzing revolutionary theory and practice.
-      - title: Cosmonaut Magazine
-        url: https://cosmonautmag.com/
-        description: A platform discussing revolutionary theory, history, and strategy.
-      - title: Demarcations Journal
-        url: https://www.demarcations-journal.org/
-        description: A journal providing Marxist critiques of contemporary political movements.
-      - title: Updates Philippines
-        url: https://updatesphilippines.info/index.php/en
-        description: A Philippine-based site sharing revolutionary news and updates.
-      - title: Challenge Magazine
-        url: https://challenge-magazine.org/
-        description: A Marxist-Leninist platform analyzing global revolutionary movements.
-      - title: Hollow Colossus
-        url: http://www.hollowcolossus.com/
-        description: A blog offering revolutionary critiques of capitalism and imperialism.
-      - title: Road Left
-        url: https://michaelharrison.org.uk/
-        description: A website sharing observations and commentary on revolutionary movements.
-      - title: Revolutionary Marxism Journal
-        url: https://www.neaprooptiki.gr/
-        description: A Greek journal focused on Marxist-Leninist revolutionary theory.
-      - title: International Communist Review
-        url: https://www.iccr.gr/en/home/
-        description: A global platform for sharing Marxist-Leninist and revolutionary ideas.
-      - title: Radical Philosophy Archive
-        url: https://www.radicalphilosophy.com/
-        description: A site exploring revolutionary philosophical thought and critiques of capitalism.
-      - title: International Solidarity
-        url: https://internationalsolidarity.org/
-        description: A platform advocating for solidarity in the global struggle against fascism.
-      - title: Marxist Notebook
-        url: https://tetradia-marxismou.gr/
-        description: A Greek platform sharing Marxist revolutionary analysis and theory.
-      - title: Maoism for the Masses
-        url: https://maoismforthemasses.wordpress.com/
-        description: A blog promoting revolutionary Marxism-Leninism-Maoism ideology.
-      - title: O Comuneiro Journal
-        url: https://ocomuneiro.com/ii_index.htm
-        description: A Portuguese publication advocating for Marxist revolutionary ideals.
-      - title: Serve the People Wholeheartedly
-        url: https://serviraopovo.wordpress.com/
-        description: A Brazilian website dedicated to promoting revolutionary Maoist thought.
-      - title: CounterPunch
-        url: https://www.counterpunch.org/
-        description: A global platform for leftist and revolutionary journalism.
-      - title: RedVoice
-        url: https://redvoicemedia.wordpress.com/
-        description: A blog sharing revolutionary news and perspectives.
-      - title: On Mass Podcast
-        url: https://onmasspodcast.com/
-        description: A podcast discussing leftist and revolutionary movements.
-      - title: Redspark Radio
-        url: https://open.spotify.com/show/7yRWbxjtblG74A08iwUvPF
-        description: A radio channel sharing revolutionary discussions and updates.
-      - title: Periódico Mural Magazine
-        url: https://muralperiodico.wordpress.com/
-        description: A revolutionary publication from Mexico.
-      - title: Refuse Fascism
-        url: https://refusefascism.org/
-        description: A website advocating resistance against fascism and authoritarianism.
-      - title: Red Press Magazine
-        url: https://rotepresse.noblogs.org/
-        description: A German website sharing revolutionary news and ideas.
-      - title: New Worker USA
-        url: https://newworker.us/
-        description: A US-based publication sharing Marxist-Leninist news and analysis.
-      - title: Crusader News
-        url: https://thecrusader.news/
-        description: A site sharing revolutionary perspectives and leftist updates.
-      - title: Canada's Iskra
-        url: https://www.iskra-pcr-rcp.ca/en/home-2/
-        description: A Canadian publication sharing Marxist revolutionary updates.
-      - title: India's Sanhati
-        url: http://sanhati.com/
-        description: An Indian website focusing on revolutionary struggles and news.
-      - title: Anti-Imperialist Network
-        url: https://anti-imperialist.net/
-        description: A platform advocating global resistance against imperialism.
-      - title: Philippine Rebellion News
-        url: https://retiredanalyst.blogspot.com/
-        description: A blog sharing updates on revolutionary movements in the Philippines.
-      - title: Rojava Information Center
-        url: https://rojavainformationcenter.org/
-        description: A resource providing reliable information from Northern and Eastern Syria.
-      - title: New Epoch
-        url: https://newepochmedia.wordpress.com/
-        description: Appears to have stopped updating.
-      - title: "Winning a World"
-        url: https://web.archive.org/web/20070406015137/http://www.awtw.org/
-        description: Publication discontinued.
-      - title: People's March
-        url: https://peoples-march.blogspot.com/
-        description: The website is no longer updating.
-      - title: Marxist-Leninist
-        url: https://marxistleninist.wordpress.com/
-        description: No longer updated.
-      - title: Redblock Magazine
-        url: https://redblock-it.blogspot.com/
-        description: Publication discontinued.
-      - title: Signal Fire
-        url: https://web.archive.org/web/20220225212635/http://www.signalfire.org/
-        description: No longer updated.
+data: # Navigation links below
 
+- taxonomy: News & Media
+  icon: fa-star
+  links: 
+    - title: Red.
+      url: https://thered.stream/
+      description: Sharing revolutionary and educational digital content.
+    - title: Red Herald
+      url: https://redherald.org/
+      description: International Maoist news and reports on people's struggles.
+    - title: Brazil's "New Democracy"
+      url: https://anovademocracia.com.br/
+      description: Analyzing society and advocating for new democracy - new economy, new politics, and new culture.
+    - title: Red Aid
+      url: https://secoursrouge.org/
+      description: A Swiss website sharing revolutionary news and solidarity campaigns.
+    - title: Red Dazibao
+      url: https://dazibaorojo08.blogspot.com/
+      description: A blog focusing on Maoist-inspired revolutionary content.
+    - title: Maoist Road
+      url: https://maoistroad.blogspot.com/
+      description: A platform promoting global Maoist ideology and revolutionary movements.
+    - title: PeaceYang Talk
+      url: https://peaceyang.online/
+      description: PeaceYang Talk – a space for discussing revolutionary ideas.
+    - title: New Epoch
+      url: https://www.nouvelleepoque.fr/
+      description: A French organization promoting revolutionary change.
+    - title: Revolutionary Democracy News
+      url: https://www.devrimcidemokrasi3.org/
+      description: A news site sharing updates on revolutionary movements in the Middle East and beyond.
+    - title: Redspark
+      url: https://redspark.nu/
+      description: A website dedicated to revolutionary news and global Maoist updates.
+    - title: Resistance Trench
+      url: https://t.me/ResistanceTrench
+      description: News related to Palestinian resistance efforts.
+    - title: Palestine Resist
+      url: https://t.me/PalestineResist
+      description: A channel sharing updates on Palestinian resistance movements.
+    - title: Colombia's "New Democracy"
+      url: https://nuevademocracia.com.co/
+      description: News on revolutionary activities and struggles in Colombia.
+    - title: Turkey's "New Democracy"
+      url: https://www.yenidemokrasi34.net
+      description: News and updates from Turkey's revolutionary movements.
+    - title: Dialogue of Civilizations
+      url: https://ahewar.org/
+      description: A platform for debate hosted by Marxists in the Middle East.
+    - title: Defend Communism
+      url: https://www.idcommunism.com/
+      description: A Greek website defending and promoting communist ideals.
+    - title: Communist News
+      url: https://www.communistnews.net/
+      description: A website sharing news and insights on global communist struggles.
+    - title: Woodsmoke Blog
+      url: https://woodsmokeblog.wordpress.com/
+      description: A blog sharing brief revolutionary news updates.
+    - title: RF News
+      url: https://www.rf-news.de/
+      description: News portal of the MLPD in Germany.
+    - title: RF News Austria
+      url: https://www.rotefahne.at/
+      description: An Austrian website allied with Germany's "Red Flag" committee.
+    - title: Infrared Media
+      url: https://infrarot49.wordpress.com/
+      description: A German group analyzing the Cultural Revolution's theories.
+    - title: Indybay
+      url: https://www.indybay.org/
+      description: Independent media center for the San Francisco Bay Area.
+    - title: Chhatra Fauj
+      url: https://chhatrafauj.wordpress.com/
+      description: Publication of India's Revolutionary Student Front.
+    - title: Revista Opera
+      url: https://revistaopera.operamundi.uol.com.br/
+      description: A Brazilian magazine offering revolutionary perspectives.
+    - title: Material Journal
+      url: https://materialjournal.net/
+      description: A publication focusing on revolutionary themes.
+    - title: European News Center
+      url: https://www.avrupahaber11.org/
+      description: A news website sharing insights on European revolutionary movements.
+    - title: Boiyempo Blog
+      url: https://blogdaboitempo.com.br/
+      description: A Brazilian platform from Latin America's largest critical thought publisher.
+    - title: Partizan
+      url: https://www.partizanmlm31.net/
+      description: Media for TKP/ML's revolutionary activities.
+    - title: Partizan Media
+      url: https://www.partizanmedya13.net/
+      description: Another media outlet associated with TKP/ML.
+    - title: Özgür Gelecek
+      url: https://ozgurgelecek50.net/
+      description: A Turkish-language revolutionary news platform.
+    - title: Left Voice 1
+      url: https://IzquierdaDiario.es/
+      description: A Spanish anti-capitalist and revolutionary left-wing daily.
+    - title: Left Voice 2
+      url: https://www.esquerradiari.cat/
+      description: A Catalan anti-capitalist and revolutionary left-wing daily.
+    - title: Serve the People
+      url: https://www.demvolkedienen.org/
+      description: A news site from Germany's "Red Flag Committee."
+    - title: Vanguard Party - Revolutionary Democracy
+      url: https://oncupartizan6.com/
+      description: News site for the MKP revolutionary movement.
+    - title: Workers and Peasants Liberation
+      url: https://ikk-online17.net/
+      description: A website for TKP/ML's revolutionary agenda.
+    - title: Philippine Revolution Web Central
+      url: https://philippinerevolution.nu/
+      description: Official portal of the Communist Party of the Philippines.
+    - title: Philippine Revolution Web Central Backup
+      url: https://prwcinfonewsroom.wordpress.com/
+      description: A backup site for the CPP's official portal.
+    - title: Friends of the Filipino People
+      url: https://revolucionfilipina.com/
+      description: A site focusing on revolutionary updates from the Philippines.
+    - title: Negros Revolutionary Portal
+      url: https://negrosrevportal.wordpress.com/
+      description: Updates on revolutionary activities in the Negros region of the Philippines.
+    - title: Negros Revolutionary Portal (Tumblr)
+      url: https://www.tumblr.com/strevportal
+      description: Social media account for revolutionary updates in Negros.
+    - title: Bulusan Radio
+      url: https://radyobulusan.wordpress.com/
+      description: Official radio of the Sorsogon Revolutionary Movement.
+    - title: Anti-NPA News
+      url: https://www.pna.gov.ph/articles/search?q=NPA
+      description: Reports from the Philippine News Agency on the New People's Army.
+    - title: Marxism Today
+      url: https://www.youtube.com/@Marxism_Today/videos
+      description: YouTube channel with leftist political content from a modern Marxist perspective.
+    - title: Invisible World
+      url: https://atheatoskosmosps.blogspot.com/
+      description: A column by Greek Marxists exploring untold stories and political commentary.
+    - title: Community Resistance
+      url: https://antigeitonies3.blogspot.com/
+      description: A Greek site associated with leftist resistance movements.
+    - title: Left Greece
+      url: https://left.gr/
+      description: News portal of the Greek radical left.
+    - title: Beir Bua Resistance Report
+      url: https://jamahiriya.substack.com/
+      description: Reports and interviews by journalist Jamahiriya on resistance movements.
+    - title: Beir Bua Resistance Report (Medium)
+      url: https://beirbua.medium.com/
+      description: Resistance-focused articles by journalist Jamahiriya on Medium.
+    - title: Tribune of the People
+      url: https://tribuneofthepeople.news/
+      description: A now-inactive platform for revolutionary news and updates.
+    - title: Revolutionary Front
+      url: https://therevolutionaryfront.com/
+      description: A site promoting revolutionary activism and ideology.
+    - title: Incendiary News
+      url: https://web.archive.org/web/20210518044307/https://incendiarynews.com/
+      description: An archived website of revolutionary content.
+    - title: Politsturm
+      url: https://us.politsturm.com/
+      description: A Marxist-Leninist platform offering revolutionary news and analysis.
+    - title: Struggle-La Lucha
+      url: https://www.struggle-la-lucha.org/
+      description: A news site covering revolutionary and anti-capitalist movements.
+    - title: Red Flag Brazil
+      url: https://bandeiravermelhabr.wordpress.com/
+      description: A blog focusing on revolutionary struggles in Brazil.
+    - title: The World Can't Wait
+      url: https://www.worldcantwait.net/
+      description: A platform advocating for urgent action against imperialism and exploitation.
+    - title: To A New Dawn
+      url: https://toanewdawn.in/magazine/
+      description: An Indian revolutionary magazine advocating for systemic change.
+    - title: Nazariya Magazine
+      url: https://nazariyamagazine.in/
+      description: An Indian publication focused on revolutionary thought and action.
+    - title: Mazdoor Bigul
+      url: https://www.mazdoorbigul.net/
+      description: A platform sharing revolutionary content related to India's labor movement.
+    - title: The Anvil
+      url: https://anvilmag.in/
+      description: An Indian Maoist magazine offering counter-mainstream Maoist perspectives.
+    - title: Era Toka Khabar
+      url: https://eratokhabar.com/
+      description: A Nepalese news outlet focused on revolutionary issues.
+    - title: Mool Bato
+      url: https://moolbato.com/
+      description: A Nepalese news site covering socialist and Maoist struggles.
+    - title: Hank Today
+      url: https://hanktoday.com/
+      description: A Nepalese news portal featuring political and social updates.
+    - title: ANF News
+      url: https://anfturkce.com/
+      description: News platform focusing on developments in Kurdistan and the Middle East.
+    - title: Riseup4Rojava
+      url: https://riseup4rojava.org/
+      description: A solidarity platform supporting the Rojava revolution.
+    - title: Nuce Ciwan
+      url: https://www.nuceciwan121.xyz/
+      description: Kurdish news platform sharing updates on youth resistance.
+    - title: Kurdistan Report
+      url: https://www.kurdistan-report.de/
+      description: A German website analyzing developments in the Kurdish liberation struggle.
+    - title: Red Star Over Kurdistan
+      url: https://redstaroverkurdistan.blogspot.com/
+      description: A blog supporting the Kurdish liberation struggle from a revolutionary perspective.
+    - title: Peace in Kurdistan Campaign
+      url: https://www.peaceinkurdistancampaign.com/
+      description: A campaign advocating for peace and justice in Kurdistan.
+    - title: Widerstand Vernetzung
+      url: https://widerstandsvernetzung.org/
+      description: A Swiss site supporting Kurdish resistance.
+    - title: Revolutionary Kurdistan
+      url: https://www.revcurdistao.com.br/
+      description: A Brazilian website supporting the Kurdish revolutionary cause.
+    - title: Revolutionary Democracy
+      url: https://devrimcidemokrasi.com/
+      description: A Middle Eastern platform sharing revolutionary news and analysis.
+    - title: Communist News Japan
+      url: https://info.jimmin.com/
+      description: A Japanese platform sharing communist news and periodic publications.
+    - title: Revolutionary Democracy
+      url: https://devrimcidemokrasi.org/
+      description: A platform for sharing revolutionary news and analysis in the Middle East.
+    - title: Peruvian Political Prisoners
+      url: https://presospoliticosdelperu.blogspot.com/
+      description: A blog focusing on the situation of political prisoners in Peru.
+    - title: Red Mail
+      url: https://correovermello.wordpress.com/
+      description: A Galician website sharing revolutionary news and analysis.
+    - title: Red Flag News
+      url: https://flagrednews.wordpress.com/
+      description: A UK-based website focusing on revolutionary news and ideas.
+    - title: Terra Sem Amos
+      url: https://terrasemamos.wordpress.com/
+      description: A blog spreading critical thoughts against capitalism and bourgeois states.
+    - title: Popular Front
+      url: https://www.popularfront.co/
+      description: A platform promoting revolutionary perspectives and movements.
+    - title: Going Against the Tide
+      url: https://goingagainstthetide.org/
+      description: A publication exploring the communist revolutionary road in the US.
+    - title: Workers World
+      url: https://www.workers.org/
+      description: A website sharing news and analysis from a revolutionary socialist perspective.
+    - title: Red Phoenix News
+      url: https://theredphoenixapl.org/
+      description: The news site of the American Party of Labor focusing on communist updates.
+    - title: Communist Workers League
+      url: https://www.revolucionobrera.com/
+      description: A platform sharing communist news and revolutionary content.
+    - title: Friend of the People
+      url: https://amigodopovo.com/
+      description: A site dedicated to advocating for the rights and struggles of the people.
+    - title: Sindicato AST
+      url: https://www.sindicatoast.org/
+      description: A website supporting revolutionary trade unionism and workers' struggles.
+    - title: Red News Germany
+      url: https://rotepresse.noblogs.org/
+      description: A German website sharing revolutionary news and updates.
+    - title: Cause du Peuple
+      url: https://www.causedupeuple.net/
+      description: A French site focused on revolutionary news and class struggles.
+    - title: Serve the People Spain
+      url: https://serviralpuebloperiodico.wordpress.com/
+      description: A Spanish website sharing news on revolutionary movements and struggles.
+    - title: For the People of Brazil
+      url: https://aopovobrasileiro.medium.com/
+      description: A Medium page advocating for revolutionary changes in Brazil.
+    - title: Research Unit for Political Economy
+      url: https://rupeindia.wordpress.com/
+      description: An Indian site sharing Marxist research on political and economic issues.
+    - title: Socialist Republican Media
+      url: https://socialistrepublicanmedia.home.blog/
+      description: A news platform of the Irish Socialist Republican Party.
+    - title: The Left Chapter
+      url: https://www.theleftchapter.com/
+      description: A site sharing articles and resources from a leftist perspective.
+    - title: Bright Future
+      url: https://nuevademocraciapanama.blogspot.com/
+      description: A Panamanian blog advocating for revolutionary socialism.
+    - title: Defend the People's War
+      url: https://fdlp-ec.blogspot.com
+      description: A blog supporting revolutionary movements in Ecuador.
+    - title: 180 Post
+      url: https://180post.com/
+      description: An Arabic platform analyzing political and economic developments.
+    - title: Broken Sword
+      url: https://frecciaspezzata.noblogs.org/
+      description: A Swiss news website focusing on revolutionary activism.
+    - title: Emergency Brake
+      url: https://frenodeemergencia.org/
+      description: A Spanish platform advocating revolutionary perspectives and action.
+    - title: People's Voice
+      url: https://peoples-voice.org/
+      description: A site sharing updates on revolutionary movements and class struggles.
+    - title: Change Life
+      url: https://www.jornalmudardevida.net/
+      description: A Latin American platform offering revolutionary commentary.
+    - title: Passa Palavra
+      url: https://passapalavra.info/
+      description: A blog analyzing political and social issues from a leftist perspective.
+    - title: El Pueblo
+      url: https://periodicoelpueblo.cl/
+      description: A Chilean newspaper advocating for revolutionary socialism.
+    - title: Smash Fascism Leaflet
+      url: https://afainfoblatt.com/
+      description: A German website sharing anti-fascist and revolutionary updates.
+    - title: Red Sun Mexico
+      url: https://solrojista.blogspot.com/
+      description: A Mexican blog sharing news on revolutionary movements and struggles.
+    - title: Colombia People's Media
+      url: https://elcomuneroprensa.wordpress.com/
+      description: A now-inactive blog covering revolutionary struggles in Colombia.
+    - title: Mexico's Class Struggle
+      url: https://cronicas-carmesi.blogspot.com/
+      description: A blog focusing on the class struggle and revolutionary activities in Mexico.
+    - title: Serve the People Media Norway
+      url: https://tjen-folket.no/
+      description: A Norwegian website promoting Maoist revolutionary thought and news.
+    - title: Communist Blogs Network
+      url: https://reddeblogscomunistas.blogspot.com/
+      description: A network of blogs sharing communist and revolutionary content.
+    - title: 38th Women's Channel
+      url: http://8mars.com/
+      description: A platform advocating for women's rights and revolutionary feminism.
+    - title: Socialist Voice
+      url: https://socialistvoice.ie/
+      description: A news outlet from Ireland sharing updates on socialist struggles.
+    - title: Princip Info
+      url: https://princip.info/
+      description: A leftist platform for sharing revolutionary news and perspectives.
+    - title: Red Path
+      url: https://www.red-path.net/
+      description: A website promoting revolutionary ideas and socialist struggles.
+    - title: Chiripilko
+      url: https://prensachiripilko.blogspot.com/
+      description: A blog sharing updates on Latin American revolutionary movements.
+    - title: The Students' Herald
+      url: https://thestudentsherald.com/
+      description: A platform sharing revolutionary content and news by students in Pakistan.
+    - title: Pakistan's Class Struggle
+      url: https://www.struggle.pk/
+      description: A site advocating for class struggle and revolutionary socialism in Pakistan.
+    - title: Voices in Movement
+      url: https://voicesinmovement.org/
+      description: A space fostering resistance against capitalism, borders, and harmful institutions.
+    - title: Weaving Revolution
+      url: https://tejiendorevolucion.org/
+      description: A Latin American platform advocating dignity and resistance against capital.
+    - title: Maoist Uprising
+      url: http://moufawad-paul.blogspot.com/?m=1
+      description: A blog discussing global revolutionary Marxism-Leninism-Maoism.
+    - title: Politics in Command
+      url: https://www.politicsincommand.info/
+      description: A site promoting revolutionary political thought and actions.
+    - title: Anti-Fascist Action
+      url: https://afainfoblatt.wordpress.com/
+      description: A blog sharing news and updates on anti-fascist struggles.
+    - title: Perspective - Solidarity and Resistance Journal
+      url: https://perspektive-online.net/
+      description: A German platform sharing news on leftist and revolutionary resistance.
+    - title: Junge Welt (Young World)
+      url: https://www.jungewelt.de/
+      description: A German news site advocating for leftist and revolutionary perspectives.
+    - title: Lower Class Magazine
+      url: https://lowerclassmag.com/
+      description: A German platform focusing on revolutionary news and class struggle.
+    - title: Left Forum
+      url: https://www.linkes-forum.de/
+      description: A German website promoting revolutionary activism and solidarity.
+    - title: Revolt Magazine
+      url: https://revoltmag.org/
+      description: A German publication focusing on anti-capitalist and revolutionary themes.
+    - title: Kites Journal
+      url: https://kites-journal.org/
+      description: A journal exploring revolutionary strategies and Marxist-Leninist perspectives.
+    - title: Red Sun Journal
+      url: http://www.redsun.org/
+      description: A publication focusing on revolutionary Maoist ideology and practice.
+    - title: Kaypakkaya Party Newspaper
+      url: https://www.kaypakkayahaber.com/
+      description: A Turkish website dedicated to revolutionary updates from TKP/ML.
+    - title: Struggle and Critique Journal
+      url: https://kampfundkritik.wordpress.com/
+      description: A blog sharing news and discussions on revolutionary struggles.
+    - title: Struggle Sessions Journal
+      url: https://struggle-sessions.com/
+      description: A publication analyzing revolutionary theory and practice.
+    - title: Cosmonaut Magazine
+      url: https://cosmonautmag.com/
+      description: A platform discussing revolutionary theory, history, and strategy.
+    - title: Demarcations Journal
+      url: https://www.demarcations-journal.org/
+      description: A journal providing Marxist critiques of contemporary political movements.
+    - title: Updates Philippines
+      url: https://updatesphilippines.info/index.php/en
+      description: A Philippine-based site sharing revolutionary news and updates.
+    - title: Challenge Magazine
+      url: https://challenge-magazine.org/
+      description: A Marxist-Leninist platform analyzing global revolutionary movements.
+    - title: Hollow Colossus
+      url: http://www.hollowcolossus.com/
+      description: A blog offering revolutionary critiques of capitalism and imperialism.
+    - title: Road Left
+      url: https://michaelharrison.org.uk/
+      description: A website sharing observations and commentary on revolutionary movements.
+    - title: Revolutionary Marxism Journal
+      url: https://www.neaprooptiki.gr/
+      description: A Greek journal focused on Marxist-Leninist revolutionary theory.
+    - title: International Communist Review
+      url: https://www.iccr.gr/en/home/
+      description: A global platform for sharing Marxist-Leninist and revolutionary ideas.
+    - title: Radical Philosophy Archive
+      url: https://www.radicalphilosophy.com/
+      description: A site exploring revolutionary philosophical thought and critiques of capitalism.
+    - title: International Solidarity
+      url: https://internationalsolidarity.org/
+      description: A platform advocating for solidarity in the global struggle against fascism.
+    - title: Marxist Notebook
+      url: https://tetradia-marxismou.gr/
+      description: A Greek platform sharing Marxist revolutionary analysis and theory.
+    - title: Maoism for the Masses
+      url: https://maoismforthemasses.wordpress.com/
+      description: A blog promoting revolutionary Marxism-Leninism-Maoism ideology.
+    - title: O Comuneiro Journal
+      url: https://ocomuneiro.com/ii_index.htm
+      description: A Portuguese publication advocating for Marxist revolutionary ideals.
+    - title: Serve the People Wholeheartedly
+      url: https://serviraopovo.wordpress.com/
+      description: A Brazilian website dedicated to promoting revolutionary Maoist thought.
+    - title: CounterPunch
+      url: https://www.counterpunch.org/
+      description: A global platform for leftist and revolutionary journalism.
+    - title: RedVoice
+      url: https://redvoicemedia.wordpress.com/
+      description: A blog sharing revolutionary news and perspectives.
+    - title: On Mass Podcast
+      url: https://onmasspodcast.com/
+      description: A podcast discussing leftist and revolutionary movements.
+    - title: Redspark Radio
+      url: https://open.spotify.com/show/7yRWbxjtblG74A08iwUvPF
+      description: A radio channel sharing revolutionary discussions and updates.
+    - title: Periódico Mural Magazine
+      url: https://muralperiodico.wordpress.com/
+      description: A revolutionary publication from Mexico.
+    - title: Refuse Fascism
+      url: https://refusefascism.org/
+      description: A website advocating resistance against fascism and authoritarianism.
+    - title: Red Press Magazine
+      url: https://rotepresse.noblogs.org/
+      description: A German website sharing revolutionary news and ideas.
+    - title: New Worker USA
+      url: https://newworker.us/
+      description: A US-based publication sharing Marxist-Leninist news and analysis.
+    - title: Crusader News
+      url: https://thecrusader.news/
+      description: A site sharing revolutionary perspectives and leftist updates.
+    - title: Canada's Iskra
+      url: https://www.iskra-pcr-rcp.ca/en/home-2/
+      description: A Canadian publication sharing Marxist revolutionary updates.
+    - title: India's Sanhati
+      url: http://sanhati.com/
+      description: An Indian website focusing on revolutionary struggles and news.
+    - title: Anti-Imperialist Network
+      url: https://anti-imperialist.net/
+      description: A platform advocating global resistance against imperialism.
+    - title: Philippine Rebellion News
+      url: https://retiredanalyst.blogspot.com/
+      description: A blog sharing updates on revolutionary movements in the Philippines.
+    - title: Rojava Information Center
+      url: https://rojavainformationcenter.org/
+      description: A resource providing reliable information from Northern and Eastern Syria.
+    - title: New Epoch
+      url: https://newepochmedia.wordpress.com/
+      description: Appears to have stopped updating.
+    - title: "Winning a World"
+      url: https://web.archive.org/web/20070406015137/http://www.awtw.org/
+      description: Publication discontinued.
+    - title: People's March
+      url: https://peoples-march.blogspot.com/
+      description: The website is no longer updating.
+    - title: Marxist-Leninist
+      url: https://marxistleninist.wordpress.com/
+      description: No longer updated.
+    - title: Redblock Magazine
+      url: https://redblock-it.blogspot.com/
+      description: Publication discontinued.
+    - title: Signal Fire
+      url: https://web.archive.org/web/20220225212635/http://www.signalfire.org/
+      description: No longer updated.
+      
+
+      
 
 - taxonomy: Databases
   icon: fa-star
-  links:
+  links: 
     - title: Leftist Historical Archives
       url: https://banned-historical-archives.github.io/
       description: Chinese-language website.
