@@ -2064,7 +2064,7 @@ data: # Navigation links below
     - title: Mong Palatino
       url: https://mongpalatino.com/
       description: Filipino left-wing activist
-    - title: "Kevin "Rashid" Johnson"
+    - title: Kevin "Rashid" Johnson
       url: https://rashidmod.com/
       description: New African Black Panther Party
     - title: Armed with a Pen
