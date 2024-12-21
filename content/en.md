@@ -529,7 +529,7 @@ data: # Navigation links below
     - title: Redfish Media
       url: https://redfish.media/
       description: Known for producing many excellent documentaries.
-    - title: "From Marx to Mao" Library
+    - title: ""From Marx to Mao" Library"
       url: http://www.marx2mao.com/
       description: A resource sharing revolutionary writings from Marx to Mao.
     - title: Peruvian People's Movement
