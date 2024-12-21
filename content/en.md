@@ -1726,102 +1726,102 @@ data: # Navigation links below
 
     - term: North American Organizations
       links:
-       - title: Zapatista National Liberation Army
-          url: https://enlacezapatista.ezln.org.mx/
-          description: 
-        - title: Zapatista National Liberation Army
-          url: https://www.struggle.ws/mexico/ezlnco.html
-          description: Another website.
-        - title: Marxist-Leninist-Maoist Revolutionary Study Group
-          url: https://www.mlmrsg.com
-          description: 
-        - title: New Communist Party of Canada
-          url: https://ncpc-npcc.ca/
-          description: 
-        - title: Communist Party of Canada (Marxist-Leninist)
-          url: https://cpcml.ca
-          description: 
-        - title: Revolutionary Communist Party of Canada (Central Committee)
-          url: https://pcrrcp.wordpress.com/
-          description: Canadian Revolutionary Communist Party (Central Committee).
-        - title: Communist Workers' Front of Canada
-          url: https://communistworkers.wordpress.com/
-          description: 
-        - title: Revolutionary Initiative of Canada
-          url: https://revolutionary-initiative.com/
-          description: 
-        - title: International League of Peoples' Struggles - Canada
-          url: https://ilps-canada.ca/
-          description: 
-        - title: Stalin Society of North America
-          url: https://www.stalinsociety.com/news
-          description: 
-        - title: Revolutionary Student Movement of Canada
-          url: https://mer-rsm.ca
-          description: 
-        - title: Organization of Communist Revolutionaries (USA)
-          url: https://ocrev.org/
-          description: OCR - Organization of Communist Revolutionaries.
-        - title: Democratic Socialists of America
-          url: https://www.dsausa.org/
-          description: 
-        - title: Freedom Road Socialist Organization
-          url: https://frso.org/
-          description: American organization.
-        - title: People's Women's Movement of America
-          url: https://pwm-mfp.org/
-          description: 
-        - title: Revolutionary Communist Party USA
-          url: https://revcom.us/index.html
-          description: 
-        - title: Bob Avakian
-          url: https://www.bobavakian.net/
-          description: Leader of the Revolutionary Communist Party USA.
-        - title: New Communism
-          url: https://yenikomunizm.com/
-          description: Revolutionary Communist Party USA website.
-        - title: American Party of Labor
-          url: https://www.americanpartyoflabor.com/
-          description: 
-        - title: Richmond Communist Collective
-          url: https://www.richmondcommunists.org
-          description: 
-        - title: New Communist Party USA
-          url: https://ncplc.wordpress.com
-          description: 
-        - title: Maoist Communist Group USA
-          url: https://maoistcommunistgroup.com/
-          description: 
-        - title: New Spark
-          url: https://newspark.news
-          description: Official organ of the Provisional Central Committee (PCC) of the American Bolshevik Committee (ACB).
-        - title: Committee to Rebuild the Communist Party USA
-          url: https://maoistcultexposed.wordpress.com
-          description: 
-        - title: Revolutionary Student Union
-          url: https://revolutionarystudentsunion.wordpress.com/
-          description: American organization.
-        - title: Red Guards Austin
-          url: https://redguardsaustin.wordpress.com/
-          description: 
-        - title: Red Guards Charlotte
-          url: https://redguardscharlotte.wordpress.com
-          description: 
-        - title: Red Guards Kansas City
-          url: https://kcmlm.wordpress.com
-          description: 
-        - title: Tampa Maoist Collective
-          url: https://tampamaoistcollective.wordpress.com
-          description: 
-        - title: Tempest
-          url: https://www.tempestmag.org
-          description: 
-        - title: Revolutionary Frontlines
-          url: https://revolutionaryfrontlines.wordpress.com
-          description: 
-        - title: Mexican People's Revolutionary Movement
-          url: https://mpr-mexico.blogspot.com
-          description: 
+        - title: "Zapatista National Liberation Army"
+          url: "https://enlacezapatista.ezln.org.mx/"
+          description: ""
+        - title: "Zapatista National Liberation Army"
+          url: "https://www.struggle.ws/mexico/ezlnco.html"
+          description: "Another website."
+        - title: "Marxist-Leninist-Maoist Revolutionary Study Group"
+          url: "https://www.mlmrsg.com"
+          description: ""
+        - title: "New Communist Party of Canada"
+          url: "https://ncpc-npcc.ca/"
+          description: ""
+        - title: "Communist Party of Canada (Marxist-Leninist)"
+          url: "https://cpcml.ca"
+          description: ""
+        - title: "Revolutionary Communist Party of Canada (Central Committee)"
+          url: "https://pcrrcp.wordpress.com/"
+          description: "Canadian Revolutionary Communist Party (Central Committee)."
+        - title: "Communist Workers' Front of Canada"
+          url: "https://communistworkers.wordpress.com/"
+          description: ""
+        - title: "Revolutionary Initiative of Canada"
+          url: "https://revolutionary-initiative.com/"
+          description: ""
+        - title: "International League of Peoples' Struggles - Canada"
+          url: "https://ilps-canada.ca/"
+          description: ""
+        - title: "Stalin Society of North America"
+          url: "https://www.stalinsociety.com/news"
+          description: ""
+        - title: "Revolutionary Student Movement of Canada"
+          url: "https://mer-rsm.ca"
+          description: ""
+        - title: "Organization of Communist Revolutionaries (USA)"
+          url: "https://ocrev.org/"
+          description: "OCR - Organization of Communist Revolutionaries."
+        - title: "Democratic Socialists of America"
+          url: "https://www.dsausa.org/"
+          description: ""
+        - title: "Freedom Road Socialist Organization"
+          url: "https://frso.org/"
+          description: "American organization."
+        - title: "People's Women's Movement of America"
+          url: "https://pwm-mfp.org/"
+          description: ""
+        - title: "Revolutionary Communist Party USA"
+          url: "https://revcom.us/index.html"
+          description: ""
+        - title: "Bob Avakian"
+          url: "https://www.bobavakian.net/"
+          description: "Leader of the Revolutionary Communist Party USA."
+        - title: "New Communism"
+          url: "https://yenikomunizm.com/"
+          description: "Revolutionary Communist Party USA website."
+        - title: "American Party of Labor"
+          url: "https://www.americanpartyoflabor.com/"
+          description: ""
+        - title: "Richmond Communist Collective"
+          url: "https://www.richmondcommunists.org"
+          description: ""
+        - title: "New Communist Party USA"
+          url: "https://ncplc.wordpress.com"
+          description: ""
+        - title: "Maoist Communist Group USA"
+          url: "https://maoistcommunistgroup.com/"
+          description: ""
+        - title: "New Spark"
+          url: "https://newspark.news"
+          description: "Official organ of the Provisional Central Committee (PCC) of the American Bolshevik Committee (ACB)."
+        - title: "Committee to Rebuild the Communist Party USA"
+          url: "https://maoistcultexposed.wordpress.com"
+          description: ""
+        - title: "Revolutionary Student Union"
+          url: "https://revolutionarystudentsunion.wordpress.com/"
+          description: "American organization."
+        - title: "Red Guards Austin"
+          url: "https://redguardsaustin.wordpress.com/"
+          description: ""
+        - title: "Red Guards Charlotte"
+          url: "https://redguardscharlotte.wordpress.com"
+          description: ""
+        - title: "Red Guards Kansas City"
+          url: "https://kcmlm.wordpress.com"
+          description: ""
+        - title: "Tampa Maoist Collective"
+          url: "https://tampamaoistcollective.wordpress.com"
+          description: ""
+        - title: "Tempest"
+          url: "https://www.tempestmag.org"
+          description: ""
+        - title: "Revolutionary Frontlines"
+          url: "https://revolutionaryfrontlines.wordpress.com"
+          description: ""
+        - title: "Mexican People's Revolutionary Movement"
+          url: "https://mpr-mexico.blogspot.com"
+          description: ""
 
     - term: Oceanian Organizations
       links:
