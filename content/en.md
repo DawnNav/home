@@ -1527,7 +1527,7 @@ data: # Navigation links below
           description: Greek site connected to KKE-ML.
         - title: Polytechnic Protesters Solidarity Initiative
           url: https://protoboulia17n2020.blogspot.com/
-          description: "The "Solidarity Initiative for Polytechnic Protesters" was formed in Thessaloniki to collectively express practical solidarity and financially support participants in assemblies on November 17 and December 6."
+          description: The Solidarity Initiative for Polytechnic Protesters was formed in Thessaloniki to collectively express practical solidarity and financially support participants in assemblies on November 17 and December 6.
         - title: Sfendona Youth Cultural Center
           url: https://steki-sfentona.blogspot.com/
           description: Sfendona belongs to militant movements in higher education institutions, initiatives of young workers and unemployed people, and student resistance movements. Sfendona is a place of youth gatherings and solidarity with an anti-capitalist, anti-imperialist, and anti-conciliationist orientation.
