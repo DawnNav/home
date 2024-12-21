@@ -1383,7 +1383,7 @@ data: # Navigation links below
           description: Organization in Croatia and Serbia.
         - title: Class Against Class
           url: https://stuut.info/
-          description: ""Class Against Class" is a revolutionary political organization based in Brussels. Its ultimate goal is communism - a society without classes or states, free of exploitation, domination, and plundering relationships. This goal requires the overthrow of the bourgeois state and new forms of organization and consciousness."
+          description: Class Against Class is a revolutionary political organization based in Brussels. Its ultimate goal is communism - a society without classes or states, free of exploitation, domination, and plundering relationships. This goal requires the overthrow of the bourgeois state and new forms of organization and consciousness.
         - title: Class Struggle Belgium
           url: https://classecontreclasse.org/
           description: Website of "Class Against Class" organization.
