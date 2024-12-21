@@ -1383,7 +1383,7 @@ data: # Navigation links below
           description: Organization in Croatia and Serbia.
         - title: Class Against Class
           url: https://stuut.info/
-          description: "Class Against Class" is a revolutionary political organization based in Brussels. Its ultimate goal is communism - a society without classes or states, free of exploitation, domination, and plundering relationships. This goal requires the overthrow of the bourgeois state and new forms of organization and consciousness.
+          description: ""Class Against Class" is a revolutionary political organization based in Brussels. Its ultimate goal is communism - a society without classes or states, free of exploitation, domination, and plundering relationships. This goal requires the overthrow of the bourgeois state and new forms of organization and consciousness."
         - title: Class Struggle Belgium
           url: https://classecontreclasse.org/
           description: Website of "Class Against Class" organization.
@@ -1527,7 +1527,7 @@ data: # Navigation links below
           description: Greek site connected to KKE-ML.
         - title: Polytechnic Protesters Solidarity Initiative
           url: https://protoboulia17n2020.blogspot.com/
-          description: The "Solidarity Initiative for Polytechnic Protesters" was formed in Thessaloniki to collectively express practical solidarity and financially support participants in assemblies on November 17 and December 6.
+          description: "The "Solidarity Initiative for Polytechnic Protesters" was formed in Thessaloniki to collectively express practical solidarity and financially support participants in assemblies on November 17 and December 6."
         - title: Sfendona Youth Cultural Center
           url: https://steki-sfentona.blogspot.com/
           description: Sfendona belongs to militant movements in higher education institutions, initiatives of young workers and unemployed people, and student resistance movements. Sfendona is a place of youth gatherings and solidarity with an anti-capitalist, anti-imperialist, and anti-conciliationist orientation.
@@ -2064,7 +2064,7 @@ data: # Navigation links below
     - title: Mong Palatino
       url: https://mongpalatino.com/
       description: Filipino left-wing activist
-    - title: Kevin "Rashid" Johnson
+    - title: "Kevin "Rashid" Johnson"
       url: https://rashidmod.com/
       description: New African Black Panther Party
     - title: Armed with a Pen
