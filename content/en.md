@@ -1963,6 +1963,9 @@ data: # Navigation links below
     - title: Lenin3print
       url: https://lenin3print.github.io/
       description: Leningrad Printing Plant Workers' Theoretical Group
+    - title: Quotations of Chairman Mao
+      url: https://maoism-pro.github.io/yulu/
+      description: Online English version
     - title: Mao Zedong Selected Works - Online Edition
       url: https://liyandi.gitbooks.io/maozedongxuanji/content/
       description: 
