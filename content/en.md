@@ -92,7 +92,13 @@ data: # Navigation links below
       description: A news website sharing insights on European revolutionary movements.
     - title: Boiyempo Blog
       url: https://blogdaboitempo.com.br/
-      description: A Brazilian platform from Latin America's largest critical thought publisher.
+      description: A Brazilian platform from Latin America's largest critical thought publisher
+    - title: Red Flag Netherlands
+      url: https://roedefane.org/
+      description: A revolutionary news website from the Netherlands
+    - title: The Masses
+      url: https://the-masses.org/
+      description: Official publication of the Revolutionary Maoist Coalition, an organization founded in March 2022
     - title: Partizan
       url: https://www.partizanmlm31.net/
       description: Media for TKP/ML's revolutionary activities.
@@ -140,7 +146,10 @@ data: # Navigation links below
       description: Reports from the Philippine News Agency on the New People's Army.
     - title: Marxism Today
       url: https://www.youtube.com/@Marxism_Today/videos
-      description: YouTube channel with leftist political content from a modern Marxist perspective.
+      description: YouTube channel with leftist political content from a modern Marxist perspective
+    - title: People's Dispatch
+      url: https://peoplesdispatch.org/
+      description: An international media organization bringing voices of people's movements and organizations from around the world
     - title: Invisible World
       url: https://atheatoskosmosps.blogspot.com/
       description: A column by Greek Marxists exploring untold stories and political commentary.
@@ -654,8 +663,11 @@ data: # Navigation links below
       description: Contains texts and information about Maoist groups and other radical left organizations in West Germany and Berlin.
     - title: "German Red Army Faction Documents"
       url: https://web.archive.org/web/20230525015237/http://germanguerilla.com/
-      description:
-    - title: "Belgian Marxist-Leninist Group"
+      description: 
+    - title: Communist Library
+      url: https://maoismen.wordpress.com/
+      description: Dutch language website
+    - title: Belgian Marxist-Leninist Group
       url: http://www.blocml.be/
       description: Document library
     - title: "Library of the Arab Communist Parties"
@@ -1150,6 +1162,9 @@ data: # Navigation links below
         - title: Latvian Workers' Front
           url: https://stradnieki.org
           description: 
+        - title: People's Democratic Rights Action
+          url: https://zusammenkaempfen.wordpress.com/
+          description: Austrian organization
         - title: Communist Party of Austria - Revolutionary Austria
           url: https://iarkp.wordpress.com
           description: 
@@ -1336,6 +1351,9 @@ data: # Navigation links below
         - title: Spanish People's Communist Party
           url: http://www.pcpe.es/
           description: 
+        - title: Victory of the Oppressed and Exploited
+          url: https://victoriaoprimidos.wordpress.com/
+          description: Spanish organization
         - title: Red Galicia
           url: https://galizavermelha.wordpress.com/
           description: 
