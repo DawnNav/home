@@ -908,7 +908,7 @@ data: # Navigation links below
           url: https://indiensoli.wordpress.com
           description: 
         - title: Committee to Support People's War in India
-          url: https://icspwindia.wordpress.com
+          url: http://icspwindia.site/
           description: ICSPWI.
         - title: Committee to Support People's War in India
           url: https://guerrapopolare-india.blogspot.com/
