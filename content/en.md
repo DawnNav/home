@@ -1502,7 +1502,7 @@ data: # Navigation links below
           url: https://www.m-lkke.gr/
           description: ML KKE
         - title: Reorganizing Communist Organization of Greece
-          url: https://www.oakke.gr/index.htm
+          url: https://www.oakke.gr/
           description: OAKKE
         - title: Beyond the Line
           url: https://www.ektosgrammis.gr/
