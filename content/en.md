@@ -84,6 +84,9 @@ data: # Navigation links below
     - title: Revista Opera
       url: https://revistaopera.operamundi.uol.com.br/
       description: A Brazilian magazine offering revolutionary perspectives.
+    - title: America Rebelde Magazine
+      url: https://revistaamericarebelde.info/
+      description: A publication focusing on revolutionary themes in the Americas.
     - title: Material Journal
       url: https://materialjournal.net/
       description: A publication focusing on revolutionary themes.
@@ -848,6 +851,9 @@ data: # Navigation links below
           url: https://www.tkpml5.net/
           description: TKP/ML.
         - title: Marxist-Leninist Communist Party of Turkey
+          title: Patizan Martyrs and Prisoners' Families (Turkey)
+          url: https://www.psta-online7.net/
+          description:
           url: http://www.mlkp-info.org/
           description: MLKP.
         - title: Communist Movement of Turkey
