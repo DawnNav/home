@@ -78,6 +78,9 @@ data: # Navigation links below
     - title: Indybay
       url: https://www.indybay.org/
       description: Independent media center for the San Francisco Bay Area.
+    - title: Prism
+      url: https://www.prismm.net/
+      description: Prism is an international initiative. Prism's purpose is to help radicalists equip themselves with tools to put theory into practice, to have a solid theoretical basis, but also to be able to turn theory into action.
     - title: Chhatra Fauj
       url: https://chhatrafauj.wordpress.com/
       description: Publication of India's Revolutionary Student Front.
@@ -763,6 +766,12 @@ data: # Navigation links below
         - title: Leading Light Communist Organization
           url: https://llco.org/
           description: LLCO.
+        - title: Peace Women Organization
+          url: https://1000peacewomen.org/en
+          description: 
+        - title: Institute of Political Economy
+          url: https://peoplesresearch.org/
+          description: Institute of Political Economy (IPE) was established in Manila in 1994 with the aim of understanding issues of Marxist political economy and developing policies and alternatives to study values. It conducts research and other support activities for policy-making and the development of alternatives to political and economic issues in the Philippines and the world.
         - title: Anti-Imperialist Revolutionary Movement
           url: https://web.archive.org/web/20220629082739/http://anti-imperialism.org/
           description: Archived website as the original is defunct.
