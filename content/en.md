@@ -997,6 +997,9 @@ data: # Navigation links below
         - title: Women's Protection Organization - Anweshi
           url: https://anweshi.org/
           description: 
+        - title: Campaign for Peace and Justice in Chhattisgarh
+          url: https://cpjc.wordpress.com/
+          description: CPJC
         - title: People's Union for Democratic Rights - India
           url: https://pudr.org/
           description: 
@@ -1489,6 +1492,9 @@ data: # Navigation links below
         - title: Yugoslav Labour Party
           url: https://www.partijarada.org/
           description: 
+        - title: Red Action
+          url: https://crvena.org/
+          description: Communist organization in Croatia and Serbia.
         - title: Slovenian Marxist Group
           url: https://marksist.net
           description: 
@@ -1648,6 +1654,12 @@ data: # Navigation links below
         - title: Radical Left Front
           url: https://www.oocities.org/mera_lamia/main.html
           description: MEGA (now defunct).
+        - title: Public Ideas
+          url: https://glasniidei.mk/
+          description: A Macedonian blog initiative that aims to listen to disenfranchised workers, highlight the needs of vulnerable social groups, and emphasize issues affecting everyone that don't make headlines or become internet trends.
+        - title: Socialist Dawn
+          url: https://socijalistickazora.mk/
+          description: Socialist Dawn is a Marxist organization whose long-term goal is to establish a socialist social system.
 
     - term: African Organizations
       links:
