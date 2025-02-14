@@ -628,6 +628,9 @@ data: # Navigation links below
     - title: Resistance - India Vanguard Archive
       url: http://resistanceindia.wordpress.com/
       description: 
+    - title: Avani News
+      url: https://avaninews.in/
+      description: Progressive Indian media that sometimes publishes Maoist announcements
     - title: Decolonizing Palestine
       url: https://decolonizepalestine.com/
       description: A resource collection for activists and anyone seeking to learn more about Palestine
