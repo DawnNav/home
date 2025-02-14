@@ -1054,6 +1054,12 @@ data: # Navigation links below
         - title: Revolutionary Association of the Women of Afghanistan
           url: http://pz.rawa.org/pz/
           description: 
+        - title: Red Path Organization of Iran 1
+          url: https://mlmiran.blogspot.com/
+          description: 
+        - title: Red Path Organization of Iran 2
+          url: https://maoistiran.blogspot.com/
+          description: 
         - title: Iranian People's Fadaian Guerrillas
           url: https://siahkal.com/
           description: 
