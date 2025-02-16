@@ -444,6 +444,9 @@ data: # Navigation links below
     - title: Marxist Notebook
       url: https://tetradia-marxismou.gr/
       description: A Greek platform sharing Marxist revolutionary analysis and theory.
+    - title: 为人民民主
+      url: https://www.perlademocraziapopolare.com/
+      description: 意大利
     - title: Maoism for the Masses
       url: https://maoismforthemasses.wordpress.com/
       description: A blog promoting revolutionary Marxism-Leninism-Maoism ideology.
