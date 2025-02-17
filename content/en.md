@@ -1448,7 +1448,7 @@ data: # Navigation links below
           url: https://nuovaegemonia.com/
           description: Italian organization.
         - title: Communist Party of Italy (Maoist)
-          url: 
+          url: https://proletaricomunisti.blogspot.com/
           description: Not included.
         - title: Communist Party of Italy (Marxist-Leninist)
           url: https://www.pmli.it/
