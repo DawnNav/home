@@ -294,6 +294,9 @@ data: # Navigation links below
     - title: Research Unit for Political Economy
       url: https://rupeindia.wordpress.com/
       description: An Indian site sharing Marxist research on political and economic issues.
+    - title: Research Unit for Political Economy
+      url: https://rupe-india.org/
+      description: RUPE-India another website
     - title: Socialist Republican Media
       url: https://socialistrepublicanmedia.home.blog/
       description: A news platform of the Irish Socialist Republican Party.
@@ -1153,6 +1156,9 @@ data: # Navigation links below
         - title: Japanese Communist League - Workers' Communist Party
           url: http://www.bekkoame.ne.jp/i/ga3129/
           description: Part of the Japanese Communist League.
+        - title: Communist Party of Burma
+          url: https://www.cp-burma.org/
+          description:
         - title: Serve the People - Vietnam
           url: https://vidanphucvu.wordpress.com/
           description: 
@@ -1182,6 +1188,9 @@ data: # Navigation links below
           description: Seems to be an old site managed by oneman.
         - title: Serve the People - Ukraine
           url: https://maoizmukr.wordpress.com/
+          description: 
+        - title: Ukrainian "Forward" Magazine
+          url: https://vpered.wordpress.com/
           description: 
         - title: Communist Workers' Party of Ukraine
           url: http://www.kprs-ua.narod.ru/
@@ -1459,6 +1468,9 @@ data: # Navigation links below
         - title: Malta Red Page Association
           url: https://pagnihomor.wordpress.com/blog/
           description: RedPage.
+        - title: Mass Student Movement
+          url: https://movimentstudenti.wordpress.com/
+          description: We are a self-organized Maltese student community with bright ideas for social progress, committed to national and international change.
         - title: Revolutionary Communist Party of Norway
           url: https://www.maoisme.no/
           description: 
@@ -1855,6 +1867,9 @@ data: # Navigation links below
         - title: "Committee to Rebuild the Communist Party USA"
           url: "https://maoistcultexposed.wordpress.com"
           description: ""
+        - title: "Mass Struggle"
+          url: "https://mass-struggle.org/"
+          description: "An anti-revisionist communist organization in the Boston area."
         - title: "Revolutionary Student Union"
           url: "https://revolutionarystudentsunion.wordpress.com/"
           description: "American organization."
@@ -2049,6 +2064,9 @@ data: # Navigation links below
     - title: Liberation of Georges Abdullah
       url: https://liberonsgeorges.samizdat.net/
       description: A movement supporting Palestinian activist Georges Abdullah in France
+    - title: Free Ahmad Sa'adat
+      url: https://freeahmadsaadat.org/
+      description: Ahmad Sa'adat is the General Secretary of the PFLP
     - title: Bandera Roja
       url: https://www.youtube.com/@banderaroja-rapcombativo820
       description: Red Flag - Struggle rap
