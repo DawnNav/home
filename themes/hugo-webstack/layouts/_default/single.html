@@ -129,7 +129,7 @@
 <script type='text/javascript' src='../js/nav.js?ver=2.0.0'></script>
 <script type='text/javascript' src='../js/lazyload.min.js?ver=2.0.0'></script>
 <script>
-// 利用 faviconkit API 获取网址 icon START
+// 利用 allesedv.com 服务获取网址 icon START
 $(".geticon").each(function(){
     var url = $(this).find('a').attr('href');
     var domain = url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
@@ -146,8 +146,8 @@ $(".geticon").each(function(){
         }
     }
     
-    // 使用 faviconkit API
-    const iconUrl = `https://api.faviconkit.com/${domain}/64`;
+    // 使用 allesedv.com 服务
+    const iconUrl = `//f8.allesedv.com/64/${domain}`;
     
     // 创建一个图像对象来测试图标是否可用
     const $this = $(this);
@@ -179,7 +179,7 @@ $(".geticon").each(function(){
     
     testImg.src = iconUrl;
 })
-// END 利用 faviconkit API 获取网址 icon
+// END 利用 allesedv.com 服务获取网址 icon
 </script>
 </body>
 </html>
