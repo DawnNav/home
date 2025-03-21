@@ -257,7 +257,7 @@
     </div id="overlay"> 
 <script type="text/javascript">
     $(document).ready(function() {
-        <!-- 黑暗和明亮模式 START -->
+        // 黑暗和明亮模式 START
         $('footer.main-footer .foot-button .bright-dark').click(function(){   
             var currentIcon = $(this).find('i').attr('class'); 
             if (currentIcon.includes('fa-moon')) {
@@ -268,8 +268,8 @@
                     $('body').removeClass('black').addClass('white');
             }        
         });
-        <!-- 黑暗和明亮模式 END -->
-        <!-- 图标加载优化 -->
+        // 黑暗和明亮模式 END
+        // 图标加载优化
         $(document).ready(function() {
             // 创建图标加载队列
             const iconQueue = [];
@@ -444,7 +444,7 @@
             var percentage = ((col_width + 30) / row_width).toFixed(2);
             if($('.sidebar-menu').hasClass('collapsed')) {
                 $('.has-sub.expanded > ul').attr("style","")
-                <!-- 缩小菜单栏 卡片列数+1 -->
+                // 缩小菜单栏 卡片列数+1
                  switch (percentage){
                     case '0.33': 
                         $(".col-md-3").css("width", "25%");
@@ -459,10 +459,10 @@
                         $(".col-md-3").css("width", "14.286%");
                         break;                        
                 }
-                <!-- 缩小菜单栏 卡片列数+1 END-->
+                // 缩小菜单栏 卡片列数+1 END
             } else {
                 $('.has-sub.expanded > ul').show()
-                <!-- 展开菜单栏 卡片列数-1 -->
+                // 展开菜单栏 卡片列数-1
                 switch (percentage){
                     case '0.25': 
                         $(".col-md-3").css("width", "33.333%");
@@ -477,7 +477,7 @@
                         $(".col-md-3").css("width", "16.666%");
                         break;                                                 
                 }
-                <!-- 展开菜单栏 卡片列数-1 END-->
+                // 展开菜单栏 卡片列数-1 END
             }
         })
         $("#main-menu li ul li").click(function() {
