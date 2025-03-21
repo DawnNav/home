@@ -295,7 +295,7 @@
                     .addClass('lazy');
             });
 
-            // 修改 loadSingleIcon 函数，使用 DuckDuckGo 服务
+            // 修改 loadSingleIcon 函数，使用 Google 服务
             function loadSingleIcon(iconInfo) {
                 return new Promise((resolve, reject) => {
                     // 检查缓存
@@ -313,8 +313,8 @@
 
                     const startTime = Date.now();
                     
-                    // 使用 DuckDuckGo 服务
-                    const iconUrl = `https://icons.duckduckgo.com/ip3/${iconInfo.domain}.ico`;
+                    // 使用 Google 服务
+                    const iconUrl = `https://www.google.com/s2/favicons?domain=${iconInfo.domain}&sz=64`;
                     
                     // 创建一个图像对象来测试图标是否可用
                     const testImg = new Image();
