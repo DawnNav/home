@@ -280,13 +280,12 @@
                 const $this = $(this);
                 const url = $this.find('a').attr('href');
                 const domain = url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
-                const apiUrl = "https://api.faviconkit.com/" + domain + "/64";
                 
                 // 将图标信息添加到队列
                 iconQueue.push({
                     element: $this,
+                    url: url,
                     domain: domain,
-                    apiUrl: apiUrl,
                     retries: 0 // 重试计数器
                 });
 
@@ -296,7 +295,7 @@
                     .addClass('lazy');
             });
 
-            // 修改 loadSingleIcon 函数，添加自动更新机制
+            // 修改 loadSingleIcon 函数，使用新的API
             function loadSingleIcon(iconInfo) {
                 return new Promise((resolve, reject) => {
                     // 检查缓存
@@ -312,40 +311,48 @@
                         }
                     }
 
-                    const img = new Image();
                     const startTime = Date.now();
-
-                    img.onload = () => {
-                        localStorage.setItem('favicon_' + iconInfo.domain, JSON.stringify({
-                            url: iconInfo.apiUrl,
-                            timestamp: Date.now()
-                        }));
-                        
-                        iconInfo.element.find('img').attr('data-src', iconInfo.apiUrl);
-                        // 立即更新显示
-                        updateImageDisplay(iconInfo.element.find('img')[0]);
-                        const loadTime = Date.now() - startTime;
-                        console.log(`Icon loaded for ${iconInfo.domain}: ${loadTime}ms`);
-                        resolve();
-                    };
-
-                    img.onerror = () => {
-                        if (iconInfo.retries < MAX_RETRIES) {
-                            iconInfo.retries++;
-                            console.log(`Retrying ${iconInfo.domain}, attempt ${iconInfo.retries}`);
-                            setTimeout(() => {
-                                loadSingleIcon(iconInfo).then(resolve).catch(reject);
-                            }, 1000);
-                        } else {
-                            const fallbackUrl = `https://${iconInfo.domain}/favicon.ico`;
-                            iconInfo.element.find('img').attr('data-src', fallbackUrl);
+                    
+                    // 使用新的API
+                    $.ajax({
+                        url: 'https://favicon.hh.luler.top/api/favicon',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify({ url: iconInfo.url }),
+                        success: function(response) {
+                            // 使用64x64大小的图标
+                            const iconUrl = response.favicons && response.favicons['64'] 
+                                ? response.favicons['64'] 
+                                : (response.faviconUrl || '/images/favicon.png');
+                            
+                            localStorage.setItem('favicon_' + iconInfo.domain, JSON.stringify({
+                                url: iconUrl,
+                                timestamp: Date.now()
+                            }));
+                            
+                            iconInfo.element.find('img').attr('data-src', iconUrl);
                             // 立即更新显示
                             updateImageDisplay(iconInfo.element.find('img')[0]);
+                            const loadTime = Date.now() - startTime;
+                            console.log(`Icon loaded for ${iconInfo.domain}: ${loadTime}ms`);
                             resolve();
+                        },
+                        error: function(xhr, status, error) {
+                            if (iconInfo.retries < MAX_RETRIES) {
+                                iconInfo.retries++;
+                                console.log(`Retrying ${iconInfo.domain}, attempt ${iconInfo.retries}`);
+                                setTimeout(() => {
+                                    loadSingleIcon(iconInfo).then(resolve).catch(reject);
+                                }, 1000);
+                            } else {
+                                const fallbackUrl = `https://${iconInfo.domain}/favicon.ico`;
+                                iconInfo.element.find('img').attr('data-src', fallbackUrl);
+                                // 立即更新显示
+                                updateImageDisplay(iconInfo.element.find('img')[0]);
+                                resolve();
+                            }
                         }
-                    };
-
-                    img.src = iconInfo.apiUrl;
+                    });
                 });
             }
 

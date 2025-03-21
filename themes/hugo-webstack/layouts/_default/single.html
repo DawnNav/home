@@ -128,5 +128,59 @@
 <script type='text/javascript' src='../js/perfect-scrollbar.min.js?ver=0.5.8'></script>
 <script type='text/javascript' src='../js/nav.js?ver=2.0.0'></script>
 <script type='text/javascript' src='../js/lazyload.min.js?ver=2.0.0'></script>
+<script>
+// 利用新API获取网址icon START
+$(".geticon").each(function(){
+    var url = $(this).find('a').attr('href');
+    var domain = url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+    
+    // 检查缓存
+    const cached = localStorage.getItem('favicon_' + domain);
+    if (cached) {
+        const {url: iconUrl, timestamp} = JSON.parse(cached);
+        if (Date.now() - timestamp < 7 * 24 * 60 * 60 * 1000) {
+            $(this).find('img')
+                .attr('data-src', iconUrl)
+                .attr('src', '/images/loading.gif');
+            return;
+        }
+    }
+    
+    // 使用新的API
+    const $this = $(this);
+    $.ajax({
+        url: 'https://favicon.hh.luler.top/api/favicon',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({ url: url }),
+        success: function(response) {
+            // 使用64x64大小的图标
+            const iconUrl = response.favicons && response.favicons['64'] 
+                ? response.favicons['64'] 
+                : (response.faviconUrl || '/images/favicon.png');
+            
+            localStorage.setItem('favicon_' + domain, JSON.stringify({
+                url: iconUrl,
+                timestamp: Date.now()
+            }));
+            
+            if ($this.find('img').attr('data-src').length === 0) {
+                $this.find('img')
+                    .attr('data-src', iconUrl)
+                    .attr('src', '/images/loading.gif');
+            }
+        },
+        error: function(xhr, status, error) {
+            const fallbackUrl = `https://${domain}/favicon.ico`;
+            if ($this.find('img').attr('data-src').length === 0) {
+                $this.find('img')
+                    .attr('data-src', fallbackUrl)
+                    .attr('src', '/images/loading.gif');
+            }
+        }
+    });
+})
+// END 利用新API获取网址icon
+</script>
 </body>
 </html>
