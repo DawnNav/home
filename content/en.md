@@ -1192,6 +1192,9 @@ data: # Navigation links below
         - title: Ukrainian "Forward" Magazine
           url: https://vpered.wordpress.com/
           description: 
+        - title: Revolutionary Communist Party Union of Ukraine
+          url: https://rcpurevolution.tilda.ws/
+          description: RKPU is a young revolutionary organization dedicated to building revolutionary movements throughout Ukraine.
         - title: Communist Workers' Party of Ukraine
           url: http://www.kprs-ua.narod.ru/
           description: 
@@ -2094,6 +2097,12 @@ data: # Navigation links below
     - title: Friends of Palestine Against Zionism and Imperialism
       url: https://filistindostlari.org/
       description: Turkish
+    - title: Umut (Hope) Publishers
+      url: https://umutyayimcilik1.com/
+      description: 
+    - title: Prairie Fire Publishing
+      url: https://prairiefirepublishing.com/
+      description: Purveyors of Revolutionary and Progressive Literature
     - title: Leftwing Books (Publisher/Bookstore)
       url: https://leftwingbooks.net
       description: 
