@@ -65,6 +65,10 @@
     - title: 红外线媒体
       url: https://infrarot49.wordpress.com/
       description: 德国团体，研究文革理论
+    - title: 美国《工人报》
+      url: https://theworker.news
+      description: 《工人报》是革命工人阶级的表达机关，旨在团结有阶级意识的工人和无产阶级革命者在毛主义旗帜下，为重建共产党服务。
+
     - title: Indybay
       url: https://www.indybay.org/
       description: 旧金山湾区独立媒体中心
@@ -299,6 +303,9 @@
     - title: 保卫人民战争
       url: https://fdlp-ec.blogspot.com
       description: 
+    - title: 无产阶级视角
+      url: https://proletarianperspectives.org/
+      description: 无产阶级视角的主要目标是帮助共产主义组织（和个人）交流思想和辩论，以服务于国际共产主义运动更广泛的意识形态和政治发展需要。我们还将成为一个数据库，读者可以在其中找到当前和以前的辩论，以及对辩论路线的介绍性概述。
     - title: 180邮报
       url: https://180post.com/
       description: 一个阿拉伯语的政治经济平台
@@ -855,7 +862,7 @@
           url: https://maoistkomunistparti.org/
           description: MKP
         - title: 土耳其共产党/ML
-          url: https://www.tkpml5.net/
+          url: https://www.tkpml6.net/
           description: TKP/ML
         - title: 游击队烈士和囚犯家属（土耳其）
           url: https://www.psta-online7.net/
@@ -1163,6 +1170,9 @@
         - title: 俄罗斯毛主义集体
           url: https://mlmkr.ru/
           description: MKR
+        - title: 共产主义道路
+          url: https://teletype.in/@komput
+          description: 俄罗斯工人协会
         - title: 全联盟共产党布尔什维克
           url: http://www.vkpb.ru/
           description: 
@@ -1392,6 +1402,9 @@
         - title: 丹麦社会主义革命
           url: https://socialistiskrevolution.wordpress.com/
           description: 
+        - title: 共产主义工人协会
+          url: https://arbetarforeningen.se/
+          description: 共产主义工人协会旨在团结全国各地的共产党员，以组建一个革命性的共产党。该协会反对一切形式的资本主义、帝国主义、种族主义和沙文主义。协会力求通过社会主义革命实现无阶级的共产主义社会。
         - title: 瑞典共产党
           url: https://skp.se/
           description: 
@@ -1497,6 +1510,9 @@
         - title: 爱尔兰社会主义共和党
           url: https://irsp.ie/
           description: IRSP
+        - title: 我们将再次崛起
+          url: https://welshmaoist.blogspot.com
+          description: 威尔士社会主义共和党的网刊
         - title: 大动荡（威尔士）
           url: https://greatunrest2012.blogspot.com/
           description: 

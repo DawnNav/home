@@ -75,6 +75,10 @@ data: # Navigation links below
     - title: Infrared Media
       url: https://infrarot49.wordpress.com/
       description: A German group analyzing the Cultural Revolution's theories.
+    - title: The Worker - USA
+      url: https://theworker.news
+      description: The Worker is an organ of expression for the revolutionary working class, aiming to unite class-conscious workers and proletarian revolutionaries under the banner of Maoism in service of rebuilding the Communist Party.
+
     - title: Indybay
       url: https://www.indybay.org/
       description: Independent media center for the San Francisco Bay Area.
@@ -309,6 +313,9 @@ data: # Navigation links below
     - title: Defend the People's War
       url: https://fdlp-ec.blogspot.com
       description: A blog supporting revolutionary movements in Ecuador.
+    - title: Proletarian Perspectives
+      url: https://proletarianperspectives.org/
+      description: The main goal of Proletarian Perspectives is to help communist organizations (and individuals) exchange ideas and debates to serve the broader ideological and political development needs of the international communist movement. We will also become a database where readers can find current and previous debates, as well as introductory overviews of debate lines.
     - title: 180 Post
       url: https://180post.com/
       description: An Arabic platform analyzing political and economic developments.
@@ -866,7 +873,7 @@ data: # Navigation links below
           url: https://maoistkomunistparti.org/
           description: MKP.
         - title: Communist Party of Turkey/ML
-          url: https://www.tkpml5.net/
+          url: https://www.tkpml6.net/
           description: TKP/ML.
         - title: Marxist-Leninist Communist Party of Turkey
           title: Patizan Martyrs and Prisoners' Families (Turkey)
@@ -1174,6 +1181,9 @@ data: # Navigation links below
         - title: Russian Maoist Collective
           url: https://mlmkr.ru/
           description: MKR
+        - title: Communist Path
+          url: https://teletype.in/@komput
+          description: Russian Workers' Association
         - title: All-Union Communist Party Bolsheviks
           url: http://www.vkpb.ru/
           description: 
@@ -1405,6 +1415,9 @@ data: # Navigation links below
         - title: Communist Party of Sweden
           url: https://skp.se/
           description: 
+        - title: Communist Workers' Association
+          url: https://arbetarforeningen.se/
+          description: The Communist Workers' Association aims to unite communists across the country to build a revolutionary communist party. The association opposes all forms of capitalism, imperialism, racism and chauvinism. It strives for a classless communist society through socialist revolution.
         - title: Swedish Maoists - Rebel is Justified
           url: https://prariebrand.wordpress.com/
           description: 
@@ -1507,6 +1520,9 @@ data: # Navigation links below
         - title: Irish Socialist Republican Party
           url: https://irsp.ie/
           description: IRSP.
+        - title: We Will Rise Again
+          url: https://welshmaoist.blogspot.com
+          description: Journal of the Welsh Socialist Republican Party.
         - title: The Great Unrest (Wales)
           url: https://greatunrest2012.blogspot.com/
           description: 
