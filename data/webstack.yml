@@ -454,7 +454,7 @@
       url: https://ocomuneiro.com/ii_index.htm
       description: 
     - title: 全心全意为人民服务
-      url: https://serviraopovo.wordpress.com/
+      url: https://serviraopovo.com.br/
       description: 巴西网站
     - title: 反击
       url: https://www.counterpunch.org/
@@ -1399,6 +1399,9 @@
         - title: 红色加西利亚
           url: https://galizavermelha.wordpress.com/
           description: 
+        - title: 丹麦共产主义青年团
+          url: https://dku2021.wordpress.com/
+          description: DKU是丹麦唯一的官方共产主义青年组织，我们为消除共产主义者的污名化而奋斗。
         - title: 丹麦社会主义革命
           url: https://socialistiskrevolution.wordpress.com/
           description: 
@@ -1420,6 +1423,12 @@
         - title: 为人民服务-挪威
           url: https://maoist.home.blog/
           description: 
+        - title: 为人民服务
+          url: https://revistaserviraopovo.wordpress.com/
+          description: 致力于为葡萄牙人民传播马列毛主义信息
+        - title: 保卫革命
+          url: https://www.emdefrevolucao.pt/
+          description: 葡萄牙共产党（PCP）的一个秘密派系，一个无论在党内还是党外都运作的政治组织，目标是在葡萄牙重建一个革命的、国际主义的共产党。
         - title: 葡萄牙革命会
           url: https://paginavermelha.org/
           description: 
@@ -1492,6 +1501,9 @@
         - title: 英国革命共产党
           url: https://www.rcpbml.org.uk/
           description: 霍查派
+        - title: 反帝阵线（MLM）
+          url: https://aifgb.wordpress.com/
+          description: 反帝阵线是英国的一个阶级意识、革命和社会主义组织，成立于2024年。
         - title: 英国毛主义中心
           url: https://maoistcentre.wordpress.com/
           description: 
@@ -1849,6 +1861,12 @@
         - title: 自由之路社会主义组织
           url: https://frso.org/
           description: 美国组织
+        - title: 毛主义共产主义联盟
+          url: https://maoistcommunistunion.com/
+          description: 美国组织，致力于在美国革命斗争中推进马列毛主义原则
+        - title: 革命马克思主义学生组织
+          url: https://marxiststudents.wordpress.com/
+          description: 一个在美国多所大学有活跃组织的革命马克思主义学生团体
         - title: 美国人民妇女运动
           url: https://pwm-mfp.org/
           description: 
@@ -2233,7 +2251,7 @@
       url: https://www.leftwingbooks.net/
       description: 
     - title: 为人民服务博客
-      url: http://servirlepeuple.over-blog.com/
+      url: https://servirlepeupleservirlepeuple.eklablog.com/
       description: 法国网站
     - title: Demystification
       url: http://www.demystification.fr/les-livres-de-tom-thomas-2/

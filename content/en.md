@@ -464,7 +464,7 @@ data: # Navigation links below
       url: https://ocomuneiro.com/ii_index.htm
       description: A Portuguese publication advocating for Marxist revolutionary ideals.
     - title: Serve the People Wholeheartedly
-      url: https://serviraopovo.wordpress.com/
+      url: https://serviraopovo.com.br/
       description: A Brazilian website dedicated to promoting revolutionary Maoist thought.
     - title: CounterPunch
       url: https://www.counterpunch.org/
@@ -1409,6 +1409,9 @@ data: # Navigation links below
         - title: Red Galicia
           url: https://galizavermelha.wordpress.com/
           description: 
+        - title: Danish Communist Youth League
+          url: https://dku2021.wordpress.com/
+          description: DKU is Denmark's only official communist youth organization fighting against the stigmatization of communists. communists.
         - title: Socialist Revolution Denmark
           url: https://socialistiskrevolution.wordpress.com/
           description: 
@@ -1430,6 +1433,12 @@ data: # Navigation links below
         - title: Serve the People - Norway
           url: https://maoist.home.blog/
           description: 
+        - title: Serve the People (Portugal)
+          url: https://revistaserviraopovo.wordpress.com/
+          description: Dedicated to spreading MLM information to the Portuguese people.
+        - title: In Defense of Revolution (Portugal) 
+          url: https://www.emdefrevolucao.pt/
+          description: A clandestine faction of the Portuguese Communist Party (PCP), operating both inside and outside the party with the goal of rebuilding a revolutionary, internationalist communist party in Portugal. in Portugal.
         - title: Revolutionary Council of Portugal
           url: https://paginavermelha.org/
           description: 
@@ -1502,6 +1511,9 @@ data: # Navigation links below
         - title: Revolutionary Communist Party of Britain
           url: https://www.rcpbml.org.uk/
           description: Hoxhaist.
+        - title: Anti-Imperialist Front (MLM)
+          url: https://aifgb.wordpress.com/
+          description: The Anti-Imperialist Front is a class-conscious, revolutionary and socialist organization in Britain, established in 2024.
         - title: British Maoist Centre
           url: https://maoistcentre.wordpress.com/
           description: 
@@ -1856,6 +1868,12 @@ data: # Navigation links below
         - title: "Freedom Road Socialist Organization"
           url: "https://frso.org/"
           description: "American organization."
+        - title: "Maoist Communist Union"
+          url: "https://maoistcommunistunion.com/"
+          description: "The Maoist Communist Union is an organization of comrades committed to advancing the principles of Marxism-Leninism-Maoism in the struggle for revolution in the United States."
+        - title: "Revolutionary Marxist Students Organization"
+          url: "https://marxiststudents.wordpress.com/"
+          description: "A U.S.-based revolutionary organization of Marxist students with active groups at several universities across the country."
         - title: "People's Women's Movement of America"
           url: "https://pwm-mfp.org/"
           description: ""
@@ -2240,7 +2258,7 @@ data: # Navigation links below
       url: https://www.leftwingbooks.net/
       description: 
     - title: Serve the People Blog
-      url: http://servirlepeuple.over-blog.com/
+      url: https://servirlepeupleservirlepeuple.eklablog.com/
       description: French website
     - title: Demystification
       url: http://www.demystification.fr/les-livres-de-tom-thomas-2/
