@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // 获取所有导航卡片链接
     const navLinks = document.querySelectorAll('.xe-widget.xe-conversations');
     
-    // 获取网站基础URL
-    const baseURL = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, '');
+    // 获取网站基础URL - 修复：始终使用根路径而不是当前页面路径
+    const baseURL = window.location.origin;
     
     // 创建一个生成随机ID的函数
     function generateRandomString(length = 8) {
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 };
                 localStorage.setItem('goto_' + randomStr, JSON.stringify(gotoData));
                 
-                // 跳转到中间页
+                // 跳转到中间页 - 修复：使用固定的/goto/路径
                 window.location.href = baseURL + '/goto/?id=' + randomStr;
             }
         });
