@@ -523,17 +523,7 @@
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 {{ if .Site.Params.pinyin.enable }}<script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.19.0/dist/index.js"></script>{{ end }}
 <script type='text/javascript' src='./js/local-search.js'></script>
-    <!-- Cloudflare Web Analytics --> <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "80765c10e2494d798b4d53d00b739c3e"}'></script> <!-- End Cloudflare Web Analytics -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-lazyload@1.9.7/jquery.lazyload.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("img.lazy").lazyload({
-                threshold : 200,  // 提前200px加载
-                effect : "fadeIn", // 淡入效果
-                failure_limit : 10 // 同时加载的数量
-            });
-        });
-    </script>
+<!-- 中间跳转页功能 -->
+<script type='text/javascript' src='./js/goto.js'></script>
 </body>
 </html>
