@@ -275,9 +275,9 @@
         $(".geticon").each(function(){
             var url = $(this).find('a').attr('href');
             var domain = url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
-            var apiUrl = "https://api.faviconkit.com/" + domain + "/64";
+ 
+            var apiUrl = "https://favicon.is-an.org/?domain=" + domain + "&sz=64";
             
-            // 预加载图标
             var img = new Image();
             img.src = apiUrl;
             
