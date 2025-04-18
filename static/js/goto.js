@@ -87,8 +87,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 };
                 localStorage.setItem('goto_' + randomStr, JSON.stringify(gotoData));
                 
-                // 跳转到中间页 - 修复：使用固定的/goto/路径
-                window.location.href = baseURL + '/goto/?id=' + randomStr;
+                // 跳转到中间页 - 在新标签页打开
+                window.open(baseURL + '/goto/?id=' + randomStr, '_blank');
             }
         });
     });

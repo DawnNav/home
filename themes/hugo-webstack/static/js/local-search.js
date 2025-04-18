@@ -107,7 +107,6 @@ function search() {
             var newLink = document.createElement('a');
             newLink.href = 'javascript:void(0);';
             newLink.innerHTML = newtext;
-            newLink.target = '_blank';
             newLink.addEventListener('click', function() {
                 var randomStr = generateRandomString();
                 localStorage.setItem('goto_' + randomStr, JSON.stringify({
@@ -115,7 +114,7 @@ function search() {
                     targetURL: data.href,
                     description: null
                 }));
-                window.location.href = window.location.origin + '/goto/?id=' + randomStr;
+                window.open(window.location.origin + '/goto/?id=' + randomStr, '_blank');
             });
             listItem.appendChild(newIcon);
             listItem.appendChild(newLink);
