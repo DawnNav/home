@@ -31,6 +31,17 @@ function getMatchedWord(text, index) {
     }  
     return '';
 }
+
+// 生成随机ID，用于中间跳转页
+function generateRandomString(length = 8) {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    for (let i = 0; i < length; i++) {
+        result += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+    return result;
+}
+
 // 封装搜索逻辑
 function search() {
     var keyword = this.value;  
@@ -76,34 +87,39 @@ function search() {
     resultsList.innerHTML = '';  // 清空结果列表
     if (results.length > 0) {
         var defaultLogo = rootPath+'images/favicon.png';
-        for (var j = 0; j < results.length; j++) {
-        // 用高亮的标签替换匹配到的汉字
-            if (results[j].wdMatch){
-                var word = results[j].wdMatch[0];
-            }else{
-                var word = getMatchedWord(results[j].text, results[j].pyMatch);
-            }
-            var highlight = "<strong>" + word + "</strong>";
-            var newtext = results[j].text.replace(word, highlight);;
-        // 结果列表
-            var listItem = document.createElement('li');  
-            // 加一个i标签用于显示logo
+        for (let j = 0; j < results.length; j++) { // block-scoped j
+            const data = results[j]; // capture result for each iteration
+            // 生成高亮文本
+            const word = data.wdMatch ? data.wdMatch[0] : getMatchedWord(data.text, data.pyMatch);
+            const highlight = "<strong>" + word + "</strong>";
+            const newtext = data.text.replace(word, highlight);
+            // 创建列表项
+            var listItem = document.createElement('li');
+            // 创建图标
             var newIcon = document.createElement('i');
             var img = document.createElement('img');
             img.classList.add('lazy');
             img.src = defaultLogo;
-            img.setAttribute('data-src',results[j].dataSrc)
+            img.setAttribute('data-src', data.dataSrc);
             img.setAttribute('onerror', `javascript:this.src='${defaultLogo}'`);
             newIcon.appendChild(img);
-            // 添加a标签
-            var newLink = document.createElement('a');  
-            newLink.href = results[j].href;  
-            newLink.innerHTML = newtext;                      
-            newLink.target = "_blank";
-            // 将新增元素加入到搜索结果列表
+            // 创建链接，拦截点击事件跳转至中间页
+            var newLink = document.createElement('a');
+            newLink.href = 'javascript:void(0);';
+            newLink.innerHTML = newtext;
+            newLink.target = '_blank';
+            newLink.addEventListener('click', function() {
+                var randomStr = generateRandomString();
+                localStorage.setItem('goto_' + randomStr, JSON.stringify({
+                    title: data.text.split(' - ')[0],
+                    targetURL: data.href,
+                    description: null
+                }));
+                window.location.href = window.location.origin + '/goto/?id=' + randomStr;
+            });
             listItem.appendChild(newIcon);
-            listItem.appendChild(newLink);  
-            resultsList.appendChild(listItem);  
+            listItem.appendChild(newLink);
+            resultsList.appendChild(listItem);
         }
         $("img.lazy").lazyload();
     } else {  

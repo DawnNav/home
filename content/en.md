@@ -2349,7 +2349,7 @@ data: # Navigation links below
   icon: fa-link
   friend:
     - title: English Version
-      url: /
+      url: https://dawnnav.pages.dev/en
       description: 对应content目录的en.md，可重命名、删除、复制。
     - title: 黎明导航旧址-备用站
       url: https://mlmnavigation.wordpress.com/

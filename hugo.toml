@@ -1,6 +1,6 @@
 baseURL = "https://dawnnav.pages.dev"
 languageCode = "zh-CN"
-title = "黎明导航"
+title = "DawnNav"
 theme = "hugo-webstack" 
 
 #true:允许大写字母url路径，false:将url路径转换成小写
@@ -19,7 +19,7 @@ copyright = "DawnNav"
   [params.opengraph]
     enable = true
     locale = "zh_CN"
-    sitename = "黎明导航"
+    sitename = "DawnNav"
   [params.twitter]
     enable = true
     card = "summary_large_image"
