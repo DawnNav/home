@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ if in .RelPermalink "/en/" }}en{{ else }}zh-CN{{ end }}">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>{{ if in .RelPermalink "/en/" }}Redirecting{{ else }}正在跳转{{ end }} - {{ .Site.Title }}</title>
+<title>{{ if eq .Lang "en" }}Redirecting - {{ else }}正在跳转 - {{ end }}{{ .Site.Title }}</title>
 <meta name="theme-color" content="#2C2E2F" />
 <meta name="keywords" content="{{ .Site.Params.keywords }}">
 <meta name="description" content="{{ .Site.Params.Description }}">
@@ -306,20 +306,24 @@
         <div id="target-content" style="display: none;">
             <div class="target-card">
                 <div class="target-header">
-                    <img id="target-logo" class="target-logo" src="../images/favicon.png" alt="{{ if in .RelPermalink "/en/" }}Site Icon{{ else }}网站图标{{ end }}">
+                    <img id="target-logo" class="target-logo" src="../images/favicon.png" alt="网站图标">
                     <div class="target-title-area">
-                        <h2 id="target-title" class="target-title">{{ if in .RelPermalink "/en/" }}External Website{{ else }}外部网站{{ end }}</h2>
-                        <p id="target-url" class="target-url">{{ if in .RelPermalink "/en/" }}Loading...{{ else }}加载中...{{ end }}</p>
+                        <h2 id="target-title" class="target-title">外部网站</h2>
+                        <p id="target-url" class="target-url">加载中...</p>
                     </div>
                 </div>
                 <div class="target-details">
-                    <p id="target-description" class="target-description">{{ if in .RelPermalink "/en/" }}Loading website information...{{ else }}正在加载网站信息...{{ end }}</p>
+                    <p id="target-description" class="target-description">正在加载网站信息...</p>
                 </div>
             </div>
             
             <div class="timer-section">
-                <div class="countdown">{{ if in .RelPermalink "/en/" }}Auto-redirect in <span class="countdown-time"><span id="minutes">1</span>:<span id="seconds">00</span></span>{{ else }}页面将在 <span class="countdown-time"><span id="minutes">1</span>:<span id="seconds">00</span></span> 后自动跳转{{ end }}</div>
-                <div class="action-notice">{{ if in .RelPermalink "/en/" }}You can also click the button below to proceed immediately{{ else }}您也可以点击下方按钮立即前往{{ end }}</div>
+                <div class="countdown">
+                    {{ if eq .Lang "en" }}This page will automatically redirect in <span class="countdown-time"><span id="minutes">1</span>:<span id="seconds">00</span></span>.{{ else }}页面将在 <span class="countdown-time"><span id="minutes">1</span>:<span id="seconds">00</span></span> 后自动跳转{{ end }}
+                </div>
+                <div class="action-notice">
+                    {{ if eq .Lang "en" }}You can also click the button below to go immediately.{{ else }}您也可以点击下方按钮立即前往{{ end }}
+                </div>
                 
                 <div class="progress-container">
                     <div class="progress-bar" id="progress-bar"></div>
@@ -327,10 +331,10 @@
                 
                 <div class="button-group">
                     <a href="javascript:void(0);" id="go-button" class="btn btn-primary">
-                        <i class="fa fa-external-link" aria-hidden="true"></i>{{ if in .RelPermalink "/en/" }}Visit Now{{ else }}立即前往{{ end }}
+                        <i class="fa fa-external-link" aria-hidden="true"></i>{{ if eq .Lang "en" }}Go Now{{ else }}立即前往{{ end }}
                     </a>
                     <a href="javascript:history.back()" class="btn btn-secondary">
-                        <i class="fa fa-arrow-left" aria-hidden="true"></i>{{ if in .RelPermalink "/en/" }}Go Back{{ else }}返回上页{{ end }}
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>返回上页
                     </a>
                 </div>
             </div>
@@ -338,12 +342,16 @@
         
         <div id="loading-content" class="content-loader">
             <div class="loading-spinner"></div>
-            <p class="loader-text">{{ if in .RelPermalink "/en/" }}Getting website information...{{ else }}正在获取网站信息...{{ end }}</p>
+            <p class="loader-text">
+                {{ if eq .Lang "en" }}Loading website information...{{ else }}正在获取网站信息...{{ end }}
+            </p>
         </div>
         
         <div class="safety-notice">
-            <p><i class="fa fa-info-circle" aria-hidden="true"></i> {{ if in .RelPermalink "/en/" }}You are about to leave "{{ .Site.Title }}" to a page provided by a third party{{ else }}您即将离开"{{ .Site.Title }}"，访问的网页由第三方提供{{ end }}</p>
-            <p>{{ if in .RelPermalink "/en/" }}We are not responsible for external content. Please protect your account and privacy{{ else }}本站不对其内容负责，请注意您的账号和隐私安全{{ end }}</p>
+            <p><i class="fa fa-info-circle" aria-hidden="true"></i>
+                {{ if eq .Lang "en" }}You are about to leave "{{ .Site.Title }}". The content you are visiting is provided by a third party.{{ else }}您即将离开"{{ .Site.Title }}"，访问的网页由第三方提供{{ end }}
+            </p>
+            <p>本站不对其内容负责，请注意您的账号和隐私安全</p>
         </div>
         
         <div class="copyright">
@@ -368,9 +376,6 @@
             var goButtonEl = document.getElementById('go-button');
             var targetContent = document.getElementById('target-content');
             var loadingContent = document.getElementById('loading-content');
-            
-            // 检查是否是英文页面
-            var isEnglish = {{ if in .RelPermalink "/en/" }}true{{ else }}false{{ end }};
             
             // 获取URL中的参数
             function getParameterByName(name) {
@@ -398,7 +403,7 @@
                     domain = domain.split('/')[0];
                     return domain;
                 } catch (e) {
-                    console.error(isEnglish ? 'Error extracting domain:' : '提取域名出错:', e);
+                    console.error('提取域名出错:', e);
                     return '';
                 }
             }
@@ -434,9 +439,7 @@
                             // 更新标题
                             if (targetData.title) {
                                 targetTitleEl.textContent = targetData.title;
-                                document.title = isEnglish 
-                                    ? 'Redirecting to ' + targetData.title + ' - {{ .Site.Title }}'
-                                    : '正在跳转到 ' + targetData.title + ' - {{ .Site.Title }}';
+                                document.title = '正在跳转到 ' + targetData.title + ' - {{ .Site.Title }}';
                             }
                             
                             // 更新描述
@@ -452,13 +455,13 @@
                             loadingContent.style.display = 'none';
                         }
                     } catch (e) {
-                        console.error(isEnglish ? 'Error parsing redirect data:' : '解析跳转数据出错:', e);
+                        console.error('解析跳转数据出错:', e);
                     }
                 }
             } 
             
             // 回退到页面上指定的URL或默认值
-            if (!targetURL || targetURL === (isEnglish ? "Loading..." : "加载中...")) {
+            if (!targetURL || targetURL === "加载中...") {
                 targetURL = "{{ if .Params.targetURL }}{{ .Params.targetURL }}{{ else }}javascript:history.back();{{ end }}";
                 if (targetURL === "javascript:history.back();") {
                     setTimeout(function() {
@@ -523,36 +526,28 @@
                             if (title && title.textContent) {
                                 if (!targetData || !targetData.title) {
                                     targetTitleEl.textContent = title.textContent;
-                                    document.title = isEnglish 
-                                        ? 'Redirecting to ' + title.textContent + ' - {{ .Site.Title }}'
-                                        : '正在跳转到 ' + title.textContent + ' - {{ .Site.Title }}';
+                                    document.title = '正在跳转到 ' + title.textContent + ' - {{ .Site.Title }}';
                                 }
                                 
                                 const h1 = doc.querySelector('h1');
                                 if (h1 && h1.textContent) {
                                     targetDescEl.textContent = h1.textContent;
                                 } else {
-                                    targetDescEl.textContent = isEnglish
-                                        ? "This is a website about " + title.textContent
-                                        : "这是一个关于 " + title.textContent + " 的网站";
+                                    targetDescEl.textContent = "这是一个关于 " + title.textContent + " 的网站";
                                 }
                                 return;
                             }
                             
                             // 默认描述
-                            targetDescEl.textContent = isEnglish
-                                ? "Redirecting to this website, please wait..."
-                                : "正在跳转至该网站，请稍候...";
+                            targetDescEl.textContent = "正在跳转至该网站，请稍候...";
                             
                         } else {
                             throw new Error('Invalid data structure');
                         }
                     })
                     .catch(error => {
-                        console.error(isEnglish ? 'Error fetching website description:' : '获取网站描述出错:', error);
-                        targetDescEl.textContent = isEnglish
-                            ? "Redirecting to this website, please wait..."
-                            : "正在跳转至该网站，请稍候...";
+                        console.error('获取网站描述出错:', error);
+                        targetDescEl.textContent = "正在跳转至该网站，请稍候...";
                     });
             }
             
