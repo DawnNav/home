@@ -42,6 +42,9 @@ data: # Navigation links below
     - title: Redspark
       url: https://redspark.nu/
       description: A website dedicated to revolutionary news and global Maoist updates.
+    - title: People's War Chinese Broadcast
+      url: https://t.me/PeoplesWar_zh
+      description: Telegram channel updating news on People's War
     - title: Resistance Trench
       url: https://t.me/ResistanceTrench
       description: News related to Palestinian resistance efforts.
