@@ -109,10 +109,15 @@ function search() {
             newLink.innerHTML = newtext;
             newLink.addEventListener('click', function() {
                 var randomStr = generateRandomString();
+                // 从搜索结果文本中提取描述信息，格式是"标题 - 描述"
+                const parts = data.text.split(' - ');
+                const title = parts[0];
+                const description = parts.length > 1 ? parts.slice(1).join(' - ') : '';
+                
                 localStorage.setItem('goto_' + randomStr, JSON.stringify({
-                    title: data.text.split(' - ')[0],
+                    title: title,
                     targetURL: data.href,
-                    description: null
+                    description: description  // 使用提取的描述信息
                 }));
                 window.open(window.location.origin + '/goto/?id=' + randomStr, '_blank');
             });

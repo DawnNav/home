@@ -333,7 +333,7 @@
                     <a href="javascript:void(0);" id="go-button" class="btn btn-primary">
                         <i class="fa fa-external-link" aria-hidden="true"></i>{{ if eq .Lang "en" }}Go Now{{ else }}立即前往{{ end }}
                     </a>
-                    <a href="javascript:history.back()" class="btn btn-secondary">
+                    <a href="javascript:void(0);" id="back-button" class="btn btn-secondary">
                         <i class="fa fa-arrow-left" aria-hidden="true"></i>返回上页
                     </a>
                 </div>
@@ -581,6 +581,15 @@
             goButtonEl.addEventListener('click', function(e) {
                 e.preventDefault();
                 window.location.href = targetURL;
+            });
+            
+            // 返回按钮点击事件
+            document.getElementById('back-button').addEventListener('click', function() {
+                if (window.history.length > 1) {
+                    window.history.back();
+                } else {
+                    window.close();
+                }
             });
             
             // 检测暗黑模式偏好
