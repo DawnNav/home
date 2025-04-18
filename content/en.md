@@ -2,7 +2,7 @@
 type: nav # Fixed value "nav" for generating navigation page
 title: DawnNav # If left blank, the site title will be used
 search: # Search bar
-  enable: false # Set to true to show, false to hide
+  enable: true # Set to true to show, false to hide
 edit: # Online editing
   enable: false # Set to true to show, false to hide
   url: https://github.com/DawnNav/home/blob/main/content/EN.md
@@ -2346,7 +2346,7 @@ data: # Navigation links below
   icon: fa-link
   friend:
     - title: English Version
-      url: en
+      url: /
       description: 对应content目录的en.md，可重命名、删除、复制。
     - title: 黎明导航旧址-备用站
       url: https://mlmnavigation.wordpress.com/
