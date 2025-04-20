@@ -2142,22 +2142,22 @@ data: # Navigation links below
       description: Purveyors of Revolutionary and Progressive Literature
     - title: Leftwing Books (Publisher/Bookstore)
       url: https://leftwingbooks.net
-      description: 
+      description:
     - title: Foreign Languages Press
       url: https://foreignlanguages.press/
       description: Marxist-Leninist-Maoist publisher
     - title: New Labor Press
       url: https://newlaborpress.wordpress.com
-      description: 
+      description:
     - title: November 8th Press
       url: https://november8ph.ca/
-      description: 
+      description:
     - title: Germinal Books
       url: https://germinalbooks.wordpress.com
-      description: 
+      description:
     - title: Rookery Press
       url: https://rookerypress.wordpress.com/
-      description: 
+      description:
     - title: Red Star Publishers
       url: https://redstarpublishers.org/
       description: 
