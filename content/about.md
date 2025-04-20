@@ -36,6 +36,6 @@ Please observe local laws.
 
 ---
 
-![pw](https://i.pstorage.space/i/OD71Nn4oL/original_ppsw-1.jpg)
+![pw](https://photo.459122.xyz/i/7ca070e08861ff91c795654ca4a2de02.png)
 
 土共/马列、秘共、印共毛、菲共、哥伦比亚民族解放军、巴解人民阵线、自由西几内亚运动、泰米尔伊拉姆毛派、巴西贫农联盟、库尔德工人党、人民联合革命运动、罗贾瓦公社党、马列主义共产党（土）、尼泊尔革命毛派、毛主义共产党（土耳其）
