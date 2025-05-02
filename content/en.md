@@ -2030,9 +2030,9 @@ data: # Navigation links below
     - title: MLM Masses
       url: http://mlmmlm.icu/
       description: 
-    - title: Party Forum
-      url: https://bu2021.xyz/
-      description: 
+    - title: United Front Forum
+      url: https://forum.cmlmuf.top/
+      description: Forum of the Workers and Peasants Liberation Society, a Marxist-Leninist-Maoist organization outside the Great Firewall focusing on united front work
     - title: People's Fire - Chinese Books Repository
       url: https://lesfpcn.wordpress.com/
       description: Possibly an organization based in France
@@ -2042,9 +2042,6 @@ data: # Navigation links below
     - title: Vanguard Youth Network
       url: https://communism1917.wordpress.com/
       description: 
-    - title: Defend Marxism
-      url: https://www.marxist.com/
-      description: Trotskyist organization International Marxist Tendency (with Chinese page)
     - title: Spark - International Marxist Tendency
       url: https://marxist.tw/
       description: International Marxist Tendency - Taiwan branch
