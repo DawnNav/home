@@ -846,7 +846,7 @@ data: # Navigation links below
           url: https://philippinerevolution.nu/authors/communist-party-of-the-philippines/
           description: CPPh.
         - title: National Democratic Front of the Philippines
-          url: https://ndfp.org/
+          url: https://ndfp.info/
           description: NDFP.
         - title: NDFP - Human Rights Monitoring Committee
           url: https://humanrights.ndfp.org/
