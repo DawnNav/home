@@ -472,6 +472,9 @@ data: # Navigation links below
     - title: CounterPunch
       url: https://www.counterpunch.org/
       description: A global platform for leftist and revolutionary journalism.
+    - title: New Dawn Magazine
+      url: https://novaaurora.info/
+      description: A Portuguese revolutionary magazine aiming to elevate political consciousness and the masses' capacity for mobilization, politicization and organization, through agitation and propaganda of class struggle progression in Portugal and worldwide. in Portugal and worldwide.
     - title: RedVoice
       url: https://redvoicemedia.wordpress.com/
       description: A blog sharing revolutionary news and perspectives.
@@ -755,9 +758,12 @@ data: # Navigation links below
         - title: South Asia Conference of Revolutionary Movements
           url: http://bannedthought.net/International/CCOMPOSA/index.htm
           description: CCOMPOSA
-        - title: Anti-Imperialist League
+        - title: Anti-Imperialist League (AIL)
           url: https://ail-red.com/
           description: 
+        - title: Anti-Imperialist Front
+          url: https://anti-imperialistfront.org/
+          description: The Anti-Imperialist Front is the union declared against imperialist aggression in 2014 with the decision taken by the organisations that came together in the Eyup Bas Symposium for Unity of the Peoples Against Imperialist Aggression, held every year in Turkey since 2009. The AIF brings together representatives from different struggle traditions and organizations against imperialism, with participation from 46 countries.
         - title: International Freedom Battalion
           url: https://artsandculture.google.com/entity/international-freedom-battalion/g11bwck808k?hl=en
           description: Solidarity organization active in Rojava
@@ -1409,6 +1415,9 @@ data: # Navigation links below
         - title: Victory of the Oppressed and Exploited
           url: https://victoriaoprimidos.wordpress.com/
           description: Spanish organization
+        - title: Valencia Revolutionary Committee
+          url: https://comitesrevolucionarios.wordpress.com/
+          description: We fight against hunger, poverty, exploitation and all evils caused by imperialism. Against all oppression, rebellion is justified!
         - title: Red Galicia
           url: https://galizavermelha.wordpress.com/
           description: 
@@ -1550,6 +1559,9 @@ data: # Navigation links below
         - title: Yugoslav Labour Party
           url: https://www.partijarada.org/
           description: 
+        - title: United Under Maoism
+          url: https://podmaoizmom.org/
+          description: We who run this page are a group of revolutionary workers and intellectuals in formation united around the school of contemporary materialism - Marxism-Leninism-Maoism - whose teachings we strive to help spread in the former Yugoslavia, serving the goal of reconstituting the Communist Party of Yugoslavia under Maoism, fighting against revisionism and liquidation.ionism and liquidation.
         - title: Red Action
           url: https://crvena.org/
           description: Communist organization in Croatia and Serbia.
