@@ -71,7 +71,9 @@
     - title: 美国《工人报》
       url: https://theworker.news
       description: 《工人报》是革命工人阶级的表达机关，旨在团结有阶级意识的工人和无产阶级革命者在毛主义旗帜下，为重建共产党服务。
-
+    - title: 美国《党人》杂志
+      url: https://classpartisan.wordpress.com/
+      description: The Partisan是由美国革命工人、活动家和组织者发起的新出版物，旨在集中和公开我们斗争的报告、文本和一般新闻以及与美国多民族工人阶级相关的其他问题。
     - title: Indybay
       url: https://www.indybay.org/
       description: 旧金山湾区独立媒体中心
@@ -87,7 +89,10 @@
     - title: 《美洲反抗者》杂志
       url: https://revistaamericarebelde.info/
       description: 
-    - title: Material杂志
+    - title: 《理论的武器》
+      url: https://theweaponoftheory.wordpress.com/
+      description: 一个美国马列毛主义理论网站
+    - title: 《Material》杂志
       url: https://materialjournal.net/
       description: 
     - title: 欧洲新闻中心
@@ -103,7 +108,7 @@
       url: https://the-masses.org/
       description: 革命毛主义联盟的官方出版物，该组织成立于2022年3月
     - title: “Patizan”
-      url: https://www.partizanmlm31.net/
+      url: https://www.partizanmlm32.net/
       description: TKP/ML 的媒体
     - title: “Patizan”媒体
       url: https://www.partizanmedya13.net/
@@ -124,7 +129,7 @@
       url: https://oncupartizan6.com/
       description: MKP 的新闻网站
     - title: 工农解放
-      url: https://ikk-online17.net/
+      url: https://ikk-online18.net/
       description: TKP/ML 的网站
     - title: 菲律宾网上革命中心
       url: https://philippinerevolution.nu/
@@ -288,6 +293,15 @@
     - title: 为了巴西人民
       url: https://aopovobrasileiro.medium.com/
       description: 
+    - title: 两条路线的斗争（巴西）
+      url: https://lutadeduaslinhas.wordpress.com/
+      description: 旨在推进巴西的两条路线斗争
+    - title: 《文化革命》
+      url: https://www.revolucaocultural.com.br/
+      description: 巴西的毛派杂志
+    - title: 游击历史
+      url: https://guerrillahistory.libsyn.com/
+      description: 游击历史是一个播客，作为全球历史的侦察报告为左翼活动家服务，旨在用历史教训分析现在
     - title: 政治经济研究单位
       url: https://rupeindia.wordpress.com/
       description: 印度网站
@@ -1767,7 +1781,10 @@
           description:
         - title: 巴西革命人民学生运动
           url: https://meprbrasil.com.br/
-          description: 
+          description: 只有一个新的学生、人民和革命运动才能推动学生群众为人民服务，为我们国家和人类的利益服务。这必须通过唯一可能的道路 - 动员起来进行革命，彻底改造我们的社会，摧毁这个腐朽的剥削、贫困和压迫制度，建立一个新民主主义政权，不断迈向社会主义，建立以工农联盟为基础的人民群众的政权。
+        - title: 巴西新革命人民学生运动
+          url: https://novomepr.com.br/
+          description: 全世界人民团结起来粉碎帝国主义。
         - title: 巴西民主之声
           url: https://jornalavozdemocratica.wordpress.com/2022/01/21/sobre-a-linha-da-associacao-democratica-brasileira/
           description: 
@@ -1885,6 +1902,9 @@
         - title: 美国人民妇女运动
           url: https://pwm-mfp.org/
           description: 
+        - title: 咖啡师之声
+          url: https://baristasvoice.wordpress.com/
+          description: 新劳工委员会的下属网站，致力于建立星巴克工人的阶级意识工会运动
         - title: 美国革命共产党
           url: https://revcom.us/index.html
           description: 
@@ -2014,6 +2034,9 @@
     - title: 文革与当代史研究网
       url: https://difangwenge.org/
       description: 
+    - title: 全世界受苦的人（中文博客）
+      url: https://oncontradictionjamesx.blogspot.com/
+      description: 为去殖民、去冷战、去帝国而斗争
     - title: 達德文社
       url: https://dadesociety.blogspot.com/
       description: 

@@ -81,7 +81,6 @@ data: # Navigation links below
     - title: The Worker - USA
       url: https://theworker.news
       description: The Worker is an organ of expression for the revolutionary working class, aiming to unite class-conscious workers and proletarian revolutionaries under the banner of Maoism in service of rebuilding the Communist Party.
-
     - title: Indybay
       url: https://www.indybay.org/
       description: Independent media center for the San Francisco Bay Area.
@@ -97,6 +96,9 @@ data: # Navigation links below
     - title: America Rebelde Magazine
       url: https://revistaamericarebelde.info/
       description: A publication focusing on revolutionary themes in the Americas.
+    - title: The Weapon of Theory
+      url: https://theweaponoftheory.wordpress.com/
+      description: An American Marxist-Leninist-Maoist theoretical website.
     - title: Material Journal
       url: https://materialjournal.net/
       description: A publication focusing on revolutionary themes.
@@ -113,7 +115,7 @@ data: # Navigation links below
       url: https://the-masses.org/
       description: Official publication of the Revolutionary Maoist Coalition, an organization founded in March 2022
     - title: Partizan
-      url: https://www.partizanmlm31.net/
+      url: https://www.partizanmlm32.net/
       description: Media for TKP/ML's revolutionary activities.
     - title: Partizan Media
       url: https://www.partizanmedya13.net/
@@ -134,7 +136,7 @@ data: # Navigation links below
       url: https://oncupartizan6.com/
       description: News site for the MKP revolutionary movement.
     - title: Workers and Peasants Liberation
-      url: https://ikk-online17.net/
+      url: https://ikk-online18.net/
       description: A website for TKP/ML's revolutionary agenda.
     - title: Philippine Revolution Web Central
       url: https://philippinerevolution.nu/
@@ -298,6 +300,15 @@ data: # Navigation links below
     - title: For the People of Brazil
       url: https://aopovobrasileiro.medium.com/
       description: A Medium page advocating for revolutionary changes in Brazil.
+    - title: Two Line Struggle (Brazil)
+      url: https://lutadeduaslinhas.wordpress.com/
+      description: Aims to advance the two-line struggle in Brazil
+    - title: Cultural Revolution
+      url: https://www.revolucaocultural.com.br/
+      description: A Maoist magazine from Brazil
+    - title: Guerrilla History
+      url: https://guerrillahistory.libsyn.com/
+      description: Guerrilla History is a podcast serving as a reconnaissance report of global history for leftist activists, aiming to analyze the present with historical lessons
     - title: Research Unit for Political Economy
       url: https://rupeindia.wordpress.com/
       description: An Indian site sharing Marxist research on political and economic issues.
@@ -833,6 +844,9 @@ data: # Navigation links below
         - title: Maoist Internationalist Movement
           url: https://web.archive.org/web/20071216055903/http://www.etext.org/Politics/MIM/
           description: Archived site for MIM, an organization that has dissolved.
+        - title: Barista's Voice
+          url: https://baristasvoice.wordpress.com/
+          description: For a Class Conscious Union Movement of Starbucks Workers
         - title: Revolutionary Internationalist Movement
           url: https://revcom.us/s/corim.htm
           description: Archives of RIM, hosted by the Revolutionary Communist Party, USA. The organization is defunct.
@@ -1774,7 +1788,10 @@ data: # Navigation links below
           description: 
         - title: Brazilian Revolutionary Student Movement
           url: https://meprbrasil.com.br/
-          description: 
+          description: Only a new student, popular and revolutionary movement can propel student masses to serve the people, serve the interests of our country and humanity, through the only possible path - mobilizing for revolution, for the complete transformation of our society, for the destruction of this entire rotten system of exploitation, misery and oppression, and for building a new power of new democracy that marches uninterruptedly towards socialism, the power of the popular masses, based on the alliance of the working class with poor peasants.
+        - title: Brazilian New Revolutionary People's Student Movement
+          url: https://novomepr.com.br/
+          description: People of the world, unite to smash imperialism.
         - title: Brazilian Voice of Democracy
           url: https://jornalavozdemocratica.wordpress.com/2022/01/21/sobre-a-linha-da-associacao-democratica-brasileira/
           description: 
@@ -1892,6 +1909,9 @@ data: # Navigation links below
         - title: "People's Women's Movement of America"
           url: "https://pwm-mfp.org/"
           description: ""
+        - title: The Partisan
+          url: https://classpartisan.wordpress.com/
+          description: The Partisan is a new publication launched by revolutionary workers, activists and organizers in the United States for the purpose of centralizing and publicizing the reports, texts and general news of our struggles and other issues relevant to the multinational US working class.
         - title: "Revolutionary Communist Party USA"
           url: "https://revcom.us/index.html"
           description: ""
@@ -2021,6 +2041,9 @@ data: # Navigation links below
     - title: Cultural Revolution and Contemporary History Research Network
       url: https://difangwenge.org/
       description: 
+    - title: Suffering People of the World
+      url: https://oncontradictionjamesx.blogspot.com/
+      description: A Chinese blog fighting for decolonization, against Cold War mentality and imperialism
     - title: Dadewen Society
       url: https://dadesociety.blogspot.com/
       description: 
