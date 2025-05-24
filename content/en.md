@@ -57,6 +57,9 @@ data: # Navigation links below
     - title: Turkey's "New Democracy"
       url: https://www.yenidemokrasi34.net
       description: News and updates from Turkey's revolutionary movements.
+    - title: Makkal Athikaram 
+      url: https://makkalathikaram.com/
+      description: People's Power - A Tamil revolutionary media platform promoting New Democracy and socialism - All power to the working people!
     - title: Dialogue of Civilizations
       url: https://ahewar.org/
       description: A platform for debate hosted by Marxists in the Middle East.
@@ -390,6 +393,12 @@ data: # Navigation links below
     - title: Pakistan's Class Struggle
       url: https://www.struggle.pk/
       description: A site advocating for class struggle and revolutionary socialism in Pakistan.
+    - title: Nagorik News
+      url: https://nagorik.net/
+      description: Nagorik News is an independent progressive media outlet in Bengali.
+    - title: Al-Akhbar
+      url: https://en.al-akhbar.com/
+      description: Al-Akhbar English is a rigorous, uncompromising news platform from Palestine, Lebanon, Syria and the broader Arab region. We challenge mainstream narratives that distort, erase or suppress the realities of our peoples and their struggles. Rooted in anti-imperialism, anti-colonialism and popular sovereignty, our work amplifies voices from the grassroots and connects them to global movements across the Global South.
     - title: Voices in Movement
       url: https://voicesinmovement.org/
       description: A space fostering resistance against capitalism, borders, and harmful institutions.
@@ -679,7 +688,7 @@ data: # Navigation links below
     - title: Revolutionary Democracy Archives
       url: https://revolutionarydemocracy.org/
       description: 
-    - title: Italian Stalinist Library
+    - title: Espresso Stalinist Library
       url: https://espressostalinist.com/
       description: 
     - title: Stalin Society
@@ -1792,6 +1801,9 @@ data: # Navigation links below
         - title: Brazilian New Revolutionary People's Student Movement
           url: https://novomepr.com.br/
           description: People of the world, unite to smash imperialism.
+        - title: People's Dawn
+          url: https://alvoradadopovo.wordpress.com/
+          description: A Brazilian student organization founded in 2018 by independent university and high school students seeking to radicalize education struggles and pursue a truly revolutionary path for Brazil. Drawing inspiration from the June Days and hundreds of school occupations, they aim to break from bureaucratic student representation bodies tied to parliamentary politics.
         - title: Brazilian Voice of Democracy
           url: https://jornalavozdemocratica.wordpress.com/2022/01/21/sobre-a-linha-da-associacao-democratica-brasileira/
           description: 
@@ -1897,6 +1909,9 @@ data: # Navigation links below
         - title: "Democratic Socialists of America"
           url: "https://www.dsausa.org/"
           description: ""
+        - title: "DSA Liberation Caucus"
+          url: "https://www.liberationcaucus.org/"
+          description: "Liberation is a Marxist-Leninist-Maoist caucus in Democratic Socialists of America."
         - title: "Freedom Road Socialist Organization"
           url: "https://frso.org/"
           description: "American organization."

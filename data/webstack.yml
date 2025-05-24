@@ -47,6 +47,10 @@
     - title: 新民主报
       url: https://www.yenidemokrasi34.net
       description: 土耳其
+    - title: 人民权力
+      url: https://makkalathikaram.com/
+      description: 一切权力归于劳动人民！这是一个泰米尔语的新民主主义和社会主义立场的革命媒体。
+
     - title: 文明对话
       url: https://ahewar.org/
       description: 一个中东马克思主义者的辩论平台
@@ -383,6 +387,12 @@
     - title: 巴基斯坦《阶级斗争》报
       url: https://www.struggle.pk/
       description: 
+    - title: 公民新闻
+      url: https://nagorik.net/
+      description: Nagorik News 是一个孟加拉语的独立进步媒体。
+    - title: Al-Akhbar
+      url: https://en.al-akhbar.com/
+      description: Al-Akhbar English 是一个来自巴勒斯坦、黎巴嫩、叙利亚和更广泛阿拉伯地区的严谨、不妥协的新闻平台。我们挑战主流叙事，这些叙事扭曲、抹去或压制了我们人民及其斗争的现实。植根于反帝国主义、反殖民主义和人民主权，我们的工作放大了来自基层的声音，并将其与全球南方的全球运动联系起来。
     - title: 运动中的声音
       url: https://voicesinmovement.org/
       description: 一个旨在帮助培养对国家、资本、边界和其他有害机构所产生的秩序的抵抗空间
@@ -672,7 +682,7 @@
     - title: 革命民主档案
       url: https://revolutionarydemocracy.org/
       description: 
-    - title: 意大利斯大林文库
+    - title: 意式斯大林主义文库
       url: https://espressostalinist.com/
       description: 
     - title: 斯大林社会
@@ -1785,6 +1795,9 @@
         - title: 巴西新革命人民学生运动
           url: https://novomepr.com.br/
           description: 全世界人民团结起来粉碎帝国主义。
+        - title: 人民的黎明
+          url: https://alvoradadopovo.wordpress.com/
+          description: 巴西学生组织，成立于2018年，由一群独立的大学生和中学生组成。他们不相信选举能带来改变，寻求通过激进斗争来争取教育权利和真正的革命。六月运动和数百次中学生、大学生占领罢工为今天的青年树立了榜样，打破了陷入议会官僚机器的学生代表组织的惰性。
         - title: 巴西民主之声
           url: https://jornalavozdemocratica.wordpress.com/2022/01/21/sobre-a-linha-da-associacao-democratica-brasileira/
           description: 
@@ -1890,6 +1903,9 @@
         - title: 美国民主社会主义党
           url: https://www.dsausa.org/
           description: 
+        - title: DSA-解放派
+          url: https://www.liberationcaucus.org/
+          description: 美国民主社会主义者党中的马列毛主义派别
         - title: 自由之路社会主义组织
           url: https://frso.org/
           description: 美国组织
