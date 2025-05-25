@@ -997,9 +997,6 @@ data: # Navigation links below
         - title: Naxal Revolution
           url: http://naxalrevolution.blogspot.com/?m=0
           description: No longer updated.
-        - title: Revolutionary Students' Front - RSF
-          url: https://eimuhurtersf.wordpress.com
-          description: Indian organization active mainly in West Bengal.
         - title: Democratic Students' Association - DSA
           url: https://www.facebook.com/padantharam/
           description: Indian organization, Democratic Students' Association.
