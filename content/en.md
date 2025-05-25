@@ -2370,7 +2370,7 @@ data: # Navigation links below
       url: https://maglit.me/
       description: 
     - title: Secure File Sharing
-      url: https://gofile.io/uploadFiles
+      url: https://ipfsbed.is-an.org/
       description: 
     - title: Self-Destructing Messages
       url: https://privatebin.net/
