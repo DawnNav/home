@@ -216,6 +216,9 @@ data: # Navigation links below
     - title: The Anvil
       url: https://anvilmag.in/
       description: An Indian Maoist magazine offering counter-mainstream Maoist perspectives.
+    - title: Jana Bihani
+      url: https://janabihanee.com/
+      description: A Nepalese news outlet focused on revolutionary perspectives.
     - title: Era Toka Khabar
       url: https://eratokhabar.com/
       description: A Nepalese news outlet focused on revolutionary issues.
