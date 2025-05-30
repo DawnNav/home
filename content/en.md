@@ -2361,7 +2361,7 @@ data: # Navigation links below
       url: https://zh.annas-archive.org/
       description: Comprehensive eBook repository
     - title: Zlibrary
-      url: https://singlelogin.re/
+      url: https://z-library.sk/
       description: 
     - title: Genesis Library
       url: https://libgen.is
@@ -2398,7 +2398,7 @@ data: # Navigation links below
     - title: English Version
       url: https://dawnnav.pages.dev/en
       description: 对应content目录的en.md，可重命名、删除、复制。
-    - title: 黎明导航旧址-备用站
+    - title: Dawnnav-old site
       url: https://mlmnavigation.wordpress.com/
 ---
 
