@@ -1195,6 +1195,9 @@ data: # Navigation links below
         - title: Japanese Communist League - Workers' Communist Party
           url: http://www.bekkoame.ne.jp/i/ga3129/
           description: Part of the Japanese Communist League.
+        - title: Sosialis Progresif Indonesia
+          url: https://sosialisprogresifindonesia.blogspot.com/
+          description: A platform for critical social writing under the influence of capitalism. Rise up, oppressed classes!
         - title: Communist Party of Burma
           url: https://www.cp-burma.org/
           description:
