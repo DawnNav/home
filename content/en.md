@@ -165,6 +165,12 @@ data: # Navigation links below
     - title: Marxism Today
       url: https://www.youtube.com/@Marxism_Today/videos
       description: YouTube channel with leftist political content from a modern Marxist perspective
+    - title: João Pedro Fragoso - Breaking with Old Ideas
+      url: https://www.youtube.com/@rompendocomvelhasideias
+      description: A channel bringing analyses on economics, politics, philosophy, and current affairs from the viewpoint of scientific Marxism and the international proletariat
+    - title: Bes D. Marx
+      url: https://www.youtube.com/@BesDMarx 
+      description: A channel dedicated to spreading revolutionary consciousness through Marxist analysis and education
     - title: People's Dispatch
       url: https://peoplesdispatch.org/
       description: An international media organization bringing voices of people's movements and organizations from around the world
@@ -766,6 +772,9 @@ data: # Navigation links below
         - title: Marxist-Leninist-Maoist International Communist League
           url: https://ci-ic.org/
           description: ICL
+        - title: International Anti-imperialist Bulletin
+          url: https://iabulletin.org/
+          description: On 22-23 February 2025, Internationalist Anti-War Anti-Imperialist Meeting was held in Athens. At the end of the meeting the Athens Statement was drawn up and signed by some organisations. Based on the content of this Statement, the same signatory organisations considered it appropriate and necessary to create the website International Anti-imperialist Bulletin...
         - title: Communist International
           url: http://ciml.250x.com/index1.html
           description: Hoxhaist international organization
@@ -1759,6 +1768,9 @@ data: # Navigation links below
 
     - term: African Organizations
       links:
+        - title: Communist Party Marxist - Kenya (CPM-K)
+          url: https://cpmk.org/
+          description: The Communist Party Marxist – CPM Kenya is the vanguard party of the Kenyan working class, dedicated to building an independent and sovereign socialist Kenya. The Party seeks to unite all Kenyans, regardless of ethnicity, gender, or age, to work collectively for an alternative society free from the injustices of the present capitalist system. Our vision is a socialist society that guarantees freedom, human rights, and the holistic development of all individuals.
         - title: Tunisian Resistance
           url: https://tunisieresistant.wordpress.com/
           description: 
@@ -1780,6 +1792,9 @@ data: # Navigation links below
         - title: Communist Party of Peru (MOVADEF)
           url: https://pcp71028.wordpress.com/
           description: 
+        - title: Defense of the Communist Party of Peru
+          url: https://defensapcp.blogspot.com/
+          description: A blog defending the Communist Party of Peru.
         - title: Red Flag of Peru
           url: https://banderaroja.org
           description: Website managed from Europe.
